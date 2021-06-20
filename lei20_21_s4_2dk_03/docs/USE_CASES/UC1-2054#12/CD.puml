@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+class CriarTipoEquipaUI <<presentation>>{
+}
+
+class CriarTipoEquipaController <<application>>{
+adicionarTipoEquipa(codigoInternoUnicoTipoEquipa, cor, descricaoTipoEquipa)
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class RepositoryFactory <<factory>>{
+}
+
+class TipoEquipaRepository <<repository>>{
+save(novoTipoEquipa)
+}
+
+class TipoEquipa <<domain>>{
+}
+
+CriarTipoEquipaUI --> CriarTipoEquipaController : theController
+
+CriarTipoEquipaUI ..> TipoEquipa : TipoEquipa
+
+CriarTipoEquipaController --> TipoEquipa : TipoEquipa
+
+CriarTipoEquipaController --> RepositoryFactory : factory
+
+CriarTipoEquipaController --> PersistenceContext : persistence
+PersistenceContext --> TipoEquipaRepository : repo
+@enduml

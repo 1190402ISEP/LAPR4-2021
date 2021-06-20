@@ -1,0 +1,13 @@
+chmod 777 make_certs_m1
+chmod 777 make_certs_m2
+chmod 777 build-all.sh
+chmod 777 rebuild-all.sh
+chmod 777 run-aplicacao-servidora.sh
+chmod 777 run-backoffice.sh
+chmod 777 run-bootstrap.sh
+chmod 777 run-executor-tarefas-automaticas.sh
+chmod 777 run-motor-fluxo-atividades.sh
+chmod 777 run-other.sh
+chmod 777 run-portal.sh
+chmod 777 run-servicos-e-rec-humanos.sh
+chmod 777 run-user.sh

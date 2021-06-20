@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="507px" preserveAspectRatio="none" style="width:578px;height:507px;" version="1.1" viewBox="0 0 578 507" width="578px" zoomAndPan="magnify"><defs><filter height="300%" id="fp6y1t8cck37c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e4c288821e8e0cc4398df6f040f57285]
+class CriarNivelUI--><rect codeLine="4" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="56.1875" id="CriarNivelUI" style="stroke:#A80036;stroke-width:1.5;" width="110" x="396" y="7"/><ellipse cx="411" cy="27.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M413,23.5938 Q413.2031,23.0938 413.4375,22.8438 Q413.6719,22.5938 413.9375,22.5938 Q414.4063,22.5938 414.7031,22.875 Q415,23.1563 415,23.8125 L415,25.375 Q415,26.0313 414.7188,26.3125 Q414.4375,26.5938 414,26.5938 Q413.6094,26.5938 413.3594,26.4219 Q413.1094,26.25 413,25.7969 Q412.9531,25.4844 412.7813,25.3125 Q412.4688,24.9844 411.9063,24.7969 Q411.3438,24.5938 410.7813,24.5938 Q410.0781,24.5938 409.4844,24.875 Q408.9063,25.1563 408.4531,25.7813 Q408,26.4063 408,27.2656 L408,28.1875 Q408,29.2188 408.8438,29.9063 Q409.6875,30.5938 411.1875,30.5938 Q412.0781,30.5938 412.7031,30.3906 Q413.0625,30.2813 413.4688,29.9219 Q413.7344,29.7188 413.875,29.6563 Q414.0156,29.5938 414.1875,29.5938 Q414.5156,29.5938 414.75,29.8594 Q415,30.1094 415,30.4688 Q415,30.8125 414.6563,31.2188 Q414.1563,31.8125 413.3594,32.1406 Q412.3125,32.5938 411.0313,32.5938 Q409.5313,32.5938 408.3281,32 Q407.3594,31.5313 406.6719,30.5156 Q406,29.5 406,28.2969 L406,27.2031 Q406,25.9531 406.5938,24.8594 Q407.2031,23.7656 408.25,23.1875 Q409.3125,22.5938 410.5,22.5938 Q411.2188,22.5938 411.8438,22.8438 Q412.4688,23.0938 413,23.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="423" y="24.457">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="431" y="39.5508">CriarNivelUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="397" x2="505" y1="47.1875" y2="47.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="397" x2="505" y1="55.1875" y2="55.1875"/><!--MD5=[57a25c63d1204e4eba6baded2e48b8c9]
+class CriarNivelController--><rect codeLine="8" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="56.1875" id="CriarNivelController" style="stroke:#A80036;stroke-width:1.5;" width="140" x="310" y="141"/><ellipse cx="325" cy="161.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M327,157.5938 Q327.2031,157.0938 327.4375,156.8438 Q327.6719,156.5938 327.9375,156.5938 Q328.4063,156.5938 328.7031,156.875 Q329,157.1563 329,157.8125 L329,159.375 Q329,160.0313 328.7188,160.3125 Q328.4375,160.5938 328,160.5938 Q327.6094,160.5938 327.3594,160.4219 Q327.1094,160.25 327,159.7969 Q326.9531,159.4844 326.7813,159.3125 Q326.4688,158.9844 325.9063,158.7969 Q325.3438,158.5938 324.7813,158.5938 Q324.0781,158.5938 323.4844,158.875 Q322.9063,159.1563 322.4531,159.7813 Q322,160.4063 322,161.2656 L322,162.1875 Q322,163.2188 322.8438,163.9063 Q323.6875,164.5938 325.1875,164.5938 Q326.0781,164.5938 326.7031,164.3906 Q327.0625,164.2813 327.4688,163.9219 Q327.7344,163.7188 327.875,163.6563 Q328.0156,163.5938 328.1875,163.5938 Q328.5156,163.5938 328.75,163.8594 Q329,164.1094 329,164.4688 Q329,164.8125 328.6563,165.2188 Q328.1563,165.8125 327.3594,166.1406 Q326.3125,166.5938 325.0313,166.5938 Q323.5313,166.5938 322.3281,166 Q321.3594,165.5313 320.6719,164.5156 Q320,163.5 320,162.2969 L320,161.2031 Q320,159.9531 320.5938,158.8594 Q321.2031,157.7656 322.25,157.1875 Q323.3125,156.5938 324.5,156.5938 Q325.2188,156.5938 325.8438,156.8438 Q326.4688,157.0938 327,157.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="356" y="158.457">«application»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="339" y="173.5508">CriarNivelController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="311" x2="449" y1="181.1875" y2="181.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="311" x2="449" y1="189.1875" y2="189.1875"/><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="12" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="56.1875" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.5;" width="130" x="315" y="282"/><ellipse cx="330" cy="302.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M332,298.5938 Q332.2031,298.0938 332.4375,297.8438 Q332.6719,297.5938 332.9375,297.5938 Q333.4063,297.5938 333.7031,297.875 Q334,298.1563 334,298.8125 L334,300.375 Q334,301.0313 333.7188,301.3125 Q333.4375,301.5938 333,301.5938 Q332.6094,301.5938 332.3594,301.4219 Q332.1094,301.25 332,300.7969 Q331.9531,300.4844 331.7813,300.3125 Q331.4688,299.9844 330.9063,299.7969 Q330.3438,299.5938 329.7813,299.5938 Q329.0781,299.5938 328.4844,299.875 Q327.9063,300.1563 327.4531,300.7813 Q327,301.4063 327,302.2656 L327,303.1875 Q327,304.2188 327.8438,304.9063 Q328.6875,305.5938 330.1875,305.5938 Q331.0781,305.5938 331.7031,305.3906 Q332.0625,305.2813 332.4688,304.9219 Q332.7344,304.7188 332.875,304.6563 Q333.0156,304.5938 333.1875,304.5938 Q333.5156,304.5938 333.75,304.8594 Q334,305.1094 334,305.4688 Q334,305.8125 333.6563,306.2188 Q333.1563,306.8125 332.3594,307.1406 Q331.3125,307.5938 330.0313,307.5938 Q328.5313,307.5938 327.3281,307 Q326.3594,306.5313 325.6719,305.5156 Q325,304.5 325,303.2969 L325,302.2031 Q325,300.9531 325.5938,299.8594 Q326.2031,298.7656 327.25,298.1875 Q328.3125,297.5938 329.5,297.5938 Q330.2188,297.5938 330.8438,297.8438 Q331.4688,298.0938 332,298.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="368" y="299.457">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="344" y="314.5508">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="316" x2="444" y1="322.1875" y2="322.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="316" x2="444" y1="330.1875" y2="330.1875"/><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="16" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="70.0234" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.5;" width="139" x="140.5" y="275"/><ellipse cx="155.5" cy="295.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M157.5,291.5938 Q157.7031,291.0938 157.9375,290.8438 Q158.1719,290.5938 158.4375,290.5938 Q158.9063,290.5938 159.2031,290.875 Q159.5,291.1563 159.5,291.8125 L159.5,293.375 Q159.5,294.0313 159.2188,294.3125 Q158.9375,294.5938 158.5,294.5938 Q158.1094,294.5938 157.8594,294.4219 Q157.6094,294.25 157.5,293.7969 Q157.4531,293.4844 157.2813,293.3125 Q156.9688,292.9844 156.4063,292.7969 Q155.8438,292.5938 155.2813,292.5938 Q154.5781,292.5938 153.9844,292.875 Q153.4063,293.1563 152.9531,293.7813 Q152.5,294.4063 152.5,295.2656 L152.5,296.1875 Q152.5,297.2188 153.3438,297.9063 Q154.1875,298.5938 155.6875,298.5938 Q156.5781,298.5938 157.2031,298.3906 Q157.5625,298.2813 157.9688,297.9219 Q158.2344,297.7188 158.375,297.6563 Q158.5156,297.5938 158.6875,297.5938 Q159.0156,297.5938 159.25,297.8594 Q159.5,298.1094 159.5,298.4688 Q159.5,298.8125 159.1563,299.2188 Q158.6563,299.8125 157.8594,300.1406 Q156.8125,300.5938 155.5313,300.5938 Q154.0313,300.5938 152.8281,300 Q151.8594,299.5313 151.1719,298.5156 Q150.5,297.5 150.5,296.2969 L150.5,295.2031 Q150.5,293.9531 151.0938,292.8594 Q151.7031,291.7656 152.75,291.1875 Q153.8125,290.5938 155,290.5938 Q155.7188,290.5938 156.3438,290.8438 Q156.9688,291.0938 157.5,291.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="78" x="184" y="292.457">«Persistence»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="169.5" y="307.5508">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="141.5" x2="278.5" y1="315.1875" y2="315.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="141.5" x2="278.5" y1="323.1875" y2="323.1875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="146.5" y="338.6064">repositories()</text><!--MD5=[d544e1720d36c287a1d38909fe06b56d]
+class Nivel--><rect codeLine="20" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="56.1875" id="Nivel" style="stroke:#A80036;stroke-width:1.5;" width="84" x="480" y="282"/><ellipse cx="495" cy="302.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M497,298.5938 Q497.2031,298.0938 497.4375,297.8438 Q497.6719,297.5938 497.9375,297.5938 Q498.4063,297.5938 498.7031,297.875 Q499,298.1563 499,298.8125 L499,300.375 Q499,301.0313 498.7188,301.3125 Q498.4375,301.5938 498,301.5938 Q497.6094,301.5938 497.3594,301.4219 Q497.1094,301.25 497,300.7969 Q496.9531,300.4844 496.7813,300.3125 Q496.4688,299.9844 495.9063,299.7969 Q495.3438,299.5938 494.7813,299.5938 Q494.0781,299.5938 493.4844,299.875 Q492.9063,300.1563 492.4531,300.7813 Q492,301.4063 492,302.2656 L492,303.1875 Q492,304.2188 492.8438,304.9063 Q493.6875,305.5938 495.1875,305.5938 Q496.0781,305.5938 496.7031,305.3906 Q497.0625,305.2813 497.4688,304.9219 Q497.7344,304.7188 497.875,304.6563 Q498.0156,304.5938 498.1875,304.5938 Q498.5156,304.5938 498.75,304.8594 Q499,305.1094 499,305.4688 Q499,305.8125 498.6563,306.2188 Q498.1563,306.8125 497.3594,307.1406 Q496.3125,307.5938 495.0313,307.5938 Q493.5313,307.5938 492.3281,307 Q491.3594,306.5313 490.6719,305.5156 Q490,304.5 490,303.2969 L490,302.2031 Q490,300.9531 490.5938,299.8594 Q491.2031,298.7656 492.25,298.1875 Q493.3125,297.5938 494.5,297.5938 Q495.2188,297.5938 495.8438,297.8438 Q496.4688,298.0938 497,298.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="507" y="299.457">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="521.5" y="314.5508">Nivel</text><line style="stroke:#A80036;stroke-width:1.5;" x1="481" x2="563" y1="322.1875" y2="322.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="481" x2="563" y1="330.1875" y2="330.1875"/><!--MD5=[e08902005e597c4a9e33c2e896e1f951]
+class NivelBuilder--><rect codeLine="23" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="56.1875" id="NivelBuilder" style="stroke:#A80036;stroke-width:1.5;" width="98" x="7" y="282"/><ellipse cx="22" cy="302.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,298.5938 Q24.2031,298.0938 24.4375,297.8438 Q24.6719,297.5938 24.9375,297.5938 Q25.4063,297.5938 25.7031,297.875 Q26,298.1563 26,298.8125 L26,300.375 Q26,301.0313 25.7188,301.3125 Q25.4375,301.5938 25,301.5938 Q24.6094,301.5938 24.3594,301.4219 Q24.1094,301.25 24,300.7969 Q23.9531,300.4844 23.7813,300.3125 Q23.4688,299.9844 22.9063,299.7969 Q22.3438,299.5938 21.7813,299.5938 Q21.0781,299.5938 20.4844,299.875 Q19.9063,300.1563 19.4531,300.7813 Q19,301.4063 19,302.2656 L19,303.1875 Q19,304.2188 19.8438,304.9063 Q20.6875,305.5938 22.1875,305.5938 Q23.0781,305.5938 23.7031,305.3906 Q24.0625,305.2813 24.4688,304.9219 Q24.7344,304.7188 24.875,304.6563 Q25.0156,304.5938 25.1875,304.5938 Q25.5156,304.5938 25.75,304.8594 Q26,305.1094 26,305.4688 Q26,305.8125 25.6563,306.2188 Q25.1563,306.8125 24.3594,307.1406 Q23.3125,307.5938 22.0313,307.5938 Q20.5313,307.5938 19.3281,307 Q18.3594,306.5313 17.6719,305.5156 Q17,304.5 17,303.2969 L17,302.2031 Q17,300.9531 17.5938,299.8594 Q18.2031,298.7656 19.25,298.1875 Q20.3125,297.5938 21.5,297.5938 Q22.2188,297.5938 22.8438,297.8438 Q23.4688,298.0938 24,298.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="42.5" y="299.457">«Builder»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="36" y="314.5508">NivelBuilder</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="104" y1="322.1875" y2="322.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="104" y1="330.1875" y2="330.1875"/><!--MD5=[10cb89c188df598d285cb930b6d69bb4]
+class NivelRepository--><rect codeLine="27" fill="#FEFECE" filter="url(#fp6y1t8cck37c)" height="70.0234" id="NivelRepository" style="stroke:#A80036;stroke-width:1.5;" width="118" x="151" y="423"/><ellipse cx="166" cy="443.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M168,439.5938 Q168.2031,439.0938 168.4375,438.8438 Q168.6719,438.5938 168.9375,438.5938 Q169.4063,438.5938 169.7031,438.875 Q170,439.1563 170,439.8125 L170,441.375 Q170,442.0313 169.7188,442.3125 Q169.4375,442.5938 169,442.5938 Q168.6094,442.5938 168.3594,442.4219 Q168.1094,442.25 168,441.7969 Q167.9531,441.4844 167.7813,441.3125 Q167.4688,440.9844 166.9063,440.7969 Q166.3438,440.5938 165.7813,440.5938 Q165.0781,440.5938 164.4844,440.875 Q163.9063,441.1563 163.4531,441.7813 Q163,442.4063 163,443.2656 L163,444.1875 Q163,445.2188 163.8438,445.9063 Q164.6875,446.5938 166.1875,446.5938 Q167.0781,446.5938 167.7031,446.3906 Q168.0625,446.2813 168.4688,445.9219 Q168.7344,445.7188 168.875,445.6563 Q169.0156,445.5938 169.1875,445.5938 Q169.5156,445.5938 169.75,445.8594 Q170,446.1094 170,446.4688 Q170,446.8125 169.6563,447.2188 Q169.1563,447.8125 168.3594,448.1406 Q167.3125,448.5938 166.0313,448.5938 Q164.5313,448.5938 163.3281,448 Q162.3594,447.5313 161.6719,446.5156 Q161,445.5 161,444.2969 L161,443.2031 Q161,441.9531 161.5938,440.8594 Q162.2031,439.7656 163.25,439.1875 Q164.3125,438.5938 165.5,438.5938 Q166.2188,438.5938 166.8438,438.8438 Q167.4688,439.0938 168,439.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="68" x="189" y="440.457">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="180" y="455.5508">NivelRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="152" x2="268" y1="463.1875" y2="463.1875"/><line style="stroke:#A80036;stroke-width:1.5;" x1="152" x2="268" y1="471.1875" y2="471.1875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="157" y="486.6064">save(Nivel)</text><!--MD5=[09e61343c21146a2d832ef581ef036c0]
+link CriarNivelUI to CriarNivelController--><path codeLine="32" d="M436.13,63.23 C431,72.65 425.23,83.28 420,93 C412.33,107.24 403.9,123.04 396.76,136.44 " fill="none" id="CriarNivelUI-to-CriarNivelController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="394.39,140.89,402.1425,134.8155,396.734,136.4735,395.0761,131.0651,394.39,140.89" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="421" y="107.4951">theController</text><!--MD5=[9932304f7276283a9e6e714aa80cb8fa]
+link CriarNivelUI to Nivel--><path codeLine="34" d="M479.36,63.02 C486.98,71.84 494.38,82.17 499,93 C525.01,154 526.14,233.12 524.3,276.68 " fill="none" id="CriarNivelUI-to-Nivel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="524.06,281.81,528.4668,273.0021,524.2883,276.8152,520.4752,272.6367,524.06,281.81" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="523" y="174.4951">Nivel</text><!--MD5=[532bee64b74c180a48175a06abb46d29]
+link CriarNivelController to Nivel--><path codeLine="36" d="M407.72,197.13 C431.56,220.47 465.95,254.13 490.76,278.42 " fill="none" id="CriarNivelController-to-Nivel" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="494.35,281.94,490.7031,272.7912,490.7718,278.4477,485.1154,278.5164,494.35,281.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="456" y="241.4951">Nivel</text><!--MD5=[4b273628aa74c84a53503309ee3287dc]
+link CriarNivelController to NivelBuilder--><path codeLine="37" d="M309.67,191.59 C279.79,201.42 244.81,213.8 214,227 C177.72,242.54 138.31,262.99 107.93,279.57 " fill="none" id="CriarNivelController-to-NivelBuilder" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="103.51,281.99,113.3254,281.1785,107.8962,279.5897,109.4849,274.1606,103.51,281.99" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="215" y="241.4951">theBuilder</text><!--MD5=[916000b83e9d90fc5e7b58d15c01c01f]
+link CriarNivelController to RepositoryFactory--><path codeLine="39" d="M380,197.13 C380,220 380,252.76 380,276.92 " fill="none" id="CriarNivelController-to-RepositoryFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="380,281.94,384,272.94,380,276.94,376,272.94,380,281.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="381" y="241.4951">factory</text><!--MD5=[1041242f3f52730c676f0177f784b762]
+link CriarNivelController to PersistenceContext--><path codeLine="41" d="M341.91,197.2 C329.35,206.44 315.42,216.96 303,227 C285.72,240.97 267.25,257.01 251.36,271.18 " fill="none" id="CriarNivelController-to-PersistenceContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="247.38,274.74,256.7577,271.7303,251.1099,271.4102,251.4301,265.7624,247.38,274.74" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="304" y="241.4951">persistence</text><!--MD5=[3f88b0853bc2838dfb9467176221fbf6]
+link PersistenceContext to NivelRepository--><path codeLine="42" d="M210,345.23 C210,367.01 210,395.29 210,417.94 " fill="none" id="PersistenceContext-to-NivelRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="210,422.98,214,413.98,210,417.98,206,413.98,210,422.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="211" y="389.4951">repo</text><!--MD5=[e6e92ad392632504c87e4447b5316293]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class CriarNivelUI <<presentation>>{
+
+}
+
+class CriarNivelController <<application>>{
+
+}
+
+class RepositoryFactory <<factory>>{
+
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Nivel <<domain>>{
+}
+
+class NivelBuilder <<Builder>>{
+
+}
+
+class NivelRepository <<repository>>{
+save(Nivel)
+}
+
+
+CriarNivelUI - -> CriarNivelController : theController
+
+CriarNivelUI ..> Nivel : Nivel
+
+CriarNivelController - -> Nivel : Nivel
+CriarNivelController - -> NivelBuilder : theBuilder
+
+CriarNivelController - -> RepositoryFactory : factory
+
+CriarNivelController - -> PersistenceContext : persistence
+PersistenceContext - -> NivelRepository : repo
+
+@enduml
+
+@startuml
+
+
+class CriarNivelUI <<presentation>>{
+
+}
+
+class CriarNivelController <<application>>{
+
+}
+
+class RepositoryFactory <<factory>>{
+
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Nivel <<domain>>{
+}
+
+class NivelBuilder <<Builder>>{
+
+}
+
+class NivelRepository <<repository>>{
+save(Nivel)
+}
+
+
+CriarNivelUI - -> CriarNivelController : theController
+
+CriarNivelUI ..> Nivel : Nivel
+
+CriarNivelController - -> Nivel : Nivel
+CriarNivelController - -> NivelBuilder : theBuilder
+
+CriarNivelController - -> RepositoryFactory : factory
+
+CriarNivelController - -> PersistenceContext : persistence
+PersistenceContext - -> NivelRepository : repo
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

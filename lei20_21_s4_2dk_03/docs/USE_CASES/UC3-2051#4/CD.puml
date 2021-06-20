@@ -1,0 +1,99 @@
+@startuml
+
+class AddUserUI <<presentation>>{
+}
+
+class AddUserController <<application>>{
+addUser(userName,FirstName,LastName,E-mail,roles)
+showListOfFunctions()
+associarFuncao()
+showListOfEquipas()
+associarEquipa(equipa)
+showListOfColaborators()
+associarResponsavelHierarquico(colaborador)
+adicionarColaborador(nomeCurto,nomeCompleto,\ndataNascimento, numeroMecanografico,\ncontactoTelefonico,funcao,equipas,\n localResidenciaColaborador)
+}
+
+interface RepositoryFactory <<factory>>{
+newTransactionalContext()
+users()
+funcoes()
+equipas()
+colaboradores()
+}
+
+class UserBuilder <<builder>>{
+createUser()
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+class ColaboradorBuilder <<builder>>{
+associarFuncao(funcao)
+associarEquipa(equipa)
+associarResponsavelHierarquico(colaborador)
+withNomeCurto(nomeCurto)
+build()
+}
+
+interface TransactionalContext <<persistence>>{
+beginTransaction()
+commit()
+}
+
+class User <<system>>{
+create(userName,password,\n firstName,lastName,\n email,roles)
+}
+
+class Colaborador <<domain>>{
+create(user,nomeCompleto,dataNascimento,\n numeroMecanografico,contactoTelefonico,localResidenciaColaborador)
+}
+
+class UserRepository <<repository>>{
+save(User)
+usersRegistration(ctx)
+}
+
+class FuncaoRepository <<repository>>{
+findAll()
+}
+
+class EquipaRepository <<repository>>{
+findEquipasPossiveis()
+}
+
+class ColaboradorRepository <<repository>>{
+findAll()
+save(colab)
+registoColaboradores(ctx)
+}
+
+AddUserUI --> AddUserController : theController
+
+
+AddUserUI ..> User : theUser
+AddUserUI ..> Colaborador : Colaborador
+AddUserController --> UserRepository : repo
+AddUserController ..> TransactionalContext : persistence
+
+AddUserController --> User : theUser
+AddUserController --> Colaborador : Colaborador
+
+
+AddUserController --> ColaboradorBuilder : build
+AddUserController --> UserBuilder : build
+AddUserController --> RepositoryFactory : factory
+
+
+
+AddUserController --> PersistenceContext : persistence
+PersistenceContext --> UserRepository : repo
+PersistenceContext --> FuncaoRepository : repo
+PersistenceContext --> EquipaRepository : repo
+PersistenceContext --> ColaboradorRepository : repo
+
+RepositoryFactory --> TransactionalContext : persistence
+
+
+@enduml

@@ -1,0 +1,341 @@
+@startuml
+hide methods
+left to right direction
+''----------------------------------------------''
+package Colaborador
+{
+entity Colaborador <<root entity>>
+object EmailColaborador <<value object>>
+object MecanographicNumber <<value object>>
+object NomeCurtoColaborador <<value object>>
+object DataNascimentoColaborador <<value object>>
+object NomeCompletoColaborador <<value object>>
+object ContactoColaborador <<value object>>
+object LocalResidenciaColaborador <<value object>>
+object Concelho <<value object>>
+object Distrito <<value object>>
+
+}
+
+''----------------------------------------------''
+package TipoEquipa{
+entity TipoEquipa <<root entity>>
+object CodigoInternoUnicoTipoEquipa <<value object>>
+object DescricaoTipoEquipa <<value object>>
+object Cor <<value object>>
+}
+
+''----------------------------------------------''
+package Equipa{
+entity Equipa <<root entity>>
+object CodigoUnicoEquipa <<value object>>
+object Acronimo <<value object>>
+object DesignacaoEquipa <<value object>>
+object ObjetivoDistintoEquipa <<value object>>
+}
+''----------------------------------------------''
+package CatalogoDeServico{
+entity CatalogoDeServico <<root entity>>
+object IdentificadorCatalogo <<value object>>
+object CriterioAcessoCatalogo <<value object>>
+object TituloCatalogo <<value object>>
+object IconeCatalogo <<value object>>
+object DescricaoBreveCatalogo <<value object>>
+object DescricaoCompletaCatalogo <<value object>>
+}
+
+'--------------------------------------------------'
+
+package Servico{
+entity Servico <<root entity>>
+object CodigoUnicoServico <<value object>>
+object KeyWordServico <<value object>>
+object TituloServico <<value object>>
+object DescricaoBreveServico <<value object>>
+object DescricaoCompletaServico <<value object>>
+object IconeServico <<value object>>
+object ObjetivoEspecifico <<value object>>
+object EstadoServico <<value object>>
+object RequereFeedBack <<value object>>
+}
+
+'----------------------------------------------'
+package FluxoDeAtividade{
+entity FluxoDeAtividade <<root entity>>
+object IdFluxo <<value object>>
+class FluxoDeAtividadeSentidoLato
+class FluxoDeAtividadeSentidoRestrito
+object DiaHoraInicioVigorFluxoAtividade <<value object>>
+object DiaHoraFimVigorFluxoAtividade <<value object>>
+object EstadoFluxo <<value object>>
+}
+
+'--------------------------------------------------'
+
+package Atividade{
+entity Atividade <<root entity>>
+object IdAtividade <<value object>>
+object EstadoAtividade <<value object>>
+class AtividadeManual
+class AtividadeAutomatica
+object Script <<value object>>
+object Linguagem <<value object>>
+object Delay <<value object>>
+}
+
+'--------------------------------------------------'
+
+package Slot{
+entity Slot <<root entity>>
+object IdSlot <<value object>>
+object OrdemDeExecucaoAtividade <<value object>>
+}
+
+'--------------------------------------------------'
+package Pedido{
+entity Pedido <<root entity>>
+object IdentificadorAutomaticoPedido <<value object>>
+object DataSolicitacaoPedido <<value object>>
+object UrgenciaPedido <<value object>>
+object EstagioPedido <<value object>>
+object DataLimiteResolucaoPedido <<value object>>
+object EstadoPedido <<value object>>
+object FicheiroAnexadoPedido <<value object>>
+object ResultadoPedido <<value object>>
+object FeedBack <<value object>>
+}
+
+'--------------------------------------------------'
+package HistoricoPedido{
+entity HistoricoPedido <<root entity>>
+object IdVersaoHistorico <<value object>>
+object DataDoHistorico <<value object>>
+}
+
+'--------------------------------------------------'
+package Funcao{
+entity Funcao <<root entity>>
+object IdentificadorFuncao <<value object>>
+object NivelHierarquico <<value object>>
+}
+
+'--------------------------------------------------'
+package NivelCriticidade{
+entity NivelCriticidade <<root entity>>
+object EtiquetaNivelCriticidade <<value object>>
+object DesignacaoNivelCriticidade <<value object>>
+object ValorEscalaNivelCriticidade <<value object>>
+object Cor_ <<value object>>
+object ObjetivoDistintoNivel <<value object>>
+}
+
+'--------------------------------------------------'
+package Formulario{
+entity Formulario <<root entity>>
+object IdentificadorFormulario <<value object>>
+object NomeFormulario <<value object>>
+object ScriptValidacaoFormulario <<value object>>
+'-'
+object AtributoRequeridoFormulario <<value object>>
+object NomeVariavelAtributo <<value object>>
+object EtiquetaApresentacaoAtributo <<value object>>
+object DescricaoAjudaAtributo <<value object>>
+object TipoDadosBaseAtributo <<value object>>
+object ExpressaoRegularAtributo <<value object>>
+}
+
+Servico "1" -- "1" RequereFeedBack : pode ter >
+
+Pedido "1" -- "1" FeedBack : avaliado por >
+
+Slot "1" -- "1" IdSlot: identificado por >
+
+LocalResidenciaColaborador "1"--"1"Distrito: indica >
+
+Distrito "1"--"1" Concelho: do qual faz parte >
+
+Funcao "1"--"1" IdentificadorFuncao : identificado por >
+
+Funcao "1"--"1" NivelHierarquico : classificado >
+
+Colaborador  "1" -- "1..*" HistoricoPedido : pode consultar >
+
+Colaborador "1" -- "1..*" Servico : especifica/solicita/aprova/resolve >
+
+CatalogoDeServico "1" --* "*" CatalogoDeServico : tem <
+
+CatalogoDeServico "1" --* "1..*" Servico : disponibiliza >
+
+Servico "1" -- "1" Formulario : requer >
+
+Formulario "1" -- "1" Colaborador : preenchido >
+
+Servico "1" -- "1..*" FluxoDeAtividade : especifica >
+
+Colaborador "1" -- "1..*" Pedido : efetua >
+
+FluxoDeAtividade "1" -- "1..*" Atividade : tem >
+
+FluxoDeAtividade "1" -- "1" FluxoDeAtividade : tem >
+
+FluxoDeAtividade "1" <|-- "1" FluxoDeAtividadeSentidoLato: e um <
+
+FluxoDeAtividade "1" <|-- "1" FluxoDeAtividadeSentidoRestrito: e um <
+
+FluxoDeAtividade "1" -- "1" IdFluxo: identificado por >
+
+Atividade "1" -- "1" AtividadeManual : é >
+
+Atividade "1" -- "1" AtividadeAutomatica : é >
+
+Atividade "1" -- "1" Colaborador : feita por >
+
+AtividadeAutomatica "1" -- "1" Linguagem : recorre a >
+
+Atividade "1" -- "1" Equipa : feita por >
+
+Script "1" -- "1" AtividadeAutomatica: utiliza <
+
+Colaborador "1" -- "1..*" Colaborador : responsavel por
+
+Colaborador "1" -- "1..*" CatalogoDeServico : especifica >
+
+Equipa "1" -- "*" Colaborador : tem >
+
+Equipa "1..*" -- "1" TipoEquipa : tem <
+
+Formulario "1" -- "1" ScriptValidacaoFormulario : validado por >
+
+Pedido "1" -- "1" EstagioPedido : encontra-se >
+
+Pedido "1" -- "1" ResultadoPedido : finaliza com >
+
+HistoricoPedido "1..*" -- "1" Pedido : contém <
+
+HistoricoPedido "1"--"1" IdVersaoHistorico: identificado >
+
+HistoricoPedido "1"--"1"DataDoHistorico:registado em >
+
+Pedido "1" -- "1" EstadoPedido : pode estar >
+
+Servico "1" -- "1" NivelCriticidade : rege-se >
+
+Servico "1" -- "1" EstadoServico : encontra-se
+
+Servico "1" -- "1..*" ObjetivoEspecifico : possui >
+
+NivelCriticidade "1" -- "1" DesignacaoNivelCriticidade : descrito por >
+
+NivelCriticidade "1" -- "1..*" CatalogoDeServico : afeta >
+
+NivelCriticidade "1" -- "1..*" ObjetivoDistintoNivel : pode ter >
+
+'relacoes atributos'
+
+TipoEquipa "1" -- "1" Cor : reconhecido por >
+
+TipoEquipa "1" -- "1" CodigoInternoUnicoTipoEquipa : identificado por >
+
+TipoEquipa "1" -- "1" DescricaoTipoEquipa : descrito por >
+
+Equipa "1" -- "1..*" ObjetivoDistintoEquipa : define >
+
+Equipa "1" -- "1" Acronimo : referenciado por >
+
+Equipa "1" -- "1" CodigoUnicoEquipa : identificado por  >
+
+Equipa "1" -- "1" DesignacaoEquipa : contem >
+
+Colaborador "1" -- "1" MecanographicNumber : identificado por >
+
+Colaborador "1" -- "1" NomeCurtoColaborador : reconhecido por >
+
+Colaborador "1" -- "1" DataNascimentoColaborador : nasceu em >
+
+Colaborador "1" -- "1" NomeCompletoColaborador : chama-se >
+
+Colaborador "1" -- "1" ContactoColaborador : possui >
+
+Colaborador "1" -- "1" LocalResidenciaColaborador : reside em >
+
+CatalogoDeServico "1" -- "1" IdentificadorCatalogo : identificado por >
+
+CatalogoDeServico "1" -- "1" TituloCatalogo : entitulado >
+
+CatalogoDeServico "1" -- "1" DescricaoBreveCatalogo : descrito por >
+
+CatalogoDeServico "1" -- "1" DescricaoCompletaCatalogo : possui >
+
+CatalogoDeServico "1" -- "1" IconeCatalogo : contém >
+
+CatalogoDeServico "1" -- "1..*" CriterioAcessoCatalogo : contém >
+
+Pedido "1" -- "1" IdentificadorAutomaticoPedido : caracterizado por >
+
+Pedido "1" -- "1" DataSolicitacaoPedido : possui >
+
+Pedido "1" -- "1" Servico : referente a >
+
+Pedido "1" -- "0..*" FicheiroAnexadoPedido : pode ter >
+
+Pedido "1" -- "1" DataLimiteResolucaoPedido : possui >
+
+Pedido "1" -- "1" UrgenciaPedido : pode ter >
+
+Servico "1" -- "1" TituloServico : identificado por >
+
+Servico "1" -- "1" DescricaoBreveServico : descrito por >
+
+Servico "1" -- "1" DescricaoCompletaServico : possui >
+
+Servico "1" -- "1" IconeServico : contem >
+
+Servico "1..*" -- "1..*" KeyWordServico : contem >
+
+Formulario "1" -- "1..*" AtributoRequeridoFormulario: constituido por >
+
+FluxoDeAtividade "1"--"1..*" Slot: constituido por >
+
+FluxoDeAtividade "1"--"1" DiaHoraInicioVigorFluxoAtividade: entra em vigor >
+
+FluxoDeAtividade "1"--"1" DiaHoraFimVigorFluxoAtividade: sem efeito após >
+
+FluxoDeAtividade "1"--"1" EstadoFluxo: encontra-se em >
+
+Slot "1" -- "1" Atividade: tem >
+
+Slot "1"-- "1" OrdemDeExecucaoAtividade: tem >
+
+AtributoRequeridoFormulario "1" -- "1" NomeVariavelAtributo : tem >
+
+AtributoRequeridoFormulario "1" -- "1" EtiquetaApresentacaoAtributo : detém >
+
+AtributoRequeridoFormulario "1" -- "1" DescricaoAjudaAtributo : descrito por >
+
+AtributoRequeridoFormulario "1" -- "1" TipoDadosBaseAtributo : tem >
+
+AtributoRequeridoFormulario "1" -- "1" ExpressaoRegularAtributo : tem >
+
+Formulario "1" -- "1" IdentificadorFormulario : identificado por >
+
+Formulario "1" -- "1" NomeFormulario : tem >
+
+Colaborador "1" -- "1" EmailColaborador : caracterizado por >
+
+NivelCriticidade "1" -- "1" EtiquetaNivelCriticidade : identificado por >
+
+NivelCriticidade "1" -- "1" ValorEscalaNivelCriticidade : caracterizado por >
+
+NivelCriticidade "1" -- "1" Cor_ : caracterizado por >
+
+Servico "1" -- "1" CodigoUnicoServico : identificado por >
+
+Atividade "1" -- "1" IdAtividade : identificado por >
+
+Colaborador "1" -- "1" Funcao: desempenha >
+
+Atividade "1" -- "1" EstadoAtividade : possui >
+
+Atividade "1" -- "1" Delay : pode ter >
+
+@enduml

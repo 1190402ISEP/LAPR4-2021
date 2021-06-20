@@ -1,0 +1,10 @@
+real r = 2.3;
+inteiro valor =4;
+caracter char = 'a';
+caracter teste= "a";
+inteiro x =2;
+
+x = 1+1;
+multi = multi * 2;
+
+varias = 1+1+1+1+1+1+1;

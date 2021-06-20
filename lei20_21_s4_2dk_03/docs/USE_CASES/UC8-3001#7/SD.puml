@@ -1,0 +1,258 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Utilizador" as UTIL
+participant ConsultarInformacaoUI as UI <<presentation>>
+participant ConsultarInformacaoController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant UserSession as USER <<session>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database ColaboradorRepository as CB <<repository>>
+database CatalogoServicoRepository as CSR <<repository>>
+database ServicoRepository as SERR <<repository>>
+
+participant Colaborador as COLAB <<colaborador>>
+participant SystemUser as SYSUSER <<systemUser>>
+participant CatalogoServico as CATSER <<catalogosServico>>
+participant Servico as SER <<servico>>
+participant Equipa as EQ <<equipa>>
+
+    UTIL -> UI: Consultar informação
+activate UI
+
+    UI --> CTRL**: create()
+activate CTRL
+    CTRL --> AUTH**: create()
+activate AUTH
+    AUTH --> AUTHR**: create()
+
+    AUTHR --> USER**: create()
+activate USER
+
+    AUTH -> AUTHR: authorizationService()
+activate AUTHR
+    AUTHR --> CTRL: authz
+deactivate AUTHR
+
+
+    CTRL --> PC**:repositories()
+
+activate PC
+    PC --> REP**: create()
+
+    CTRL -> REP: colaboradores()
+activate REP
+    REP --> CB**: create()
+    CB --> CTRL: colaboradorRepository
+
+    CTRL -> REP: catalogosServico()
+    REP --> CSR**: create()
+    CSR --> CTRL: catalogoServicoRepository
+
+    CTRL -> REP: servicos()
+    REP --> SERR**: create()
+    SERR --> CTRL: servicoRepository
+
+    UI -> UI: doShow()
+
+group if (decisaoShowAll)
+    UI -> CTRL: showServicesInCatalogs()
+    CTRL -> CTRL: checkColab()
+activate CTRL
+
+group if (authz.session()).isPresent())
+    CTRL -> AUTH: session()
+    AUTH -> USER: authenticatedUser()
+    USER -> USER: username()
+    USER --> CTRL: username
+
+    CTRL -> CB: findAll()
+activate CB
+    CB --> CTRL: colaboradores
+
+group foreach (colaborador)
+deactivate CB
+    CTRL -> COLAB: user()
+activate COLAB
+    COLAB -> SYSUSER: identity()
+deactivate COLAB
+activate SYSUSER
+    SYSUSER --> CTRL: username2
+deactivate SYSUSER
+
+group if (username.equals(username2))
+    CTRL -> COLAB: getEquipas()
+activate COLAB
+    COLAB --> CTRL: equipasColab
+deactivate COLAB
+
+group if (!equipasColab.isEmpty())
+    CTRL --> CTRL: equipasColab
+
+deactivate CTRL
+
+end
+end
+end
+end
+
+
+    CTRL -> CSR: findAll()
+activate CSR
+    CSR --> CTRL: catalogos
+deactivate CSR
+group if (catalogos.iterator().hasNext())
+group foreach (cat)
+    CTRL -> CATSER: getCriteriosAcessoCatalogo()
+activate CATSER
+    CATSER --> CTRL: criteriosAcessoCatalogo
+deactivate CATSER
+group foreach (crit)
+group foreach (eq from equipasColab)
+    CTRL -> EQ: identity()
+activate EQ
+    EQ --> CTRL: codigoUnico
+deactivate EQ
+
+group if (crit.equals(codigoUnico))
+    CTRL --> UI: cat
+
+    CTRL -> CATSER: getServ()
+activate CATSER
+    CATSER --> CTRL: listaServicos
+deactivate CATSER
+
+group foreach (servico)
+    CTRL --> UI: servico
+
+end
+end
+end
+end
+end
+end
+end
+
+group if (decisaoKeys)
+    UI -> CTRL: showKeys()
+
+    CTRL -> SERR: findAll()
+activate SERR
+
+group foreach (servico)
+    CTRL -> SER : getKeyWords()
+activate SER
+    SER --> CTRL : keyWords
+deactivate SER
+
+group if (!listKeys.contains(keyWords))
+    CTRL -> CTRL : listKeys.add(keyWords)
+end
+
+end
+
+deactivate SERR
+group foreach (key in listKeys)
+    CTRL --> UI: key
+end
+
+    UI -> CTRL: showServicosComKey(key)
+
+    CTRL -> CTRL: checkColab()
+activate CTRL
+
+group if (authz.session()).isPresent())
+    CTRL -> AUTH: session()
+    AUTH -> USER: authenticatedUser()
+    USER -> USER: username()
+    USER --> CTRL: username
+
+    CTRL -> CB: findAll()
+activate CB
+    CB --> CTRL: colaboradores
+
+group foreach (colaborador)
+deactivate CB
+    CTRL -> COLAB: user()
+activate COLAB
+    COLAB -> SYSUSER: identity()
+deactivate COLAB
+activate SYSUSER
+    SYSUSER --> CTRL: username2
+deactivate SYSUSER
+
+group if (username.equals(username2))
+    CTRL -> COLAB: getEquipas()
+activate COLAB
+    COLAB --> CTRL: equipasColab
+deactivate COLAB
+
+group if (!equipasColab.isEmpty())
+    CTRL --> CTRL: equipasColab
+
+deactivate CTRL
+
+end
+end
+end
+end
+
+CTRL -> CSR: findAll()
+activate CSR
+    CSR --> CTRL: catalogos
+deactivate CSR
+group if (catalogos.iterator().hasNext())
+group foreach (cat)
+    CTRL -> CATSER: getCriteriosAcessoCatalogo()
+activate CATSER
+    CATSER --> CTRL: criteriosAcessoCatalogo
+deactivate CATSER
+group foreach (crit)
+group foreach (eq from equipasColab)
+    CTRL -> EQ: identity()
+activate EQ
+    EQ --> CTRL: codigoUnico
+deactivate EQ
+
+group if (crit.equals(codigoUnico))
+    CTRL -> CATSER: getServ()
+activate CATSER
+    CATSER --> CTRL: equipasColab
+deactivate CATSER
+
+group foreach (servico)
+    CTRL -> SER: getKeyWords()
+activate SER
+    SER --> CTRL: listaKeyWords
+deactivate SER
+
+group if (listaKeyWords.contains(key))
+group if (firstCheck)
+    CTRL --> UI: cat
+end
+    CTRL --> UI: servico
+end
+end
+end
+end
+end
+end
+end
+end
+
+UI --> UTIL : Mostra informacao
+
+deactivate REP
+deactivate PC
+deactivate USER
+deactivate AUTH
+deactivate CTRL
+deactivate UI
+
+@enduml

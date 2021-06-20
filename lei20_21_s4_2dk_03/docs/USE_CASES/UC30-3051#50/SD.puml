@@ -1,0 +1,64 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Utilizador" as ator
+participant InserirFeedbackUI as UI <<presentation>>
+participant InserirFeedbackController as CTRL <<application>>
+participant AuthorizationService as AUTH
+participant PersistenceContext as PER <<persistence>>
+participant RepositoryFactory as FAC <<factory>>
+database PedidoRepository as PEDR <<repository>>
+database ColaboradorRepository as COLR <<repository>>
+participant "pedido:Pedido" as PED <<domain>>
+
+ator --> UI : inserir Feedback
+activate UI
+
+UI -> CTRL**: create
+activate CTRL
+
+CTRL -> AUTH**: create
+CTRL -> PER**: create
+activate PER
+PER -> FAC**: create
+deactivate PER
+activate FAC
+FAC -> PEDR**: pedido
+FAC -> COLR**: colaboradores
+deactivate FAC
+
+UI -> CTRL: mostrarPedidosConcluidos()
+CTRL -> COLR: colab = findByUsername(username)
+activate COLR
+deactivate COLR
+
+CTRL -> PEDR: listaPedidos = findHistoByColab(colab)
+activate PEDR
+deactivate PEDR
+
+group foreach (listaPedidos)
+CTRL -> CTRL:
+note right: mostra os pedidos disponíveis ao utilizador
+end
+
+UI -> CTRL: associarPedido(identificador)
+CTRL -> PEDR: pedido = ofIdentity(identificador)
+activate PEDR
+deactivate PEDR
+
+UI -> CTRL: saveFeedback(feedback)
+CTRL -> PED: associarFeedback(feedback)
+activate PED
+deactivate PED
+
+CTRL -> PEDR: save(pedido)
+activate PEDR
+deactivate PEDR
+
+deactivate CTRL
+
+UI --> ator: Mostra sucesso de operação
+deactivate UI
+@enduml

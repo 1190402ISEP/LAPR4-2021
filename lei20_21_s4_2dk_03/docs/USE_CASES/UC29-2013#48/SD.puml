@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "GSH" as ator
+participant ListarCumprimentoUI as UI <<presentation>>
+participant ListarCumprimentoController as CTRL <<application>>
+participant PersistenceContext as PER <<persistence>>
+participant RepositoryFactory as FAC <<factory>>
+database PedidoRepository as PEDR <<repository>>
+
+ator --> UI : Visualizar o cumprimento ou incumprimento \n dos contratos SLA nos pedidos
+activate UI
+
+UI -> CTRL**: create
+activate CTRL
+
+CTRL -> PER**: create
+activate PER
+PER -> FAC**: create
+deactivate PER
+activate FAC
+FAC -> PEDR**: pedido
+deactivate FAC
+
+UI --> ator: Pede para indicar se pretende visualizar o cumprimento ou incumprimento.
+ator -> UI: Insere a opção que pretende.
+
+UI --> ator: Pede para indicar as datas para procurar entre.
+ator -> UI: Insere as datas (first e last).
+
+group if (pretende visualizar cumprimento)
+UI -> CTRL: listarCumprimento(first, last)
+
+CTRL -> PEDR: listaPedidos = getPedidosBetweenDatesCump(first, last)
+activate PEDR
+deactivate PEDR
+
+group foreach (listaPedidos)
+CTRL -> CTRL:
+note right: mostra os pedidos
+end
+end
+
+group if (pretende visualizar incumprimento)
+UI -> CTRL: listarIncumprimento(first, last)
+
+CTRL -> PEDR: listaPedidos = getPedidosBetweenDatesIncump(first, last)
+activate PEDR
+deactivate PEDR
+
+group foreach (listaPedidos)
+CTRL -> CTRL:
+note right: mostra os pedidos
+end
+end
+
+deactivate CTRL
+
+UI --> ator: Mostra sucesso de operação
+deactivate UI
+@enduml

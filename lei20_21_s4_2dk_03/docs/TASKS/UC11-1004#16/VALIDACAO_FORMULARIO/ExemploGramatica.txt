@@ -1,0 +1,25 @@
+Substituir Lampada
+
+10
+
+quantidade
+
+lampadas Que Quer Substituir
+
+INT
+
+[1-9]*|[0-9]
+
+experimente Colocar Quantas Lampadas Pensa Substituir De Acordo Com O Que Necessita
+
+modelo
+
+modelo Das Lampadas
+
+STRING
+
+[A-Za-z]+
+
+coloque Um Modelo Valido Dentro Da Nossa Gama De Lâmpadas Disponibilizada
+
+Script Substituicao Lampadas

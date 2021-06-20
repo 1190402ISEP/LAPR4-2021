@@ -1,0 +1,64 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class CriarEquipaUI <<presentation>>{
+
+}
+
+class CriarEquipaController <<application>>{
+getTiposEquipa()
+criarEquipa(tipoEquipa, codigoUnico, \nacronimo, designacao)
+getColaboradores()
+qtdColaboradores()
+addColaboradores()
+showColaboradores()
+}
+
+class RepositoryFactory <<factory>>{
+
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Equipa <<domain>>{
+}
+
+class EquipaBuilder <<Builder>>{
+setTipoEquipa()
+setCodigoUnico()
+setAcronimo()
+setDesignacao()
+criarEquipa()
+addColaborador()
+}
+
+class EquipaRepository <<repository>>{
+save(equipa)
+}
+
+class TipoEquipaRepository <<repository>>{
+listaTiposEquipa()
+}
+
+class ColaboradorRepository <<repository>>{
+listaColaboradores()
+}
+
+CriarEquipaUI --> CriarEquipaController : theController
+
+CriarEquipaUI ..> Equipa : Equipa
+
+CriarEquipaController --> Equipa : Equipa
+CriarEquipaController --> EquipaBuilder : theBuilder
+
+CriarEquipaController --> RepositoryFactory : factory
+
+CriarEquipaController --> PersistenceContext : persistence
+PersistenceContext --> EquipaRepository : repo
+PersistenceContext --> TipoEquipaRepository : repo
+PersistenceContext --> ColaboradorRepository : repo
+
+@enduml

@@ -1,0 +1,48 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam shadowing false
+autonumber
+
+participant AtribuidorDeTarefasFCFS as ESC <<escalonador>>
+participant UtilAtribuicaoAtividadesManuais as UTIL <<domain>>
+participant AtividadeManual as AM <<domain>>
+
+--> ESC : escalonarAtividade(AtividadeManual)
+activate ESC
+
+ESC -> UTIL: equipa = getEquipaResponsavelAtividade(atividadeManual)
+activate UTIL
+deactivate UTIL
+
+alt if (equipa for NULL)
+
+ESC -> ESC : atribuirAtividadesManuaisAutomaticamente("")
+activate ESC
+
+ESC -> UTIL : colab = colaboradorComUltimaTarefaAtribuidaAMaisDias(idEquipa, atManual.identity())
+activate UTIL
+deactivate UTIL
+
+ESC -> UTIL : assignarAtivColab(colab, atManual);
+activate UTIL
+deactivate UTIL
+
+deactivate ESC
+else if (equipa não NULL)
+
+ESC -> ESC : atribuirAtividadesManuaisAutomaticamente(equipa.identity().toString())
+activate ESC
+
+ESC -> UTIL : colab = colaboradorComUltimaTarefaAtribuidaAMaisDias(idEquipa, atManual.identity())
+activate UTIL
+deactivate UTIL
+
+ESC -> UTIL : assignarAtivColab(colab, atManual);
+activate UTIL
+deactivate UTIL
+deactivate ESC
+
+end
+
+deactivate ESC
+@enduml

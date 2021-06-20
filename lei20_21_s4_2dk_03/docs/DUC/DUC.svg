@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2762px" preserveAspectRatio="none" style="width:1306px;height:2762px;" version="1.1" viewBox="0 0 1306 2762" width="1306px" zoomAndPan="magnify"><defs><filter height="300%" id="fukgdrwuibd6q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5bb58f447e60c14e9d23282c6a4405f4]
+entity ADM--><ellipse cx="85" cy="2684" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,2692 L85,2719 M72,2700 L98,2700 M85,2719 L72,2734 M85,2719 L98,2734 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="43.5" y="2754.0332">Administrator</text><!--MD5=[369882400e35651ee7652e7f1d60426a]
+entity RSPH--><ellipse cx="85" cy="2497" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,2505 L85,2532 M72,2513 L98,2513 M85,2532 L72,2547 M85,2532 L98,2547 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="6" y="2567.0332">Responsavel Hierarquico</text><!--MD5=[9e21408d9034c0da277ab9d7e09f5a7f]
+entity GSTS--><ellipse cx="85" cy="2100" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,2108 L85,2135 M72,2116 L98,2116 M85,2135 L72,2150 M85,2135 L98,2150 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="28" y="2170.0332">Gestor de Servico</text><!--MD5=[bfd7b639eff09a2a395e5aa5c1d0fa50]
+entity GSTO--><ellipse cx="85" cy="1767" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,1775 L85,1802 M72,1783 L98,1783 M85,1802 L72,1817 M85,1802 L98,1817 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="11.5" y="1837.0332">Gestor de Organizacao</text><!--MD5=[f0b86ccb9e694aefcdfbe6daa38815cd]
+entity GSPR--><ellipse cx="85" cy="891" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,899 L85,926 M72,907 L98,907 M85,926 L72,941 M85,926 L98,941 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="29" y="961.0332">Gestor de Projeto</text><!--MD5=[9388995ff95360b6d86cfe315b7443c4]
+entity UTIL--><ellipse cx="85" cy="165" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M85,173 L85,200 M72,181 L98,181 M85,200 L72,215 M85,200 L98,215 " fill="none" filter="url(#fukgdrwuibd6q)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="56.5" y="235.0332">Utilizador</text><ellipse cx="759.5675" cy="2716.2135" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="109.0675" ry="24.2135" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="669.0675" y="2719.942">UC1 - Definir Tipo de Equipa</text><ellipse cx="759.6681" cy="2445.2336" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="99.1681" ry="22.2336" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="680.1681" y="2448.9621">UC2 - Definir uma equipa</text><ellipse cx="759.3414" cy="2529.0683" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="123.3414" ry="27.0683" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="653.3414" y="2532.7968">UC3 - Especificar um colaborador</text><ellipse cx="759.2585" cy="2623.8517" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="149.7585" ry="32.3517" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="625.2585" y="2627.5802">UC4 - Atualizar informacao de colaborador</text><ellipse cx="759.591" cy="1944.9182" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="120.091" ry="26.4182" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="657.091" y="1948.6467">UC5 - Criar catalogo de servicos</text><ellipse cx="759.5675" cy="2031.2135" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="109.0675" ry="24.2135" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="669.0675" y="2034.942">UC6 - Especificar um servico</text><ellipse cx="759.3039" cy="1742.9608" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="230.3039" ry="48.4608" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="434" x="542.3039" y="1746.6893">UC7 - Definir niveis de criticidade aplicados na organizacao em SLAs</text><ellipse cx="759.4133" cy="1854.7827" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="129.4133" ry="28.2827" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="646.9133" y="1858.5112">UC8 - Consultar informação diversa</text><ellipse cx="759.272" cy="461.1544" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="173.772" ry="37.1544" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="600.272" y="464.8829">UC9 - Inicializar estrutura organica da organizacao</text><ellipse cx="759.5257" cy="563.0051" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="135.5257" ry="29.5051" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="640.5257" y="566.7337">UC10 - Inicializar catalogos e servicos</text><ellipse cx="759.3113" cy="671.7623" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="206.8113" ry="43.7623" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="386" x="566.3113" y="675.4908">UC11 - Desenvolvimento de linguagem gramatical do sistema</text><ellipse cx="759.6384" cy="779.1277" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="126.1384" ry="27.6277" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="650.6384" y="782.8562">UC12 - Desenvolver tarefa manual</text><ellipse cx="759.4415" cy="871.7883" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="136.9415" ry="29.7883" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="638.9415" y="875.5168">UC13 - Desenvolver tarefa automatica</text><ellipse cx="759.6254" cy="2131.8251" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="194.6254" ry="41.3251" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="361" x="579.1254" y="2135.5536">UC14 - Continuar/Completar especificacao de um servico</text><ellipse cx="759.3471" cy="40.1694" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="158.8471" ry="34.1694" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="615.8471" y="43.8979">UC15 - Apresentar dashboard web associado</text><ellipse cx="759.7076" cy="143.8415" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="162.2076" ry="34.8415" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="294" x="612.7076" y="147.57">UC16 - Consultar tarefas pendentes atribuidas</text><ellipse cx="759.6689" cy="249.0338" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="163.1689" ry="35.0338" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="296" x="611.6689" y="252.7623">UC17 - Consultar tarefas que possa reivindicar</text><ellipse cx="759.3577" cy="974.1715" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="171.3577" ry="36.6715" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="313" x="602.8577" y="977.9001">UC18 - Desenvolver o motor de fluxo de atividade</text><ellipse cx="759.5541" cy="1097.2108" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="244.0541" ry="51.2108" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="462" x="528.5541" y="1100.9393">UC19 - O motor de fluxo de atividades disponibilize os dados necessários</text><ellipse cx="759.3486" cy="1222.7697" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="186.8486" ry="39.7697" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="345" x="586.8486" y="1226.4982">UC20 - Desenvolver o executor de tarefas automáticas</text><ellipse cx="759.3541" cy="1352.1708" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="256.3541" ry="53.6708" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="487" x="515.8541" y="1355.8993">UC21 - Inicializar informação relativa a serviços completamente especificados</text><ellipse cx="759.3235" cy="1549.9647" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="535.3235" ry="109.4647" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1049" x="234.8235" y="1553.6932">UC22 - Inicializar um conjunto de níveis de criticidade e respetivos objetivos aplicados pela organização e a atribuição de alguns desses níveis a catálogos de serviços</text><ellipse cx="759.2889" cy="2246.0578" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="173.2889" ry="37.0578" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="317" x="600.7889" y="2249.7863">UC23 - Conhecer o estado dos fluxos de atividade</text><ellipse cx="759.2866" cy="2352.9573" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="160.2866" ry="34.4573" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="290" x="614.2866" y="2356.6858">UC24 - Aplicar nivel de criticidade ao catalogo</text><ellipse cx="759.7468" cy="354.1494" fill="#FEFECE" filter="url(#fukgdrwuibd6q)" rx="161.2468" ry="34.6494" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="613.7468" y="357.8779">UC25 - Solicitar servico do catalogo disponivel</text><!--MD5=[18ce05042804bf44dcb7a3204862a39a]
+link ADM to UC1--><path d="M126.55,2716 C227.31,2716 491.88,2716 644.85,2716 " fill="none" id="ADM-to-UC1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="650.24,2716,641.24,2712,645.24,2716,641.24,2720,650.24,2716" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[722518e944251d8dabfa254a4991c07c]
+link RSPH to UC2--><path d="M164.35,2500.53 C183.63,2494.49 204.37,2488.81 224,2485 C371.92,2456.29 546.57,2447.9 654.95,2445.61 " fill="none" id="RSPH-to-UC2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="660.06,2445.5,650.9818,2441.6808,655.061,2445.6,651.1418,2449.6792,660.06,2445.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8fd63a8ed76ee4d761d1c5a82cf69baf]
+link RSPH to UC3--><path d="M164.13,2529 C278.52,2529 492.89,2529 630.51,2529 " fill="none" id="RSPH-to-UC3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="635.78,2529,626.78,2525,630.78,2529,626.78,2533,635.78,2529" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d56a2a5933bb3179e281ba78b146c5b4]
+link RSPH to UC4--><path d="M164,2557.76 C183.38,2563.98 204.26,2569.91 224,2574 C351.23,2600.35 498.4,2612.83 606.06,2618.73 " fill="none" id="RSPH-to-UC4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="611.16,2619.01,602.3901,2614.528,606.1674,2618.739,601.9564,2622.5163,611.16,2619.01" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bd8c46cb44a8ceb667416c7f9f3b43f0]
+link GSTS to UC5--><path d="M113.41,2090.47 C138.02,2057.01 177.39,2012.05 224,1990 C359.17,1926.06 535.07,1924.63 647.41,1932.44 " fill="none" id="GSTS-to-UC5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="652.72,1932.82,644.0288,1928.1872,647.7328,1932.4627,643.4572,1936.1667,652.72,1932.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b16ba4fecc906a9699ea65bad5f35c5]
+link GSTS to UC6--><path d="M142.3,2103 C166.78,2091.7 196.17,2079.85 224,2073 C366.47,2037.95 536.13,2030.14 645.49,2029.31 " fill="none" id="GSTS-to-UC6" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="650.65,2029.28,641.6273,2025.3315,645.6501,2029.3086,641.673,2033.3314,650.65,2029.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1d78bdc3a6b2a2225426c1dc4ee3a0b3]
+link GSTS to UC14--><path d="M142.18,2132 C233.04,2132 416.53,2132 559.78,2132 " fill="none" id="GSTS-to-UC14" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="564.86,2132,555.86,2128,559.86,2132,555.86,2136,564.86,2132" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8ab74571a2927099ba30060605d87e55]
+link GSTS to UC23--><path d="M142.05,2160.52 C166.6,2171.81 196.13,2183.79 224,2191 C341.12,2221.32 476.76,2235.03 582.08,2241.18 " fill="none" id="GSTS-to-UC23" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="587.08,2241.47,578.3236,2236.9616,582.0882,2241.1839,577.8659,2244.9485,587.08,2241.47" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[de2f8286b1a96a2ed71f40babb8a6a3a]
+link GSTS to UC24--><path d="M107.34,2173.78 C130.27,2213.9 170.73,2272.49 224,2301 C342.54,2364.46 497.14,2372.92 609.56,2368.21 " fill="none" id="GSTS-to-UC24" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="614.88,2367.98,605.717,2364.369,609.8846,2368.1941,606.0595,2372.3617,614.88,2367.98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4472acb5f387d557386a040ed52e33f9]
+link GSTO to UC7--><path d="M158.61,1792.95 C249.23,1785.41 408.32,1772.16 539.9,1761.2 " fill="none" id="GSTO-to-UC7" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="544.96,1760.78,535.6597,1757.539,539.9772,1761.194,536.3221,1765.5115,544.96,1760.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[39bbcc773b435be564430d8a88e10a1c]
+link GSTO to UC8--><path d="M158.61,1805.05 C272.12,1814.5 493.04,1832.89 632.78,1844.53 " fill="none" id="GSTO-to-UC8" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="638.13,1844.98,629.4921,1840.2485,633.1472,1844.566,628.8297,1848.221,638.13,1844.98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5780f2b7054c530e3ddd04909968368a]
+link GSPR to UC9--><path d="M86.35,881.43 C89.51,797.32 109.67,607.18 224,516 C334.58,427.81 501.67,424.79 619.54,436.99 " fill="none" id="GSPR-to-UC9" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="624.76,437.55,616.2333,432.6209,619.788,437.0214,615.3875,440.576,624.76,437.55" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b8162faca7a9678355dc8915bff76c9c]
+link GSPR to UC10--><path d="M91.05,881.28 C101.84,812.26 133.98,675.53 224,611 C349.07,521.34 535.25,527.4 651.62,542.98 " fill="none" id="GSPR-to-UC10" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="656.76,543.68,648.393,538.4845,651.8072,542.9949,647.2968,546.4091,656.76,543.68" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9183bff68041ed9ca091a5193effddf4]
+link GSPR to UC11--><path d="M103.96,881.13 C125.5,836.52 166.09,767.76 224,734 C324,675.7 452.42,659.32 558.31,657.92 " fill="none" id="GSPR-to-UC11" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="563.34,657.87,554.2949,653.9731,558.3403,657.9271,554.3863,661.9726,563.34,657.87" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5e3fffbed7bbcfaf9f0baf98f1ac5ec3]
+link GSPR to UC12--><path d="M131.26,881.46 C156.62,860.75 189.93,837.5 224,825 C357.52,776.01 521.93,769.1 632.87,771.49 " fill="none" id="GSPR-to-UC12" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="638.11,771.62,629.2038,767.4154,633.1113,771.5057,629.0209,775.4133,638.11,771.62" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e1203bb969fc37fdf9be1b1a939a3e1c]
+link GSPR to UC13--><path d="M141.03,918.83 C245.82,910.88 476.7,893.37 624.54,882.16 " fill="none" id="GSPR-to-UC13" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="629.77,881.76,620.4977,878.4397,624.7838,882.1315,621.092,886.4176,629.77,881.76" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[933d8694841d09ee359925a6ceec1c86]
+link GSPR to UC18--><path d="M141.03,927.17 C238.53,934.57 445.21,950.24 592.57,961.42 " fill="none" id="GSPR-to-UC18" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="597.79,961.81,589.1253,957.1277,592.8049,961.4243,588.5083,965.1039,597.79,961.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e9ccd028cd65ff2546d44329fce22690]
+link GSPR to UC19--><path d="M128.26,964.53 C153.85,987.12 188.35,1013.37 224,1028 C313.63,1064.78 418.19,1083.09 510.95,1091.86 " fill="none" id="GSPR-to-UC19" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="516.2,1092.35,507.6041,1087.5427,511.221,1091.8922,506.8715,1095.5091,516.2,1092.35" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aad477a97d141c77f3bc7f65b06421cf]
+link GSPR to UC20--><path d="M96.8,964.69 C113.71,1020.78 152.18,1118.92 224,1166 C331.76,1236.64 478.76,1247.67 591.33,1242.83 " fill="none" id="GSPR-to-UC20" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="596.33,1242.6,587.1567,1239.0152,591.3352,1242.8283,587.5221,1247.0068,596.33,1242.6" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b4a4c4b8bec8c4d72f4659febbf964c2]
+link GSPR to UC21--><path d="M88.79,964.69 C96.3,1040.88 123.82,1202.04 224,1281 C305.25,1345.03 415.95,1367.01 515.54,1371.32 " fill="none" id="GSPR-to-UC21" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="520.57,1371.52,511.7371,1367.1635,515.574,1371.3202,511.4173,1375.1571,520.57,1371.52" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d456eeaf54a56c5dd5e36010232770a0]
+link GSPR to UC22--><path d="M91.98,964.61 C108.33,1072.7 157.08,1358.45 224,1423 C250.17,1448.25 280.4,1468.79 312.9,1485.47 " fill="none" id="GSPR-to-UC22" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="317.71,1487.9,311.4781,1480.2735,313.2465,1485.6468,307.8731,1487.4151,317.71,1487.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[faa6c09f22f37a4d8703366e8948ef81]
+link UTIL to UC15--><path d="M113.65,168.04 C139.56,142.94 180.71,108.04 224,91 C343.85,43.81 490.05,32.71 599.23,32.48 " fill="none" id="UTIL-to-UC15" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="604.4,32.48,595.4,28.48,599.4,32.48,595.4,36.48,604.4,32.48" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2130e0ee7e462384af94072a40f641ca]
+link UTIL to UC16--><path d="M113.62,194.82 C194.98,188.41 438.28,169.24 601.67,156.36 " fill="none" id="UTIL-to-UC16" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="606.96,155.94,597.6783,152.6461,601.9749,156.3257,598.2953,160.6223,606.96,155.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3a05c48ed2bc0f242c43c5b8c79d615b]
+link UTIL to UC17--><path d="M113.62,199.14 C194.79,205.41 437.19,224.15 600.56,236.79 " fill="none" id="UTIL-to-UC17" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="605.85,237.2,597.1853,232.5177,600.8649,236.8143,596.5683,240.4939,605.85,237.2" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[abea70bc9ba20464729974001d4659ac]
+link UTIL to UC25--><path d="M113.52,225.13 C139.5,249.75 180.83,284.14 224,301 C342.85,347.42 487.35,359.36 596.12,360.41 " fill="none" id="UTIL-to-UC25" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="601.27,360.46,592.3046,356.383,596.2702,360.4171,592.236,364.3827,601.27,360.46" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4fda1586b90d11e0211d72f416505210]
+@startuml
+
+left to right direction
+hide methods
+
+'atores'
+actor "Administrator" as ADM
+actor "Responsavel Hierarquico" as RSPH
+actor "Gestor de Servico" as GSTS
+actor "Gestor de Organizacao" as GSTO
+actor "Gestor de Projeto" as GSPR
+actor "Utilizador" as UTIL
+
+'Área de Gestão de Serviços e de Recursos Humanos'
+usecase UC1 as "UC1 - Definir Tipo de Equipa"
+usecase UC2 as "UC2 - Definir uma equipa"
+usecase UC3 as "UC3 - Especificar um colaborador"
+usecase UC4 as "UC4 - Atualizar informacao de colaborador"
+usecase UC5 as "UC5 - Criar catalogo de servicos"
+usecase UC6 as "UC6 - Especificar um servico"
+usecase UC7 as "UC7 - Definir niveis de criticidade aplicados na organizacao em SLAs"
+usecase UC8 as "UC8 - Consultar informação diversa"
+usecase UC9 as "UC9 - Inicializar estrutura organica da organizacao"
+usecase UC10 as "UC10 - Inicializar catalogos e servicos"
+'SPRINT C'
+usecase UC11 as "UC11 - Desenvolvimento de linguagem gramatical do sistema"
+usecase UC12 as "UC12 - Desenvolver tarefa manual"
+usecase UC13 as "UC13 - Desenvolver tarefa automatica"
+usecase UC14 as "UC14 - Continuar/Completar especificacao de um servico"
+usecase UC15 as "UC15 - Apresentar dashboard web associado"
+usecase UC16 as "UC16 - Consultar tarefas pendentes atribuidas"
+usecase UC17 as "UC17 - Consultar tarefas que possa reivindicar"
+usecase UC18 as "UC18 - Desenvolver o motor de fluxo de atividade"
+usecase UC19 as "UC19 - O motor de fluxo de atividades disponibilize os dados necessários"
+usecase UC20 as "UC20 - Desenvolver o executor de tarefas automáticas"
+usecase UC21 as "UC21 - Inicializar informação relativa a serviços completamente especificados"
+usecase UC22 as "UC22 - Inicializar um conjunto de níveis de criticidade e respetivos objetivos aplicados pela organização e a atribuição de alguns desses níveis a catálogos de serviços"
+usecase UC23 as "UC23 - Conhecer o estado dos fluxos de atividade"
+usecase UC24 as "UC24 - Aplicar nivel de criticidade ao catalogo"
+usecase UC25 as "UC25 - Solicitar servico do catalogo disponivel"
+
+'Área de Gestão de Serviços e de Recursos Humanos'
+ADM- ->(UC1)
+
+RSPH- ->(UC2)
+RSPH- ->(UC3)
+RSPH- ->(UC4)
+
+GSTS- ->(UC5)
+GSTS- ->(UC6)
+GSTS- ->(UC14)
+GSTS- ->(UC23)
+GSTS- ->(UC24)
+
+GSTO- ->(UC7)
+
+GSTO- ->(UC8)
+
+GSPR - -> (UC9)
+GSPR - -> (UC10)
+GSPR - -> (UC11)
+GSPR - -> (UC12)
+GSPR - -> (UC13)
+GSPR - -> (UC18)
+GSPR - -> (UC19)
+GSPR - -> (UC20)
+GSPR - -> (UC21)
+GSPR - -> (UC22)
+
+UTIL- ->(UC15)
+UTIL- ->(UC16)
+UTIL- ->(UC17)
+UTIL- ->(UC25)
+
+@enduml
+
+@startuml
+
+left to right direction
+hide methods
+
+actor "Administrator" as ADM
+actor "Responsavel Hierarquico" as RSPH
+actor "Gestor de Servico" as GSTS
+actor "Gestor de Organizacao" as GSTO
+actor "Gestor de Projeto" as GSPR
+actor "Utilizador" as UTIL
+
+usecase UC1 as "UC1 - Definir Tipo de Equipa"
+usecase UC2 as "UC2 - Definir uma equipa"
+usecase UC3 as "UC3 - Especificar um colaborador"
+usecase UC4 as "UC4 - Atualizar informacao de colaborador"
+usecase UC5 as "UC5 - Criar catalogo de servicos"
+usecase UC6 as "UC6 - Especificar um servico"
+usecase UC7 as "UC7 - Definir niveis de criticidade aplicados na organizacao em SLAs"
+usecase UC8 as "UC8 - Consultar informação diversa"
+usecase UC9 as "UC9 - Inicializar estrutura organica da organizacao"
+usecase UC10 as "UC10 - Inicializar catalogos e servicos"
+usecase UC11 as "UC11 - Desenvolvimento de linguagem gramatical do sistema"
+usecase UC12 as "UC12 - Desenvolver tarefa manual"
+usecase UC13 as "UC13 - Desenvolver tarefa automatica"
+usecase UC14 as "UC14 - Continuar/Completar especificacao de um servico"
+usecase UC15 as "UC15 - Apresentar dashboard web associado"
+usecase UC16 as "UC16 - Consultar tarefas pendentes atribuidas"
+usecase UC17 as "UC17 - Consultar tarefas que possa reivindicar"
+usecase UC18 as "UC18 - Desenvolver o motor de fluxo de atividade"
+usecase UC19 as "UC19 - O motor de fluxo de atividades disponibilize os dados necessários"
+usecase UC20 as "UC20 - Desenvolver o executor de tarefas automáticas"
+usecase UC21 as "UC21 - Inicializar informação relativa a serviços completamente especificados"
+usecase UC22 as "UC22 - Inicializar um conjunto de níveis de criticidade e respetivos objetivos aplicados pela organização e a atribuição de alguns desses níveis a catálogos de serviços"
+usecase UC23 as "UC23 - Conhecer o estado dos fluxos de atividade"
+usecase UC24 as "UC24 - Aplicar nivel de criticidade ao catalogo"
+usecase UC25 as "UC25 - Solicitar servico do catalogo disponivel"
+
+ADM- ->(UC1)
+
+RSPH- ->(UC2)
+RSPH- ->(UC3)
+RSPH- ->(UC4)
+
+GSTS- ->(UC5)
+GSTS- ->(UC6)
+GSTS- ->(UC14)
+GSTS- ->(UC23)
+GSTS- ->(UC24)
+
+GSTO- ->(UC7)
+
+GSTO- ->(UC8)
+
+GSPR - -> (UC9)
+GSPR - -> (UC10)
+GSPR - -> (UC11)
+GSPR - -> (UC12)
+GSPR - -> (UC13)
+GSPR - -> (UC18)
+GSPR - -> (UC19)
+GSPR - -> (UC20)
+GSPR - -> (UC21)
+GSPR - -> (UC22)
+
+UTIL- ->(UC15)
+UTIL- ->(UC16)
+UTIL- ->(UC17)
+UTIL- ->(UC25)
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

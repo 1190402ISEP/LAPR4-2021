@@ -1,0 +1,234 @@
+commit 57b016ef96523000934cf7c9b97063ac95974414
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Sat Jun 12 16:36:39 2021 +0100
+
+    #24 #41 atualizacoes no motor de fluxos: ssl e tcp
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+
+commit 9fd9bc348953689b5825912ecb320f39eb336509
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Sat Jun 12 16:24:45 2021 +0100
+
+    #24 atualizacoes no motor de fluxos: ssl e tcp
+
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosDeAtividadesTCPServer.java
+M	base.app.servidor/src/main/java/utils/Constantes.java
+
+commit 48ef3148f83f23631984eb2370ab55e03f4fad50
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Fri Jun 11 16:17:18 2021 +0100
+
+    #24 #25 ligeiras alteracoes no motor de fluxos
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoServerSRH.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosAtividadesTCPServer.java
+
+commit f60699c8409226223c1b2aa741444a7de912ed4d
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Fri Jun 11 08:24:31 2021 +0100
+
+    #24 #25 continuacao da implementacao do motor de fluxos de atividades
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoServerSRH.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosAtividadesTCPServer.java
+M	base.app.servidor/src/main/java/utils/Constantes.java
+
+commit 9953687f6efc966af06570adeb2f58b21a2f981a
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Thu Jun 10 01:56:57 2021 +0100
+
+    #26 classe ControloMotorFluxoAtividades:metodo de execucao do delay-pequena correcao na conversao do tempo
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ControloMotorFluxoAtividades.java
+
+commit ae44cda003480317ca70326a7f6bd8ce9fc7ce1b
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Thu Jun 10 01:54:48 2021 +0100
+
+    #26 classe ControloMotorFluxoAtividades:metodo de execucao do delay #24 revisões design
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ControloMotorFluxoAtividades.java
+M	docs/TASKS/UC18-4001#24/AvancarFluxoAtividades.puml
+M	docs/TASKS/UC18-4001#24/AvancarFluxoAtividades.svg
+M	docs/TASKS/UC18-4001#24/ExecutarTarefaAutomatica.puml
+M	docs/TASKS/UC18-4001#24/ExecutarTarefaAutomatica.svg
+M	docs/TASKS/UC20-5001#26/ExecutarTarefaAutomatica.svg
+
+commit 5e5ae2ef29d6dbb3702bae5f2a049b47faa51b73
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 9 17:41:44 2021 +0100
+
+    #28 revisões no design
+
+M	docs/USE_CASES/UC23-2011#28/ProcessoEngenhariaFuncionalidade.md
+M	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.puml
+M	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.svg
+
+commit 68ee2b58cf2967b597a444685d4fd57b24a6deac
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 9 15:27:51 2021 +0100
+
+    #24 implementacao de alguns metodos da classe controller do motor de fluxos
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/ControloMotorFluxoAtividades.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/application/MotorFluxoAtividadeController.java
+
+commit 415ec7e0333cd1819547458bb0169243f24a3cc0
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 9 12:17:30 2021 +0100
+
+    #35 pequena correcao no link
+
+A	docs/TASKS/UC27-1007 #35/AssociarFormulario.svg
+
+commit 8a180dcdf4317aa091ad8d945d8de82e8f9d2b9a
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 9 12:15:48 2021 +0100
+
+    #16 #35 revisão dedesign
+
+A	docs/TASKS/UC11-1004#16/AssociarFormulario.svg
+M	docs/TASKS/UC11-1004#16/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC27-1007 #35/ProcessoEngenhariaFuncionalidade.md
+
+commit 56f62a2d8c8bb3b0cd188f892463ef44665db25f
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Mon Jun 7 22:27:20 2021 +0100
+
+    #26 Design
+
+A	docs/TASKS/UC20-5001#26/ExecutarTarefaAutomatica.puml
+A	docs/TASKS/UC20-5001#26/ExecutarTarefaAutomatica.svg
+M	docs/TASKS/UC20-5001#26/ProcessoEngenhariaFuncionalidade.md
+
+commit a962b234c2ceea1a9b3713fbcc9eaa39d8fb0b69
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Mon Jun 7 22:06:55 2021 +0100
+
+    #24 Revisão e Design
+
+A	docs/TASKS/UC18-4001#24/AvancarFluxoAtividades.puml
+A	docs/TASKS/UC18-4001#24/AvancarFluxoAtividades.svg
+A	docs/TASKS/UC18-4001#24/ExecutarTarefaAutomatica.puml
+A	docs/TASKS/UC18-4001#24/ExecutarTarefaAutomatica.svg
+M	docs/TASKS/UC18-4001#24/ProcessoEngenhariaFuncionalidade.md
+
+commit 25a2369cbb48332323510da4a6cb95618ad48f36
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Mon Jun 7 15:19:42 2021 +0100
+
+    #28 Requisitos, Análise e Design do Caso de Uso 23: Conhecer o estado dos fluxos de atividades
+
+M	docs/USE_CASES/UC23-2011#28/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.puml
+A	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.svg
+
+commit 042ed9e1ec3eaf3d22af8e90074e2dde64ef1663
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Fri Jun 4 13:58:57 2021 +0100
+
+    #26 executor de tarefas automaticas implementado
+
+R096	base.app.servidor/src/main/java/eapli/base/app/servidor/domain/motordefluxodeatividades/AvancarMotorFluxo.java	base.app.servidor/src/main/java/eapli/base/app/servidor/AvancarMotorFluxo.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Script.java
+
+commit db7c38e4c9f65dc70528fb1a213478e06ece1e5c
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Fri Jun 4 13:28:16 2021 +0100
+
+    #38 pequena correcao nos padroes
+
+M	docs/USE_CASES/UC26-3031#38/ProcessoEngenhariaFuncionalidade.md
+
+commit 2d14ff2112b18af450764e0b263bda1f823aa99c
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Fri Jun 4 11:37:54 2021 +0100
+
+    #38 Padrões aplicados
+
+M	base.core/src/main/java/eapli/base/atividade/application/ReinvindicarTarefasPendentesController.java
+D	docs/USE_CASES/UC17-3022#23/.UC17_SD.vpp.lck
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.svg
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp
+A	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp.bak_003d
+M	docs/USE_CASES/UC26-3031#38/ProcessoEngenhariaFuncionalidade.md
+
+commit d4c488cecc4055750ce7a1401cd1b594c0480985
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Thu Jun 3 02:54:23 2021 +0100
+
+    #23 refinamento do SD e implementacao (testes dizem respeito a atividade)
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/addServicoCatalogo/AddServicoCatalogoUI.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesUI.java
+A	base.core/src/main/java/eapli/base/atividade/application/ReinvindicarTarefasPendentesController.java
+M	base.core/src/main/java/eapli/base/atividade/repositories/AtividadeRepository.java
+M	base.core/src/main/java/eapli/base/clientusermanagement/domain/Colaborador.java
+M	base.core/src/main/java/eapli/base/equipa/domain/Equipa.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+A	docs/USE_CASES/UC17-3022#23/.UC17_SD.vpp.lck
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.svg
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp
+A	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp.bak_001d
+A	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp.bak_002d
+
+commit 38cec57c433cd8d5c8142b8a01a2eacd4fdfe616
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 2 18:17:47 2021 +0100
+
+    #23 refinamento do SD
+
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.svg
+M	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp
+A	docs/USE_CASES/UC17-3022#23/UC17_SD.vpp.bak_000f
+
+commit ffda634f693c9e48ea7b111d57eb820d2705cee0
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 2 15:33:57 2021 +0100
+
+    #17 #18 testes de atividade automatica e atividade manual
+
+M	docs/TASKS/UC12-1005#17/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC13-1006#18/ProcessoEngenhariaFuncionalidade.md
+
+commit c4e33761cf2c41452209cc1acaaf00a1e0047196
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Wed Jun 2 11:18:46 2021 +0100
+
+    #18 requisitos, análise e design da componente representativa da tarefa automática (implementação previamente feita no ambito da definicao de um fluxo de atividades)
+
+M	docs/TASKS/UC12-1005#17/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC13-1006#18/DefinirFluxoDeAtividade.puml
+A	docs/TASKS/UC13-1006#18/DefinirFluxoDeAtividade.svg
+M	docs/TASKS/UC13-1006#18/ProcessoEngenhariaFuncionalidade.md
+
+commit 218d6c04da819947a076eeae33d2e353726f33ed
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Tue Jun 1 17:41:26 2021 +0100
+
+    #16 continuacao dos ciclos for e for each
+
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.g4
+
+commit 117114d6d48132dc635221d239883555d46dcc7f
+Author: Joao Pereira <1190742@isep.ipp.pt>
+Date:   Tue Jun 1 14:49:41 2021 +0100
+
+    #17 Requisitos,Análise e Design da componente representativa de uma tarefa manual (implementação previamente executada na US 2002)
+
+A	docs/TASKS/UC12-1005#17/AssociarFormulario.puml
+A	docs/TASKS/UC12-1005#17/AssociarFormulario.svg
+A	docs/TASKS/UC12-1005#17/DefinirFluxoDeAtividade.puml
+A	docs/TASKS/UC12-1005#17/DefinirFluxoDeAtividade.svg
+M	docs/TASKS/UC12-1005#17/ProcessoEngenhariaFuncionalidade.md

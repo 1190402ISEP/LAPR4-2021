@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Utilizador" as UTIL
+
+participant TarefasPendentesUI as WDUI <<presentation>>
+participant TarefasPendentesController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant UserSession as USER <<session>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database ColaboradorRepository as CB <<repository>>
+database ActividadeRepository as AR <<repository>>
+
+UTIL -> WDUI: Consultar informação
+activate WDUI
+
+    WDUI -> CTRL**: create()
+
+activate CTRL
+    CTRL -> AUTH**: create()
+activate AUTH
+
+    AUTH -> AUTHR**: create()
+
+activate AUTHR
+    AUTHR -> USER**: create()
+
+    AUTH -> AUTHR: authorizationService()
+    deactivate AUTH
+
+    AUTHR --> CTRL: authz
+deactivate AUTHR
+
+    CTRL -> PC**:repositories()
+
+activate PC
+    PC -> REP**: create()
+deactivate PC
+activate REP
+    CTRL -> REP: colaboradores()
+    REP -> CB**: create()
+activate CB
+    CB --> CTRL: colaboradorRepository
+deactivate CB
+
+    CTRL -> REP: actividadeServico()
+    REP -> AR**: create()
+deactivate REP
+activate AR
+    AR --> CTRL: actividadeRepository
+    CTRL -> AR: listaAtividade = getAll()
+deactivate AR
+
+loop foreach Actividade actividade : listaActividade
+alt if actividade.buscarEstado() != "Pendente" && actividade.buscarTipo.class() != "ActividadeManual"
+    CTRL -> CTRL: listaActividade.remove(actividade)
+    note right : obter a lista de todas as actividade pendentes manuais
+end
+end
+
+CTRL -> WDUI : mostrarListaActividadesPendentes()
+WDUI -> UTIL : mostrar lista de actividades pendentes
+
+@enduml

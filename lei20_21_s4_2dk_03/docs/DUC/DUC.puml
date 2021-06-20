@@ -1,0 +1,101 @@
+@startuml
+
+left to right direction
+hide methods
+
+'atores'
+actor "Administrator" as ADM
+actor "Responsavel Hierarquico" as RSPH
+actor "Gestor de Servico" as GSTS
+actor "Gestor de Organizacao" as GSTO
+actor "Gestor de Projeto" as GSPR
+actor "Utilizador" as UTIL
+
+'Área de Gestão de Serviços e de Recursos Humanos'
+usecase UC1 as "UC1 - Definir Tipo de Equipa"
+usecase UC2 as "UC2 - Definir uma equipa"
+usecase UC3 as "UC3 - Especificar um colaborador"
+usecase UC4 as "UC4 - Atualizar informacao de colaborador"
+usecase UC5 as "UC5 - Criar catalogo de servicos"
+usecase UC6 as "UC6 - Especificar um servico"
+usecase UC7 as "UC7 - Definir niveis de criticidade aplicados na organizacao em SLAs"
+usecase UC8 as "UC8 - Consultar informação diversa"
+usecase UC9 as "UC9 - Inicializar estrutura organica da organizacao"
+usecase UC10 as "UC10 - Inicializar catalogos e servicos"
+'SPRINT C'
+usecase UC11 as "UC11 - Desenvolvimento de linguagem gramatical do sistema"
+usecase UC12 as "UC12 - Desenvolver tarefa manual"
+usecase UC13 as "UC13 - Desenvolver tarefa automatica"
+usecase UC14 as "UC14 - Continuar/Completar especificacao de um servico"
+usecase UC15 as "UC15 - Apresentar dashboard web associado"
+usecase UC16 as "UC16 - Consultar tarefas pendentes atribuidas"
+usecase UC17 as "UC17 - Consultar tarefas que possa reivindicar"
+usecase UC18 as "UC18 - Desenvolver o motor de fluxo de atividade"
+usecase UC19 as "UC19 - O motor de fluxo de atividades disponibilize os dados necessários"
+usecase UC20 as "UC20 - Desenvolver o executor de tarefas automáticas"
+usecase UC21 as "UC21 - Inicializar informação relativa a serviços completamente especificados"
+usecase UC22 as "UC22 - Inicializar um conjunto de níveis de criticidade e respetivos objetivos aplicados pela organização e a atribuição de alguns desses níveis a catálogos de serviços"
+usecase UC23 as "UC23 - Conhecer o estado dos fluxos de atividade"
+usecase UC24 as "UC24 - Aplicar nivel de criticidade ao catalogo"
+usecase UC25 as "UC25 - Solicitar servico do catalogo disponivel"
+
+'SPRINT D'
+usecase UC26 as "UC26 - Consultar os Pedidos (em curso ou histórico)"
+usecase UC27 as "UC27 - Executar Scripts na lingugem desenvolvida"
+usecase UC28 as "UC28 - Comunicações realizadas através do protocolo estejam protegidas.-Serviços e RH"
+usecase UC29 as "UC29 - Obter uma listagem sobre o (in)cumprimento do SLA das solicitações recebidas e já concluídas num intervalo de tempo."
+usecase UC30 as "UC30 - Dar feedback sobre pedido"
+usecase UC31 as "UC31 - Algoritmo que assigne tarefas automaticamente a colaboradores"
+usecase UC32 as "UC32 - Realizar tarefa pendente"
+usecase UC33 as "UC33 - Algoritmos que distribuam a realização de tarefas automáticas pelas diversas instâncias do Executor de Tarefas Automáticas existentes na infraestrutura instalada."
+usecase UC34 as "UC34 - Pretendo que as comunicações realizadas através do protocolo SDP2021 estejam protegidas.-Executor Tarefas Automaticas"
+usecase UC35 as "UC35 - Pretendo que as comunicações realizadas como aplicação cliente através do protocolo SDP2021 estejam protegidas."
+usecase UC36 as "UC36 - Pretendo que as comunicações realizadas como aplicação servidora através do protocolo SDP2021 estejam protegidas."
+usecase UC37 as "UC37 - Pretendo que as comunicações realizadas através do protocolo SDP2021 estejam protegidas."
+
+'Área de Gestão de Serviços e de Recursos Humanos'
+ADM-->(UC1)
+
+RSPH-->(UC2)
+RSPH-->(UC3)
+RSPH-->(UC4)
+
+GSTS-->(UC5)
+GSTS-->(UC6)
+GSTS-->(UC14)
+GSTS-->(UC23)
+GSTS-->(UC24)
+GSTS-->(UC29)
+
+GSTO-->(UC7)
+
+GSTO-->(UC8)
+
+GSPR --> (UC9)
+GSPR --> (UC10)
+GSPR --> (UC11)
+GSPR --> (UC12)
+GSPR --> (UC13)
+GSPR --> (UC18)
+GSPR --> (UC19)
+GSPR --> (UC20)
+GSPR --> (UC21)
+GSPR --> (UC22)
+GSPR --> (UC27)
+GSPR --> (UC28)
+GSPR --> (UC31)
+GSPR --> (UC33)
+GSPR --> (UC34)
+GSPR --> (UC35)
+GSPR --> (UC36)
+GSPR --> (UC37)
+
+UTIL-->(UC15)
+UTIL-->(UC16)
+UTIL-->(UC17)
+UTIL-->(UC25)
+UTIL-->(UC26)
+UTIL-->(UC30)
+UTIL-->(UC32)
+
+@enduml

@@ -1,0 +1,28 @@
+1) O utilizador pede para ver as tarefas pendentes 
+2) O sistema mostra-lhe as tarefas pendentes /* que lhe estão assignadas por prioridade,
+	criticidade e data limite ordenadas por ordem decrescente */
+
+3) O utilizador pode ou nao reinvindicar
+4) O sistema atribui-lhe ou não a tarefa selecionada
+
+
+Lista Tarefas Pendentes = Colaborador.buscarTarefasPendentes()
+
+//ordena a lista
+ForEach Tarefa da lista{
+
+	if(tarefa.getPrioridade(i+1) > tarefa.getPrioridade(i)){
+		tarefa(i+1).swap(i) 
+
+	} else if( tarefa.getPrioridade(i+1) == tarefa.getPrioridade(i) && tarefa.getCriticade(i+1)>tarefa.getCriticade(i) ){
+		tarefa(i+1).swap(i)
+	}
+		else if( tarefa.getPrioridade(i+1) == tarefa.getPrioridade(i) && tarefa.getCriticade(i+1)==tarefa.getCriticade(i) &&
+					tarefa.getDataLimite(i+1) < tarefa.getDataLimite(i) ){
+				
+						tarefa(i+1).swap(i)
+					}
+		
+		
+
+}

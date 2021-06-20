@@ -1,0 +1,69 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam shadowing false
+autonumber
+
+actor "ExecutorTarefasAutomaticasTCPServerConn" as TCP
+participant EscalonadorFCFSAtividadeAutomaticaInstancia as ESC <<escalonador>>
+participant ExecutorTarefasAutomaticas as EXEC <<domain>>
+participant Thread as THR <<thread>>
+participant AtividadeAutomatica as AA <<domain>>
+
+activate TCP
+TCP --> ESC : adicionarTrabalho()
+activate ESC
+
+ESC -> ESC: escalonar()
+activate ESC
+
+note right of ESC: cria lista temporária (lista temp)
+group for each (ExecutorTarefasAutomaticas instância em instâncias)
+group if (instância não está ocupada)
+note right of ESC: adiciona instância no temp
+end
+end
+
+alt se (temp está vazia)
+ESC -> ESC
+note right: adiciona trabalho à fila de espera
+
+else se (temp não está vazia)
+alt se (emEspera está vazia)
+ESC -> EXEC : setOcupacao(true)
+activate EXEC
+ESC -> EXEC : aumentarCarga()
+ESC -> EXEC : associarTrabalho(this.trabalho)
+deactivate EXEC
+ESC --> THR** : create()
+activate THR
+ESC -> THR : start()
+ESC -> THR : join()
+deactivate THR
+
+else se (emEspera não está vazia)
+alt se (this.trabalho não for null)
+ESC -> ESC
+note right: adiciona trabalho à lista de espera
+end
+
+group for each (ExecutorTarefasAutomaticas executorTarefasAutomaticas : temp)
+group if (emEspera.size() > 0)
+ESC -> EXEC : setOcupacao(true)
+activate EXEC
+ESC -> EXEC : aumentarCarga()
+ESC -> EXEC : associarTrabalho(this.trabalho)
+deactivate EXEC
+ESC --> THR** : create()
+activate THR
+ESC -> THR : start()
+ESC -> THR : join()
+deactivate THR
+
+end
+end
+end
+end
+deactivate ESC
+deactivate ESC
+deactivate TCP
+@enduml

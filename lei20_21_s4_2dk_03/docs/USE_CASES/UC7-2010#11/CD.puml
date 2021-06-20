@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class CriarNivelUI <<presentation>>{
+
+}
+
+class CriarNivelController <<application>>{
+
+}
+
+class RepositoryFactory <<factory>>{
+
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Nivel <<domain>>{
+}
+
+class NivelBuilder <<Builder>>{
+
+}
+
+class NivelRepository <<repository>>{
+save(Nivel)
+}
+
+
+CriarNivelUI --> CriarNivelController : theController
+
+CriarNivelUI ..> Nivel : Nivel
+
+CriarNivelController --> Nivel : Nivel
+CriarNivelController --> NivelBuilder : theBuilder
+
+CriarNivelController --> RepositoryFactory : factory
+
+CriarNivelController --> PersistenceContext : persistence
+PersistenceContext --> NivelRepository : repo
+
+@enduml

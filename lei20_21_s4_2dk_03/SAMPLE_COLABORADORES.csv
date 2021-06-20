@@ -1,0 +1,6 @@
+USERNAME;FIRST_NAME;LAST_NAME;EMAIL;ROLE;MECANOGRAPHIC_NUMBER;NOME_COMPLETO;CONTACTO;ANO;MES;DIA;DISTRITO;CONCELHO
+adbf;Antonio;Fernandes;1190402@isep.ipp.pt;ADMIN;1190402;Antonio Daniel Barbosa Fernandes;967481242;2001;12;26;Viseu;Cinfaes
+tpl;Teresa;Leite;1191072@isep.ipp.pt;CLIENT_USER;1191072;Teresa Pereira Leite;919999999;2001;1;6;Porto;Porto
+jpop;Joao;Pereira;1190742@isep.ipp.pt;RESPONSAVEL_RECURSOS_HUMANOS;1190742;Joao Pedro Pereira;919999999;2001;2;12;Porto;Porto
+rps;Rui;Soares;1191045@isep.ipp.pt;GESTOR_SERVICOS_HELPDESK;1191045;Rui Pedro Mesquita Soares;919999999;2001;3;14;Porto;Porto
+pct;Paulo;Couto;1200587@isep.ipp.pt;CLIENT_USER;1200587;Paulo Couto;918887776;2000;12;2;Porto;Porto

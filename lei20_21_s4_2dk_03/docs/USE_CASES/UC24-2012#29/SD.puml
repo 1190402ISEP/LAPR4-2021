@@ -1,0 +1,163 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Gestor de Serviços\nde Help desk" as GSH
+participant AplicarNivelUI as UI <<presentation>>
+participant AplicarNivelController as CTRL <<application>>
+
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database NivelRepository as NREP <<repository>>
+database CatalogoServicoRepository as CATREP <<repository>>
+database ServicoRepository as SEREP <<repository>>
+
+participant CatalogoServico as CAT <<catalogosServico>>
+participant Servico as SE <<servico>>
+participant Nivel as NI <<nivel>>
+participant "obj\n:ObjetivoDistinto" as OBJ <<objetivoDistinto>>
+
+    GSH -> UI: Atribuir nível de criticidade a um catalogo
+activate UI
+
+    UI --> CTRL**: create()
+activate CTRL
+
+    CTRL --> PC**:repositories()
+activate PC
+
+    PC --> REP**: create()
+deactivate PC
+
+    CTRL -> REP: niveisCriticidade()
+activate REP
+
+    REP --> NREP**: create()
+    NREP --> CTRL: nivelRepository
+
+    CTRL -> REP: catalogosServico()
+    REP --> CATREP**: create()
+    CATREP --> CTRL: catalogoServicoRepository
+
+    CTRL -> REP: servicos()
+    REP --> SEREP**: create()
+    SEREP --> CTRL: servicoRepository
+deactivate REP
+
+    UI -> UI: doShow()
+
+group while (maisAplicar)
+
+    UI -> CTRL: showNiveis()
+
+    CTRL -> NREP: niveis = findAll()
+activate NREP
+deactivate NREP
+group if (niveis.iterator().hasNext())
+group foreach (Nivel nivel : niveis)
+
+    CTRL --> UI: nivel
+end
+end
+
+    UI --> GSH: Insira a etiqueta do nível.
+    GSH -> UI: Insere a etiqueta.
+    UI -> CTRL: associarNivel(etiqueta)
+
+group if (nivelRepo.containsOfIdentity(etiqueta))
+    CTRL -> NREP: thisNivel = ofIdentity(etiqueta)
+
+activate NREP
+    NREP -> NREP: get()
+    NREP --> CTRL: thisNivel
+
+deactivate NREP
+end
+
+    UI -> CTRL: showCatalogos()
+    CTRL -> CATREP: catalogos = findAll()
+
+activate CATREP
+deactivate CATREP
+group if (catalogos.iterator().hasNext())
+group foreach (CatalogoServico catalogo : catalogos)
+    CTRL --> UI: catalogo
+end
+end
+
+    UI --> GSH: Insira o identificador.
+    GSH -> UI: Insere o identificador.
+    UI -> CTRL: associarCatalogo(identificador)
+
+group if (catRepo.containsOfIdentity(identificador))
+    CTRL -> CATREP: thisCatalogo = ofIdentity(identificador)
+
+activate CATREP
+    CATREP -> CATREP: get()
+    CATREP --> CTRL: thisCatalogo
+
+deactivate CATREP
+end
+
+    UI -> CTRL: boolean = confirmarObjetivosServicos()
+    CTRL -> CAT: servicoList = getServ()
+activate CAT
+deactivate CAT
+
+group foreach (Servico servico : servicoList)
+    CTRL -> SE: obj1 = getNivel()
+
+activate SE
+    SE -> NI: getObj()
+activate NI
+deactivate NI
+deactivate SE
+
+group if (!obj1.equals(thisNivel.getObjetivo()))
+    CTRL -> CTRL: thisListServ.add(servico)
+end
+end
+
+group if (!boolean)
+group if (decisaoAtualizar)
+
+    UI -> CTRL: atualizarServicos()
+group foreach (Servico servico : thisListServ)
+    CTRL -> SE: getNivel()
+activate SE
+    SE -> NI: setObjetivo(objetivo)
+activate NI
+deactivate NI
+deactivate SE
+
+    CTRL -> NREP: save(servico.getNivel())
+activate NREP
+deactivate NREP
+
+    CTRL -> SEREP: save(servico)
+activate SEREP
+deactivate SEREP
+
+
+end
+end
+end
+
+    UI -> CTRL: add()
+    CTRL -> CAT: addNivel(thisNivel)
+activate CAT
+deactivate CAT
+
+    CTRL -> CATREP: save(thisCatalogo)
+activate CATREP
+deactivate CATREP
+
+end
+deactivate CTRL
+deactivate UI
+
+UI --> GSH: Informa sucesso da operação.
+
+@enduml

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1197.6px" preserveAspectRatio="none" style="width:1029px;height:1197px;" version="1.1" viewBox="0 0 1029 1197" width="1029.6px" zoomAndPan="magnify"><defs><filter height="300%" id="f13dnt6k8u4t21" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2" dy="3.2" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="1043.475" style="stroke:#A80036;stroke-width:0.8;" width="8" x="66.8" y="76.975"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="189.325" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="102.8563"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="280.3063" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="397.5875"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="306.4688" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="801.9813"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="656.4" y="605.6125"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="735.2" y="1036.1688"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="829.2" y="653.8938"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="945.6" y="1084.45"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="380.1125" style="stroke:#000000;stroke-width:1.6;" width="880.4" x="8" y="304.1813"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="419.3563" style="stroke:#000000;stroke-width:1.6;" width="1010.8" x="8" y="695.4938"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="70.4" x2="70.4" y1="68.975" y2="1128.45"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="322.4" x2="322.4" y1="110.6625" y2="1128.45"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="660.4" x2="660.4" y1="556.9625" y2="1128.45"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="738.8" x2="738.8" y1="961.3563" y2="1128.45"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="833.2" x2="833.2" y1="172.8375" y2="1128.45"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:5.0,5.0;" x1="949.2" x2="949.2" y1="245.8125" y2="1128.45"/><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="106.4" x="16" y="25.6"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="65.6" x="36.4" y="42.8266">«participant»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="95.2" x="21.6" y="56.9141">BootstrapEstrutura</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="106.4" x="16" y="1127.65"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="65.6" x="36.4" y="1144.8766">«participant»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="95.2" x="21.6" y="1158.9641">BootstrapEstrutura</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="156" x="243.2" y="1127.65"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="287.6" y="1144.8766">«application»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="144.8" x="248.8" y="1158.9641">BootstrapEstruturaController</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="60.8" x="628.4" y="1127.65"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="634" y="1144.8766">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="35.2" x="641.2" y="1158.9641">Equipa</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="74.4" x="700.4" y="1127.65"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="712.8" y="1144.8766">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="63.2" x="706" y="1158.9641">Colaborador</text><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="799.2" y="1139.2766">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="89.6" x="786" y="1153.3641">EquipaRepository</text><path d="M818.8,1163.825 C818.8,1155.825 833.2,1155.825 833.2,1155.825 C833.2,1155.825 847.6,1155.825 847.6,1163.825 L847.6,1184.625 C847.6,1192.625 833.2,1192.625 833.2,1192.625 C833.2,1192.625 818.8,1192.625 818.8,1184.625 L818.8,1163.825 " fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" style="stroke:#000000;stroke-width:1.2000000000000002;"/><path d="M818.8,1163.825 C818.8,1171.825 833.2,1171.825 833.2,1171.825 C833.2,1171.825 847.6,1171.825 847.6,1163.825 " fill="none" style="stroke:#000000;stroke-width:1.2000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="915.6" y="1139.2766">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="117.6" x="888.4" y="1153.3641">ColaboradorRepository</text><path d="M935.2,1163.825 C935.2,1155.825 949.6,1155.825 949.6,1155.825 C949.6,1155.825 964,1155.825 964,1163.825 L964,1184.625 C964,1192.625 949.6,1192.625 949.6,1192.625 C949.6,1192.625 935.2,1192.625 935.2,1184.625 L935.2,1163.825 " fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" style="stroke:#000000;stroke-width:1.2000000000000002;"/><path d="M935.2,1163.825 C935.2,1171.825 949.6,1171.825 949.6,1171.825 C949.6,1171.825 964,1171.825 964,1163.825 " fill="none" style="stroke:#000000;stroke-width:1.2000000000000002;"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="1043.475" style="stroke:#A80036;stroke-width:0.8;" width="8" x="66.8" y="76.975"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="189.325" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="102.8563"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="280.3063" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="397.5875"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="306.4688" style="stroke:#A80036;stroke-width:0.8;" width="8" x="318.8" y="801.9813"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="656.4" y="605.6125"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="735.2" y="1036.1688"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="829.2" y="653.8938"/><rect fill="#FFFFFF" filter="url(#f13dnt6k8u4t21)" height="24" style="stroke:#A80036;stroke-width:0.8;" width="8" x="945.6" y="1084.45"/><polygon fill="#A80036" points="233.6,91.6563,241.6,94.8563,233.6,98.0563,236.8,94.8563" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="74.8" x2="238.4" y1="94.8563" y2="94.8563"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="80.4" y="90.9711">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="35.2" x="89.2" y="90.9711">create()</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="156" x="243.2" y="76.975"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="287.6" y="94.2016">«application»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="144.8" x="248.8" y="108.2891">BootstrapEstruturaController</text><polygon fill="#A80036" points="776.4,143.0313,784.4,146.2313,776.4,149.4313,779.6,146.2313" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="781.2" y1="146.2313" y2="146.2313"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="332.4" y="142.3461">2</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="35.2" x="341.2" y="142.3461">create()</text><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="799.2" y="176.7766">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="89.6" x="786" y="190.8641">EquipaRepository</text><path d="M818.8,136.35 C818.8,128.35 833.2,128.35 833.2,128.35 C833.2,128.35 847.6,128.35 847.6,136.35 L847.6,157.15 C847.6,165.15 833.2,165.15 833.2,165.15 C833.2,165.15 818.8,165.15 818.8,157.15 L818.8,136.35 " fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" style="stroke:#000000;stroke-width:1.2000000000000002;"/><path d="M818.8,136.35 C818.8,144.35 833.2,144.35 833.2,144.35 C833.2,144.35 847.6,144.35 847.6,136.35 " fill="none" style="stroke:#000000;stroke-width:1.2000000000000002;"/><polygon fill="#A80036" points="878.8,216.0063,886.8,219.2063,878.8,222.4063,882,219.2063" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="883.6" y1="219.2063" y2="219.2063"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="332.4" y="215.3211">3</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="35.2" x="341.2" y="215.3211">create()</text><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="915.6" y="249.7516">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="117.6" x="888.4" y="263.8391">ColaboradorRepository</text><path d="M935.2,209.325 C935.2,201.325 949.6,201.325 949.6,201.325 C949.6,201.325 964,201.325 964,209.325 L964,230.125 C964,238.125 949.6,238.125 949.6,238.125 C949.6,238.125 935.2,238.125 935.2,230.125 L935.2,209.325 " fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" style="stroke:#000000;stroke-width:1.2000000000000002;"/><path d="M935.2,209.325 C935.2,217.325 949.6,217.325 949.6,217.325 C949.6,217.325 964,217.325 964,209.325 " fill="none" style="stroke:#000000;stroke-width:1.2000000000000002;"/><polygon fill="#A80036" points="83.6,288.9813,75.6,292.1813,83.6,295.3813,80.4,292.1813" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;stroke-dasharray:2.0,2.0;" x1="78.8" x2="322" y1="292.1813" y2="292.1813"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="88.4" y="288.2961">4</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="0" x="100.4" y="288.2961"/><path d="M8,304.1813 L66.4,304.1813 L66.4,310.5813 L58.4,318.5813 L8,318.5813 L8,304.1813 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.8;"/><rect fill="none" height="380.1125" style="stroke:#000000;stroke-width:1.6;" width="880.4" x="8" y="304.1813"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="22.4" x="20" y="315.7773">loop</text><text fill="#000000" font-family="sans-serif" font-size="8.8" font-weight="bold" lengthAdjust="spacing" textLength="206.4" x="78.4" y="314.9164">[Para cada equipa a ser inicializada no sistema]</text><line style="stroke:#A80036;stroke-width:0.8;" x1="74.8" x2="108.4" y1="362.9063" y2="362.9063"/><line style="stroke:#A80036;stroke-width:0.8;" x1="108.4" x2="108.4" y1="362.9063" y2="373.3063"/><line style="stroke:#A80036;stroke-width:0.8;" x1="75.6" x2="108.4" y1="373.3063" y2="373.3063"/><polygon fill="#A80036" points="83.6,370.1063,75.6,373.3063,83.6,376.5063,80.4,373.3063" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="80.4" y="345.9398">5</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="220.8" x="89.2" y="332.8586">registar(codigoUnicoEquipa, designacaoEquipa,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="153.6" x="89.2" y="345.9398">objetivoDistintoEquipa, acronimo,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="111.2" x="89.2" y="359.0211">caminhoFicheiroEquipa)</text><polygon fill="#A80036" points="309.2,394.3875,317.2,397.5875,309.2,400.7875,312.4,397.5875" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="74.8" x2="314" y1="397.5875" y2="397.5875"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="80.4" y="393.7023">6</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="0" x="92.4" y="393.7023"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="360.4" y1="446.8313" y2="446.8313"/><line style="stroke:#A80036;stroke-width:0.8;" x1="360.4" x2="360.4" y1="446.8313" y2="457.2313"/><line style="stroke:#A80036;stroke-width:0.8;" x1="327.6" x2="360.4" y1="457.2313" y2="457.2313"/><polygon fill="#A80036" points="335.6,454.0313,327.6,457.2313,335.6,460.4313,332.4,457.2313" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="332.4" y="436.4055">7</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="109.6" x="341.2" y="429.8648">extrairConteudoFicheiro</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="114.4" x="341.2" y="442.9461">(caminhoFicheiroEquipa)</text><path d="M141.6,407.9875 L141.6,467.9875 L311.2,467.9875 L311.2,415.9875 L303.2,407.9875 L141.6,407.9875 " fill="#FBFB77" filter="url(#f13dnt6k8u4t21)" style="stroke:#A80036;stroke-width:0.8;"/><path d="M303.2,407.9875 L303.2,415.9875 L311.2,415.9875 L303.2,407.9875 " fill="#FBFB77" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="152.8" x="146.4" y="422.7836">O Controller extrai o conteúdo do</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="138.4" x="146.4" y="435.8648">ficheiro indicado, bem como o</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="140" x="146.4" y="448.9461">formato do ficheiro, de modo a</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="109.6" x="146.4" y="462.0273">criar a entidade Equipa.</text><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="360.4" y1="506.475" y2="506.475"/><line style="stroke:#A80036;stroke-width:0.8;" x1="360.4" x2="360.4" y1="506.475" y2="516.875"/><line style="stroke:#A80036;stroke-width:0.8;" x1="327.6" x2="360.4" y1="516.875" y2="516.875"/><polygon fill="#A80036" points="335.6,513.675,327.6,516.875,335.6,520.075,332.4,516.875" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="332.4" y="496.0492">8</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="124" x="341.2" y="489.5086">determinarFormatoFicheiro</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="114.4" x="341.2" y="502.5898">(caminhoFicheiroEquipa)</text><polygon fill="#A80036" points="618.8,537.9563,626.8,541.1563,618.8,544.3563,622,541.1563" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="623.6" y1="541.1563" y2="541.1563"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="5.6" x="332.4" y="537.2711">9</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="273.6" x="341.2" y="537.2711">FicheiroEquipa = create(conteudoFicheiro, formatoFicheiro)</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="60.8" x="628.4" y="523.275"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="634" y="540.5016">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="35.2" x="641.2" y="554.5891">Equipa</text><polygon fill="#A80036" points="646.8,602.4125,654.8,605.6125,646.8,608.8125,650,605.6125" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="651.6" y1="605.6125" y2="605.6125"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="595.1867">10</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="280.8" x="346.8" y="588.6461">novaEquipa = create(codigoUnicoEquipa, designacaoEquipa,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="228.8" x="346.8" y="601.7273">objetivoDistintoEquipa, acronimo, FicheiroEquipa)</text><polygon fill="#A80036" points="819.6,650.6938,827.6,653.8938,819.6,657.0938,822.8,653.8938" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="824.4" y1="653.8938" y2="653.8938"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="650.0086">11</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="80" x="346.8" y="650.0086">save(novaEquipa)</text><path d="M8,695.4938 L66.4,695.4938 L66.4,701.8938 L58.4,709.8938 L8,709.8938 L8,695.4938 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.8;"/><rect fill="none" height="419.3563" style="stroke:#000000;stroke-width:1.6;" width="1010.8" x="8" y="695.4938"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="22.4" x="20" y="707.0898">loop</text><text fill="#000000" font-family="sans-serif" font-size="8.8" font-weight="bold" lengthAdjust="spacing" textLength="232" x="78.4" y="706.2289">[Para cada Colaborador a ser inicializado no sistema]</text><line style="stroke:#A80036;stroke-width:0.8;" x1="74.8" x2="108.4" y1="767.3" y2="767.3"/><line style="stroke:#A80036;stroke-width:0.8;" x1="108.4" x2="108.4" y1="767.3" y2="777.7"/><line style="stroke:#A80036;stroke-width:0.8;" x1="75.6" x2="108.4" y1="777.7" y2="777.7"/><polygon fill="#A80036" points="83.6,774.5,75.6,777.7,83.6,780.9,80.4,777.7" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="80.4" y="743.793">12</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="164" x="94.8" y="724.1711">registar(nomeCurto,nomeCompleto,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="191.2" x="94.8" y="737.2523">dataNascimento, mecanographicNumber,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="123.2" x="94.8" y="750.3336">contactoTelefonico,funcao,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="109.6" x="94.8" y="763.4148">responsavelHierarquico)</text><polygon fill="#A80036" points="309.2,798.7813,317.2,801.9813,309.2,805.1813,312.4,801.9813" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="74.8" x2="314" y1="801.9813" y2="801.9813"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="80.4" y="798.0961">13</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="0" x="98" y="798.0961"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="360.4" y1="851.225" y2="851.225"/><line style="stroke:#A80036;stroke-width:0.8;" x1="360.4" x2="360.4" y1="851.225" y2="861.625"/><line style="stroke:#A80036;stroke-width:0.8;" x1="327.6" x2="360.4" y1="861.625" y2="861.625"/><polygon fill="#A80036" points="335.6,858.425,327.6,861.625,335.6,864.825,332.4,861.625" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="840.7992">14</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="109.6" x="346.8" y="834.2586">extrairConteudoFicheiro</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="137.6" x="346.8" y="847.3398">(caminhoFicheiroColaborador)</text><path d="M141.6,812.3813 L141.6,872.3813 L311.2,872.3813 L311.2,820.3813 L303.2,812.3813 L141.6,812.3813 " fill="#FBFB77" filter="url(#f13dnt6k8u4t21)" style="stroke:#A80036;stroke-width:0.8;"/><path d="M303.2,812.3813 L303.2,820.3813 L311.2,820.3813 L303.2,812.3813 " fill="#FBFB77" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="152.8" x="146.4" y="827.1773">O Controller extrai o conteúdo do</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="138.4" x="146.4" y="840.2586">ficheiro indicado, bem como o</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="140" x="146.4" y="853.3398">formato do ficheiro, de modo a</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="132.8" x="146.4" y="866.4211">criar a entidade Colaborador.</text><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="360.4" y1="910.8688" y2="910.8688"/><line style="stroke:#A80036;stroke-width:0.8;" x1="360.4" x2="360.4" y1="910.8688" y2="921.2688"/><line style="stroke:#A80036;stroke-width:0.8;" x1="327.6" x2="360.4" y1="921.2688" y2="921.2688"/><polygon fill="#A80036" points="335.6,918.0688,327.6,921.2688,335.6,924.4688,332.4,921.2688" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="900.443">15</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="124" x="346.8" y="893.9023">determinarFormatoFicheiro</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="137.6" x="346.8" y="906.9836">(caminhoFicheiroColaborador)</text><polygon fill="#A80036" points="690.8,942.35,698.8,945.55,690.8,948.75,694,945.55" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="695.6" y1="945.55" y2="945.55"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="941.6648">16</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="296.8" x="346.8" y="941.6648">FicheiroColaborador = create(conteudoFicheiro, formatoFicheiro)</text><rect fill="#FEFECE" filter="url(#f13dnt6k8u4t21)" height="39.375" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="74.4" x="700.4" y="927.6688"/><text fill="#000000" font-family="sans-serif" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="712.8" y="944.8953">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="63.2" x="706" y="958.9828">Colaborador</text><polygon fill="#A80036" points="725.6,1032.9688,733.6,1036.1688,725.6,1039.3688,728.8,1036.1688" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="730.4" y1="1036.1688" y2="1036.1688"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="1012.6617">17</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="218.4" x="346.8" y="993.0398">novoColab = create(nomeCurto,nomeCompleto,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="191.2" x="346.8" y="1006.1211">dataNascimento, mecanographicNumber,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="123.2" x="346.8" y="1019.2023">contactoTelefonico,funcao,</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="208" x="346.8" y="1032.2836">responsavelHierarquico, FicheiroColaborador)</text><polygon fill="#A80036" points="936,1081.25,944,1084.45,936,1087.65,939.2,1084.45" style="stroke:#A80036;stroke-width:0.8;"/><line style="stroke:#A80036;stroke-width:0.8;" x1="326.8" x2="940.8" y1="1084.45" y2="1084.45"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacing" textLength="11.2" x="332.4" y="1080.5648">18</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="74.4" x="346.8" y="1080.5648">save(novoColab)</text><!--MD5=[f6a1b270bb414d95e77175a1d6586373]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant BootstrapEstrutura as boot <<participant>>
+participant BootstrapEstruturaController as Controller <<application>>
+participant Equipa as equipa <<domain>>
+participant Colaborador as colab <<domain>>
+database EquipaRepository as equipaRepository <<repository>>
+database ColaboradorRepository as colabRepository <<repository>>
+
+activate boot
+
+create Controller
+boot -> Controller++ : create()
+
+create equipaRepository
+Controller -> equipaRepository : create()
+
+create colabRepository
+Controller -> colabRepository : create()
+
+Controller - -> boot
+Controller- -
+
+loop Para cada equipa a ser inicializada no sistema
+
+    boot -> boot : registar(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, \ncaminhoFicheiroEquipa)
+
+
+    boot -> Controller++ :
+
+    Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroEquipa)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Equipa.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroEquipa)
+    create equipa
+    Controller -> equipa : FicheiroEquipa = create(conteudoFicheiro, formatoFicheiro)
+
+
+    Controller -> equipa : novaEquipa = create(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, FicheiroEquipa)
+    activate equipa
+    deactivate equipa
+    Controller -> equipaRepository : save(novaEquipa)
+    activate equipaRepository
+    deactivate equipaRepository
+    Controller- -
+end loop
+
+loop Para cada Colaborador a ser inicializado no sistema
+boot -> boot : registar(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico)
+
+
+    boot -> Controller++ :
+
+Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroColaborador)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Colaborador.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroColaborador)
+    create colab
+    Controller -> colab : FicheiroColaborador = create(conteudoFicheiro, formatoFicheiro)
+
+    Controller -> colab : novoColab = create(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico, FicheiroColaborador)
+    activate colab
+    deactivate colab
+    Controller -> colabRepository : save(novoColab)
+    activate colabRepository
+    deactivate colabRepository
+    Controller- -
+
+
+   end loop 
+
+deactivate boot
+
+@enduml
+
+@startuml
+
+autonumber
+
+participant BootstrapEstrutura as boot <<participant>>
+participant BootstrapEstruturaController as Controller <<application>>
+participant Equipa as equipa <<domain>>
+participant Colaborador as colab <<domain>>
+database EquipaRepository as equipaRepository <<repository>>
+database ColaboradorRepository as colabRepository <<repository>>
+
+activate boot
+
+create Controller
+boot -> Controller++ : create()
+
+create equipaRepository
+Controller -> equipaRepository : create()
+
+create colabRepository
+Controller -> colabRepository : create()
+
+Controller - -> boot
+Controller- -
+
+loop Para cada equipa a ser inicializada no sistema
+
+    boot -> boot : registar(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, \ncaminhoFicheiroEquipa)
+
+
+    boot -> Controller++ :
+
+    Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroEquipa)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Equipa.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroEquipa)
+    create equipa
+    Controller -> equipa : FicheiroEquipa = create(conteudoFicheiro, formatoFicheiro)
+
+
+    Controller -> equipa : novaEquipa = create(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, FicheiroEquipa)
+    activate equipa
+    deactivate equipa
+    Controller -> equipaRepository : save(novaEquipa)
+    activate equipaRepository
+    deactivate equipaRepository
+    Controller- -
+end loop
+
+loop Para cada Colaborador a ser inicializado no sistema
+boot -> boot : registar(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico)
+
+
+    boot -> Controller++ :
+
+Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroColaborador)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Colaborador.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroColaborador)
+    create colab
+    Controller -> colab : FicheiroColaborador = create(conteudoFicheiro, formatoFicheiro)
+
+    Controller -> colab : novoColab = create(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico, FicheiroColaborador)
+    activate colab
+    deactivate colab
+    Controller -> colabRepository : save(novoColab)
+    activate colabRepository
+    deactivate colabRepository
+    Controller- -
+
+
+   end loop 
+
+deactivate boot
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

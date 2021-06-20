@@ -1,0 +1,17 @@
+<declaracoes> → <declaracao><declaracoes> | ε
+<declaracao> → <Ɵpo><lista_variaveis>;
+<tipo> → <modificador><Ɵpovar>|<Ɵpovar>
+<lista_variaveis> → <var>, <lista_variaveis> | <var>
+<modificador> → short | long | unsigned
+<tipovar> → int | char | float | double
+<var> → <id> | <id>=<valor> | <id>=<id>
+<id> → <letra><alfas>
+<valor> → <id> | <inteiro> | <char> | <real>
+<letra> → a | A | ... | z | Z
+<alfas> → <alfa><alfas>|<alfa>
+<inteiro> → <digito><inteiro> | <digito>
+<char> → '<letra>'
+<real> → <inteiro>.<inteiro> | <inteiro>.<inteiro><expoente>
+<alfa> → <letra> | <digito>
+<digito> → 0 | .. | 9
+<expoente> → e-<inteiro> | e+<inteiro>

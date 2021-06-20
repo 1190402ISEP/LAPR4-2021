@@ -1,0 +1,4 @@
+for(Colaborador c : e)
+x=a;
+x++;
+endfor

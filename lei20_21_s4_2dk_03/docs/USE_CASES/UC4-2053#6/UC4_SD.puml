@@ -1,0 +1,202 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Responsável de Recursos Humanos" as RRH
+participant AddRemColaboradorUI as UI <<presentation>>
+participant AddRemColaboradorController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as RF <<factory>>
+
+database EquipaRepository as EQR <<repository>>
+database ColaboradorRepository as COLABR <<repository>>
+
+participant Colaborador as COLAB <<colaborador>>
+participant Equipa as EQ <<equipa>>
+
+    RRH -> UI: Adicionar ou remover \n colaborador de uma equipa
+activate UI
+
+    UI --> CTRL**: create()
+activate CTRL
+    CTRL --> AUTH**: create()
+activate AUTH
+    AUTH --> AUTHR**: create()
+
+    AUTH -> AUTHR: authorizationService()
+activate AUTHR
+    AUTHR --> CTRL: authz
+deactivate AUTHR
+
+    CTRL --> PC**:repositories()
+
+activate PC
+    PC --> RF**: create()
+
+activate RF
+    CTRL -> RF: equipa()
+    RF --> EQR**: create()
+
+activate EQR
+    EQR --> CTRL: equipaRepository
+
+    CTRL -> RF: colaboradores()
+    RF --> COLABR**: create()
+
+activate COLABR
+    COLABR --> CTRL: colaboradorRepository
+
+deactivate PC
+deactivate RF
+
+    UI -> UI: doShow()
+
+group while (decisaoAdd == 1)
+    UI -> CTRL: showEquipas()
+
+    CTRL -> EQR: findAll()
+
+    EQR --> CTRL: equipas
+
+
+group if (equipas.hasNext())
+group foreach (Equipa eq : equipas)
+    CTRL --> UI: eq
+end
+end
+
+    UI -> CTRL: associarEquipa(codigoUnicoEquipa)
+
+group if (findById(codigoUnicoEquipa).isPresent())
+    CTRL -> EQR: findById(codigoUnicoEquipa)
+
+    EQR --> CTRL: equipa
+
+end
+
+    UI -> CTRL: showColaboradores()
+
+    CTRL -> COLABR: findAll()
+
+    COLABR --> CTRL: colaboradores
+
+
+group if (colaboradores.hasNext())
+group foreach (Colaborador col : colaboradores)
+    CTRL --> UI: col
+end
+end
+
+    UI -> CTRL: associarColaborador(mecanographicNumber)
+
+group if (findById(mecanographicNumber).isPresent())
+    CTRL -> COLABR: findById(mecanographicNumber)
+
+    COLABR --> CTRL: colab
+
+end
+
+    UI -> CTRL: add()
+
+    CTRL -> EQ: addColaboradores(colab)
+activate EQ
+deactivate EQ
+
+    CTRL -> COLAB: associarEquipa(equipa)
+activate COLAB
+deactivate COLAB
+
+    CTRL -> EQR: save(equipa)
+
+
+    CTRL -> COLABR: save(colab)
+
+
+end
+
+group while (decisaoRem == 1)
+    UI -> CTRL: showEquipas()
+
+    CTRL -> EQR: findAll()
+
+    EQR --> CTRL: equipas
+
+
+group if (equipas.hasNext())
+group foreach (Equipa eq : equipas)
+    CTRL --> UI: eq
+end
+end
+
+    UI -> CTRL: associarEquipa(codigoUnicoEquipa)
+
+group if (findById(codigoUnicoEquipa).isPresent())
+    CTRL -> EQR: findById(codigoUnicoEquipa)
+
+    EQR --> CTRL: equipa
+
+end
+
+    UI -> CTRL: showColaboradoresDaEquipa()
+
+    CTRL -> EQ: getColaboradores()
+activate EQ
+    EQ --> CTRL: colaboradores
+
+
+group if (!colaboradores.isEmpty())
+group foreach (Colaborador col : colaboradores)
+    CTRL --> UI: col
+end
+end
+
+    UI -> CTRL: associarColaboradorEquipa(mecanographicNumber)
+
+group if (findById(mecanographicNumber).isPresent())
+    CTRL -> COLABR: findById(mecanographicNumber)
+
+    COLABR --> CTRL: colabAux
+
+
+    CTRL -> EQ: getColaboradores()
+
+    EQ --> CTRL: colaboradores
+
+
+group if (colaboradores.contains(colabAux))
+    CTRL -> CTRL
+note right: colab = colabAux
+end
+end
+
+    UI -> CTRL: rem()
+
+    CTRL -> EQ: removeColaboradores(colab)
+
+
+    CTRL -> COLAB: removerEquipa(equipa)
+
+activate COLAB
+deactivate EQ
+deactivate COLAB
+
+    CTRL -> EQR: save(equipa)
+
+    CTRL -> COLABR: save(colab)
+
+
+end
+
+    UI -> RRH: Sucesso da funcionalidade
+
+deactivate EQR
+deactivate COLABR
+deactivate PC
+deactivate AUTH
+deactivate CTRL
+deactivate UI
+@enduml

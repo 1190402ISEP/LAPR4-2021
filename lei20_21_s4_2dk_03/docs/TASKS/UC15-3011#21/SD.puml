@@ -1,0 +1,99 @@
+@startuml
+
+ 'Exibir dashboard com tarefas pendentes. Do dashboard deve constar, entre outras dados, o
+ 'número de tarefas pendentes do utilizador, quantas dessas tarefas já terminou o prazo limite de
+ 'resolução indicado no pedido e quantas terminam esse prazo em breve (e.g. em menos de 1 hora),
+ 'a distribuição dessas tarefas pelos patamares de urgência e de criticidade. Este deve ser exibido
+ 'imediatamente após autenticação do utilizador e manter-se sempre atualizado (e.g., ao ser-lhe
+ 'atribuída a realização de uma nova tarefa, o dashboard deve atualizar, sem intervenção do
+ 'utilizador, a quantidade de tarefas pendentes)
+ '
+ 'DataLimite de resolução atividade tem de ser comparada com a do pedido
+ 'Ver padrão observer -> watchDog
+ '
+ '1) O utilizador acede à dashboard
+ '2) A dashboard vai buscar as tarefas pendentes
+ '3) A dashboard vê quantas dessas já terminaram o prazo de resolucao do pedido (<1hora)
+ '4) Coloca as tarefas por patamares de urgencia e, em caso de empate, por nivel de criticidade
+ '
+ ' Iteraction Use
+ '5) **watchdog que vai estar sempre a ver as tarefas dos utilizadores, e caso uma tarefa seja criada aumenta o nr
+ 'de tarefas pendentes
+ '   ->5.1) o sistema vigia o repositorio de tarefas
+ '     ->5.1.1) caso uma tarefa seja criada
+ '       ->5.1.2) sistema incrementa o nr de tarefas pendentes, (atualiza o estado da tarefa para pendente)
+ '
+
+actor "Utilizador" as UTIL
+
+participant WebDashboardUI as WDUI <<presentation>>
+participant WebDashBoardController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant UserSession as USER <<session>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database ColaboradorRepository as CB <<repository>>
+database ActividadeRepository as AR <<repository>>
+
+UTIL -> WDUI: Consultar informação
+activate WDUI
+
+    WDUI -> CTRL**: create()
+
+
+
+
+activate CTRL
+    CTRL -> AUTH**: create()
+activate AUTH
+    AUTH -> AUTHR**: create()
+
+    AUTHR -> USER**: create()
+
+
+    AUTH -> AUTHR: authorizationService()
+activate AUTHR
+    AUTHR --> CTRL: authz
+deactivate AUTHR
+
+
+
+
+    CTRL -> PC**:repositories()
+
+activate PC
+    PC -> REP**: create()
+deactivate PC
+activate REP
+    CTRL -> REP: colaboradores()
+    REP -> CB**: create()
+activate CB
+    CB --> CTRL: colaboradorRepository
+deactivate CB
+
+    CTRL -> REP: actividadeServico()
+    REP -> AR**: create()
+deactivate REP
+activate AR
+    AR --> CTRL: actividadeRepository
+    CTRL -> AR: getAll()
+deactivate AR
+
+loop foreach Actividade actividade : listaActividade
+alt if actividade.buscarEstado() != "Pendente" && actividade.buscarTipo.class() != "ActividadeManual"
+    CTRL -> CTRL: listaActividade.remove(actividade)
+    note right : obter a lista de todas as actividade pendentes manuais
+end
+end
+
+CTRL -> WDUI : mostrarListaActividadesPendentes()
+WDUI -> UTIL : mostrar lista de actividades pendentes
+
+note over UTIL : Comunicao entre o servidor informacao e o servidor cliente
+note over UTIL : Comunicao entre o servidor cliente e a web dashboard
+
+
+@enduml

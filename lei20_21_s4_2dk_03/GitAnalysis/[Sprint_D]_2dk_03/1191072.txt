@@ -1,0 +1,330 @@
+commit ed76bec291def462cee83064ae940d62c3fb42d4
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 15 14:38:48 2021 +0100
+
+    #44 implementacao do algoritmo FCFS e metodos necessarios
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/AtribuidorDeTarefasFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/EscalonadoresAssignarTarefas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/UtilAtribuicaoAtividadesManuais.java
+M	base.core/src/main/java/eapli/base/atividade/repositories/AtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+
+commit e1d6bbe9ac9921dcd5c8e4b35eb14834e8e576e4
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Mon Jun 14 16:58:54 2021 +0100
+
+    #43 implementacao do algoritmo FCFS
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorPorCargaEOcupacao.java
+
+commit ac780a8c92e251a69ee9fa972e880981d8f55f28
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Sun Jun 13 11:44:13 2021 +0100
+
+    #24 continuacao da implementacao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.app.servidor/src/main/java/utils/Constantes.java
+
+commit afe02cbb50ffb3204698b30c51f8eb26961cc302
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Sat Jun 12 17:35:19 2021 +0100
+
+    #24 continuacao da implementacao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+
+commit b82c7c61539a7a184bba2d5ddd67861106b90980
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Sat Jun 12 12:27:32 2021 +0100
+
+    #26 #24 implementacao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ControloMotorFluxoAtividades.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+M	base.app.servidor/src/main/java/utils/Constantes.java
+D	base.app.servidor/src/test/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFSTest.java
+M	base.core/src/main/java/eapli/base/atividade/repositories/AtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+
+commit df85db053facba85d5963d77502a10112fbc11cd
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Thu Jun 10 17:40:37 2021 +0100
+
+    codigo geral e ficheiros individuais
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/testserver/TesteConexao.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/WebDashboardUI.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ControloMotorFluxoAtividades.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/application/MotorFluxoAtividadeController.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/dados_protocolo/Dados.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Instancia.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Trabalho.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HTTPmessage.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpAjaxRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardAction.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardUI.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/application/MotorFluxoDashboardController.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/ETAServerMF.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoClientETA.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoServerPU.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/PUClienteMF.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/SRHClientMF.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/EndRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/InformacaoUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosAtividadesTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosTCPClient.java
+R062	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java	base.app.servidor/src/main/java/utils/Constantes.java
+M	docs/1190402.md
+M	docs/1190742.md
+M	docs/1191045.md
+M	docs/1191072.md
+M	docs/1200587.md
+M	docs/TASKS/UC20-5001#26/ExecutarTarefaAutomatica.puml
+M	docs/TASKS/UC20-5001#26/ExecutarTarefaAutomatica.svg
+R100	docs/TASKS/UC27-1007 #35/AssociarFormulario.svg	docs/TASKS/UC27-1007#35/AssociarFormulario.svg
+R100	docs/TASKS/UC27-1007 #35/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC27-1007#35/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC28 - 2102 #49/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC28-2102#49/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC31 - 4072 #44/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC31-4072#44/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC33 - 4071 #43/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC33-4071#43/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC34 - 5002 #45/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC34-5002#45/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC35 - 4052 #42/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC35-4052#42/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC36 - 4051 #41/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC36-4051#41/ProcessoEngenhariaFuncionalidade.md
+R100	docs/TASKS/UC37 - 3101 #39/ProcessoEngenhariaFuncionalidade.md	docs/TASKS/UC37-3101#39/ProcessoEngenhariaFuncionalidade.md
+R100	docs/USE_CASES/UC29 - 2013 #48/ProcessoEngenhariaFuncionalidade.md	docs/USE_CASES/UC29-2013#48/ProcessoEngenhariaFuncionalidade.md
+R100	docs/USE_CASES/UC29 - 2013 #48/SD.puml	docs/USE_CASES/UC29-2013#48/SD.puml
+R100	docs/USE_CASES/UC29 - 2013 #48/SD.svg	docs/USE_CASES/UC29-2013#48/SD.svg
+R100	docs/USE_CASES/UC30 - 3051 #50/ProcessoEngenhariaFuncionalidade.md	docs/USE_CASES/UC30-3051#50/ProcessoEngenhariaFuncionalidade.md
+R100	docs/USE_CASES/UC30 - 3051 #50/SD.puml	docs/USE_CASES/UC30-3051#50/SD.puml
+R100	docs/USE_CASES/UC30 - 3051 #50/SD.svg	docs/USE_CASES/UC30-3051#50/SD.svg
+R100	docs/USE_CASES/UC32 - 3023 #36/ProcessoEngenhariaFuncionalidade.md	docs/USE_CASES/UC32-3023#36/ProcessoEngenhariaFuncionalidade.md
+
+commit 9c520ae1db25c6f0e5417c69efc407fa665f1144
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Wed Jun 9 14:35:33 2021 +0100
+
+    #28 inicio da implementacao da dashboard do motor de fluxo
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/WebDashboardUI.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HTTPmessage.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpAjaxRequest.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardAction.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardUI.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/application/MotorFluxoDashboardController.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.jpg
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/rcomp-ajax.js
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/style.css
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit 5d3b41a0579a3a5d622f7e6737daa358f02e62e7
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 8 18:40:31 2021 +0100
+
+    #16 gramatica ficheiros de teste
+
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.g4
+A	docs/TASKS/UC11-1004#16/Compilacao_Scripts/ficheirostxt/contas.txt
+A	docs/TASKS/UC11-1004#16/Compilacao_Scripts/ficheirostxt/for.txt
+A	docs/TASKS/UC11-1004#16/Compilacao_Scripts/ficheirostxt/foreach.txt
+A	docs/TASKS/UC11-1004#16/Compilacao_Scripts/ficheirostxt/if.txt
+
+commit 2889053de902ed417eb3e78e42c192b0b006527b
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 8 13:54:35 2021 +0100
+
+    #39 #41 #42 #45 #43 #49 #35 requisitos e analise das UC 28 34 37 33 27 36 35
+
+M	docs/TASKS/UC27-1007 #35/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC28 - 2102 #49/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC33 - 4071 #43/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC34 - 5002 #45/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC35 - 4052 #42/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC36 - 4051 #41/ProcessoEngenhariaFuncionalidade.md
+M	docs/TASKS/UC37 - 3101 #39/ProcessoEngenhariaFuncionalidade.md
+
+commit 3748a9d378c2ebb26dc8af3c8019a70397f443cc
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Mon Jun 7 14:52:54 2021 +0100
+
+    #48 #50 #36 #44 requisitos e analise das UCs 29 30 31 e 32
+
+D	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/rcomp_tcp/TCPClient.java
+M	docs/TASKS/UC31 - 4072 #44/ProcessoEngenhariaFuncionalidade.md
+M	docs/USE_CASES/UC29 - 2013 #48/ProcessoEngenhariaFuncionalidade.md
+M	docs/USE_CASES/UC30 - 3051 #50/ProcessoEngenhariaFuncionalidade.md
+M	docs/USE_CASES/UC32 - 3023 #36/ProcessoEngenhariaFuncionalidade.md
+
+commit 7f595b91adcf902806f2411498a98ff4aeb8ba61
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Mon Jun 7 10:55:25 2021 +0100
+
+    #38 pequena resolucao de problema
+
+M	base.core/src/main/java/eapli/base/clientusermanagement/domain/Colaborador.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 46509c9c1da18c29f65326843696d276306fefa9
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Mon Jun 7 10:53:18 2021 +0100
+
+    #38 implementacao das classes controller e UI e metodos necessarios no colaborador inMemory pedidoRepository e jpa da uc26
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosUI.java
+M	base.core/src/main/java/eapli/base/clientusermanagement/domain/Colaborador.java
+A	base.core/src/main/java/eapli/base/pedido/application/ConsultarPedidosController.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 96914ce92b39e1d810a0bd1da6fac7c187c087d0
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Sat Jun 5 15:23:26 2021 +0100
+
+    #21 resolucao de problema no html
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpAjaxRequest.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpServerAjax.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/style.css
+
+commit 875f9b57eed68a9c7f34645b7a7bd65b61d03ac3
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Fri Jun 4 14:41:11 2021 +0100
+
+    Ficheiro de planeamento
+
+M	docs/Planeamento.md
+
+commit a1c979292a95e51cb027c0bdaf3f0523527c7e43
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Fri Jun 4 14:35:20 2021 +0100
+
+    Criacao das pastas e identificacao das UCs no DUC
+
+M	docs/DUC/DUC.puml
+A	docs/TASKS/UC27-1007 #35/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC28 - 2102 #49/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC31 - 4072 #44/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC33 - 4071 #43/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC34 - 5002 #45/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC35 - 4052 #42/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC36 - 4051 #41/ProcessoEngenhariaFuncionalidade.md
+A	docs/TASKS/UC37 - 3101 #39/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC29 - 2013 #48/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC30 - 3051 #50/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC32 - 3023 #36/ProcessoEngenhariaFuncionalidade.md
+
+commit 9bf5cf1b7714dae2f97bcd56372acc570c78efff
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Fri Jun 4 11:10:32 2021 +0100
+
+    #38 DESIGN-> SD
+
+M	docs/USE_CASES/UC26-3031#38/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC26-3031#38/SD.puml
+A	docs/USE_CASES/UC26-3031#38/SD.svg
+
+commit 762d2cf1eeb488ed7642484f525a656c858392af
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Thu Jun 3 15:55:01 2021 +0100
+
+    #16 correcao na gramatica
+
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.g4
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/ficheirostxt/inputDeclararVariaveis.txt
+A	gen/Linguagem.interp
+A	gen/Linguagem.tokens
+A	gen/LinguagemBaseListener.java
+A	gen/LinguagemBaseVisitor.java
+A	gen/LinguagemLexer.interp
+A	gen/LinguagemLexer.java
+A	gen/LinguagemLexer.tokens
+A	gen/LinguagemListener.java
+A	gen/LinguagemParser.java
+A	gen/LinguagemVisitor.java
+
+commit 4e999621c63928d28689679085ffbe6155f96a4e
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Wed Jun 2 16:48:07 2021 +0100
+
+    #24 implementacao da classe avancarMotorFluxo e respetivos metodos nas classes de dominio
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/domain/motordefluxodeatividades/AvancarMotorFluxo.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/fluxodeatividade/domain/FluxoDeAtividade.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	docs/USE_CASES/UC21-2104#27/ProcessoEngenhariaFuncionalidade.md
+
+commit e16ffd92de85478d8fbc0d237b87e1563b533115
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Wed Jun 2 13:31:47 2021 +0100
+
+    #27 sd do bootstrapper
+
+A	docs/USE_CASES/UC21-2104#27/SD.puml
+A	docs/USE_CASES/UC21-2104#27/SD.svg
+
+commit 94c567b74efb91d809fa1e44655b18405a7e9bf9
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Wed Jun 2 11:11:24 2021 +0100
+
+    #27 continuacao da implementacao do bootstrapper do catalogoServico
+
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/CatalogoServicoBootstrapper.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/EstruturaBootstrapper.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/NivelBootstrapper.java
+
+commit 1571d91cd9d66ef2d762acff6a67d1fcd5b0e009
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 1 18:36:58 2021 +0100
+
+    #3 #19 atualizacao do sd
+
+M	docs/USE_CASES/UC6-2002#3/DefinirFluxoDeAtividade.puml
+M	docs/USE_CASES/UC6-2002#3/FluxoDeAtividade/DefinirFluxoDeAtividade.svg
+
+commit 26497d244493fa5f7ffc933c6d9714d05c0f8f53
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 1 17:13:26 2021 +0100
+
+    #16 atualizacao da gramatica
+
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.g4
+
+commit 7b34a010ca50be2f4284e558415fdf419c21a7c2
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 1 15:56:55 2021 +0100
+
+    #22 correcao no repositorio e conclusao da implementacao
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoUI.java
+M	base.core/src/main/java/eapli/base/atividade/application/ConsultarAtividadeController.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeManual.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+
+commit 68d1a535f2b3ecf44a4e22a5ff20bf0bc5b28d60
+Author: Teresa Pereira Leite <1191072@isep.ipp.pt>
+Date:   Tue Jun 1 13:33:24 2021 +0100
+
+    #3 #19 atualizacao da UI
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoUI.java

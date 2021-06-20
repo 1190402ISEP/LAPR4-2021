@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:481px;height:332px;" version="1.1" viewBox="0 0 481 332" width="481.6px" zoomAndPan="magnify"><defs><filter height="300%" id="fhldsjw2xmvg2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2" dy="3.2" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[981535a019548ae5355de29e6900aeb6]
+class BootstrapEstrutura--><rect codeLine="4" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="44.95" id="BootstrapEstrutura" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="108" x="219.6" y="5.6"/><ellipse cx="231.6" cy="21.675" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M233.2,18.875 Q233.3625,18.475 233.55,18.275 Q233.7375,18.075 233.95,18.075 Q234.325,18.075 234.5625,18.3 Q234.8,18.525 234.8,19.05 L234.8,20.3 Q234.8,20.825 234.575,21.05 Q234.35,21.275 234,21.275 Q233.6875,21.275 233.4875,21.1375 Q233.2875,21 233.2,20.6375 Q233.1625,20.3875 233.025,20.25 Q232.775,19.9875 232.325,19.8375 Q231.875,19.675 231.425,19.675 Q230.8625,19.675 230.3875,19.9 Q229.925,20.125 229.5625,20.625 Q229.2,21.125 229.2,21.8125 L229.2,22.55 Q229.2,23.375 229.875,23.925 Q230.55,24.475 231.75,24.475 Q232.4625,24.475 232.9625,24.3125 Q233.25,24.225 233.575,23.9375 Q233.7875,23.775 233.9,23.725 Q234.0125,23.675 234.15,23.675 Q234.4125,23.675 234.6,23.8875 Q234.8,24.0875 234.8,24.375 Q234.8,24.65 234.525,24.975 Q234.125,25.45 233.4875,25.7125 Q232.65,26.075 231.625,26.075 Q230.425,26.075 229.4625,25.6 Q228.6875,25.225 228.1375,24.4125 Q227.6,23.6 227.6,22.6375 L227.6,21.7625 Q227.6,20.7625 228.075,19.8875 Q228.5625,19.0125 229.4,18.55 Q230.25,18.075 231.2,18.075 Q231.775,18.075 232.275,18.275 Q232.775,18.475 233.2,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="56.8" x="255.6" y="19.5656">«participant»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="82.4" x="242.8" y="31.6406">BootstrapEstrutura</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="220.4" x2="326.8" y1="37.75" y2="37.75"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="220.4" x2="326.8" y1="44.15" y2="44.15"/><!--MD5=[ee3746e8fbde5c2b1127719779218206]
+class BootstrapEstruturaController--><rect codeLine="8" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="89.225" id="BootstrapEstruturaController" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="228" x="159.6" y="112.8"/><ellipse cx="207.4" cy="128.875" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M209,126.075 Q209.1625,125.675 209.35,125.475 Q209.5375,125.275 209.75,125.275 Q210.125,125.275 210.3625,125.5 Q210.6,125.725 210.6,126.25 L210.6,127.5 Q210.6,128.025 210.375,128.25 Q210.15,128.475 209.8,128.475 Q209.4875,128.475 209.2875,128.3375 Q209.0875,128.2 209,127.8375 Q208.9625,127.5875 208.825,127.45 Q208.575,127.1875 208.125,127.0375 Q207.675,126.875 207.225,126.875 Q206.6625,126.875 206.1875,127.1 Q205.725,127.325 205.3625,127.825 Q205,128.325 205,129.0125 L205,129.75 Q205,130.575 205.675,131.125 Q206.35,131.675 207.55,131.675 Q208.2625,131.675 208.7625,131.5125 Q209.05,131.425 209.375,131.1375 Q209.5875,130.975 209.7,130.925 Q209.8125,130.875 209.95,130.875 Q210.2125,130.875 210.4,131.0875 Q210.6,131.2875 210.6,131.575 Q210.6,131.85 210.325,132.175 Q209.925,132.65 209.2875,132.9125 Q208.45,133.275 207.425,133.275 Q206.225,133.275 205.2625,132.8 Q204.4875,132.425 203.9375,131.6125 Q203.4,130.8 203.4,129.8375 L203.4,128.9625 Q203.4,127.9625 203.875,127.0875 Q204.3625,126.2125 205.2,125.75 Q206.05,125.275 207,125.275 Q207.575,125.275 208.075,125.475 Q208.575,125.675 209,126.075 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="59.2" x="257" y="126.7656">«application»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="125.6" x="223.8" y="138.8406">BootstrapEstruturaController</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="160.4" x2="386.8" y1="144.95" y2="144.95"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="160.4" x2="386.8" y1="151.35" y2="151.35"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="188.8" x="164.4" y="163.6852">extrairConteudoFicheiro (caminhoFicheiroEquipa)</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="196.8" x="164.4" y="174.7539">determinarFormatoFicheiro(caminhoFicheiroEquipa)</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="210.4" x="164.4" y="185.8227">extrairConteudoFicheiro (caminhoFicheiroColaborador)</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="218.4" x="164.4" y="196.8914">determinarFormatoFicheiro(caminhoFicheiroColaborador)</text><!--MD5=[9a0e8f7957502662f95e783c1c3d84fe]
+class ColaboradorRepository--><rect codeLine="15" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="44.95" id="ColaboradorRepository" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="128" x="5.6" y="270.4"/><ellipse cx="17.6" cy="286.475" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M19.2,283.675 Q19.3625,283.275 19.55,283.075 Q19.7375,282.875 19.95,282.875 Q20.325,282.875 20.5625,283.1 Q20.8,283.325 20.8,283.85 L20.8,285.1 Q20.8,285.625 20.575,285.85 Q20.35,286.075 20,286.075 Q19.6875,286.075 19.4875,285.9375 Q19.2875,285.8 19.2,285.4375 Q19.1625,285.1875 19.025,285.05 Q18.775,284.7875 18.325,284.6375 Q17.875,284.475 17.425,284.475 Q16.8625,284.475 16.3875,284.7 Q15.925,284.925 15.5625,285.425 Q15.2,285.925 15.2,286.6125 L15.2,287.35 Q15.2,288.175 15.875,288.725 Q16.55,289.275 17.75,289.275 Q18.4625,289.275 18.9625,289.1125 Q19.25,289.025 19.575,288.7375 Q19.7875,288.575 19.9,288.525 Q20.0125,288.475 20.15,288.475 Q20.4125,288.475 20.6,288.6875 Q20.8,288.8875 20.8,289.175 Q20.8,289.45 20.525,289.775 Q20.125,290.25 19.4875,290.5125 Q18.65,290.875 17.625,290.875 Q16.425,290.875 15.4625,290.4 Q14.6875,290.025 14.1375,289.2125 Q13.6,288.4 13.6,287.4375 L13.6,286.5625 Q13.6,285.5625 14.075,284.6875 Q14.5625,283.8125 15.4,283.35 Q16.25,282.875 17.2,282.875 Q17.775,282.875 18.275,283.075 Q18.775,283.275 19.2,283.675 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="54.4" x="52.8" y="284.3656">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="102.4" x="28.8" y="296.4406">ColaboradorRepository</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="6.4" x2="132.8" y1="302.55" y2="302.55"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="6.4" x2="132.8" y1="308.95" y2="308.95"/><!--MD5=[e3d99162b7328c3f1201e3bd1b8bcde6]
+class EquipaRepository--><rect codeLine="19" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="56.0188" id="EquipaRepository" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="104" x="161.6" y="264.8"/><ellipse cx="173.6" cy="280.875" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M175.2,278.075 Q175.3625,277.675 175.55,277.475 Q175.7375,277.275 175.95,277.275 Q176.325,277.275 176.5625,277.5 Q176.8,277.725 176.8,278.25 L176.8,279.5 Q176.8,280.025 176.575,280.25 Q176.35,280.475 176,280.475 Q175.6875,280.475 175.4875,280.3375 Q175.2875,280.2 175.2,279.8375 Q175.1625,279.5875 175.025,279.45 Q174.775,279.1875 174.325,279.0375 Q173.875,278.875 173.425,278.875 Q172.8625,278.875 172.3875,279.1 Q171.925,279.325 171.5625,279.825 Q171.2,280.325 171.2,281.0125 L171.2,281.75 Q171.2,282.575 171.875,283.125 Q172.55,283.675 173.75,283.675 Q174.4625,283.675 174.9625,283.5125 Q175.25,283.425 175.575,283.1375 Q175.7875,282.975 175.9,282.925 Q176.0125,282.875 176.15,282.875 Q176.4125,282.875 176.6,283.0875 Q176.8,283.2875 176.8,283.575 Q176.8,283.85 176.525,284.175 Q176.125,284.65 175.4875,284.9125 Q174.65,285.275 173.625,285.275 Q172.425,285.275 171.4625,284.8 Q170.6875,284.425 170.1375,283.6125 Q169.6,282.8 169.6,281.8375 L169.6,280.9625 Q169.6,279.9625 170.075,279.0875 Q170.5625,278.2125 171.4,277.75 Q172.25,277.275 173.2,277.275 Q173.775,277.275 174.275,277.475 Q174.775,277.675 175.2,278.075 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="54.4" x="196.8" y="278.7656">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="78.4" x="184.8" y="290.8406">EquipaRepository</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="162.4" x2="264.8" y1="296.95" y2="296.95"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="162.4" x2="264.8" y1="303.35" y2="303.35"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="70.4" x="166.4" y="315.6852">save(novaEquipa)</text><!--MD5=[ac8682ea5466d223e49472789fb200d2]
+class Colaborador--><rect codeLine="23" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="56.0188" id="Colaborador" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="80.8" x="294" y="264.8"/><ellipse cx="306" cy="280.875" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M307.6,278.075 Q307.7625,277.675 307.95,277.475 Q308.1375,277.275 308.35,277.275 Q308.725,277.275 308.9625,277.5 Q309.2,277.725 309.2,278.25 L309.2,279.5 Q309.2,280.025 308.975,280.25 Q308.75,280.475 308.4,280.475 Q308.0875,280.475 307.8875,280.3375 Q307.6875,280.2 307.6,279.8375 Q307.5625,279.5875 307.425,279.45 Q307.175,279.1875 306.725,279.0375 Q306.275,278.875 305.825,278.875 Q305.2625,278.875 304.7875,279.1 Q304.325,279.325 303.9625,279.825 Q303.6,280.325 303.6,281.0125 L303.6,281.75 Q303.6,282.575 304.275,283.125 Q304.95,283.675 306.15,283.675 Q306.8625,283.675 307.3625,283.5125 Q307.65,283.425 307.975,283.1375 Q308.1875,282.975 308.3,282.925 Q308.4125,282.875 308.55,282.875 Q308.8125,282.875 309,283.0875 Q309.2,283.2875 309.2,283.575 Q309.2,283.85 308.925,284.175 Q308.525,284.65 307.8875,284.9125 Q307.05,285.275 306.025,285.275 Q304.825,285.275 303.8625,284.8 Q303.0875,284.425 302.5375,283.6125 Q302,282.8 302,281.8375 L302,280.9625 Q302,279.9625 302.475,279.0875 Q302.9625,278.2125 303.8,277.75 Q304.65,277.275 305.6,277.275 Q306.175,277.275 306.675,277.475 Q307.175,277.675 307.6,278.075 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="44.8" x="322.4" y="278.7656">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="55.2" x="317.2" y="290.8406">Colaborador</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="294.8" x2="374" y1="296.95" y2="296.95"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="294.8" x2="374" y1="303.35" y2="303.35"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="66.4" x="298.8" y="315.6852">save(novoColab)</text><!--MD5=[d34c3374e9f1ea92600999ba19e06c1c]
+class Equipa--><rect codeLine="27" fill="#FEFECE" filter="url(#fhldsjw2xmvg2)" height="44.95" id="Equipa" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="67.2" x="403.2" y="270.4"/><ellipse cx="415.2" cy="286.475" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M416.8,283.675 Q416.9625,283.275 417.15,283.075 Q417.3375,282.875 417.55,282.875 Q417.925,282.875 418.1625,283.1 Q418.4,283.325 418.4,283.85 L418.4,285.1 Q418.4,285.625 418.175,285.85 Q417.95,286.075 417.6,286.075 Q417.2875,286.075 417.0875,285.9375 Q416.8875,285.8 416.8,285.4375 Q416.7625,285.1875 416.625,285.05 Q416.375,284.7875 415.925,284.6375 Q415.475,284.475 415.025,284.475 Q414.4625,284.475 413.9875,284.7 Q413.525,284.925 413.1625,285.425 Q412.8,285.925 412.8,286.6125 L412.8,287.35 Q412.8,288.175 413.475,288.725 Q414.15,289.275 415.35,289.275 Q416.0625,289.275 416.5625,289.1125 Q416.85,289.025 417.175,288.7375 Q417.3875,288.575 417.5,288.525 Q417.6125,288.475 417.75,288.475 Q418.0125,288.475 418.2,288.6875 Q418.4,288.8875 418.4,289.175 Q418.4,289.45 418.125,289.775 Q417.725,290.25 417.0875,290.5125 Q416.25,290.875 415.225,290.875 Q414.025,290.875 413.0625,290.4 Q412.2875,290.025 411.7375,289.2125 Q411.2,288.4 411.2,287.4375 L411.2,286.5625 Q411.2,285.5625 411.675,284.6875 Q412.1625,283.8125 413,283.35 Q413.85,282.875 414.8,282.875 Q415.375,282.875 415.875,283.075 Q416.375,283.275 416.8,283.675 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" font-style="italic" lengthAdjust="spacing" textLength="44.8" x="424.8" y="284.3656">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="31.2" x="431.6" y="296.4406">Equipa</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="404" x2="469.6" y1="302.55" y2="302.55"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="404" x2="469.6" y1="308.95" y2="308.95"/><!--MD5=[fde58cffd0febc906be1a692ef584316]
+link BootstrapEstrutura to BootstrapEstruturaController--><path codeLine="31" d="M273.6,50.512 C273.6,66.36 273.6,88.472 273.6,108.424 " fill="none" id="BootstrapEstrutura-to-BootstrapEstruturaController" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#A80036" points="273.6,112.648,276.8,105.448,273.6,108.648,270.4,105.448,273.6,112.648" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="58.4" x="274.4" y="85.9961">theController</text><!--MD5=[970e7ba42d87c2a6c79e1997403aa125]
+link BootstrapEstruturaController to EquipaRepository--><path codeLine="32" d="M253.784,202.512 C245.216,221.592 235.392,243.472 227.6,260.824 " fill="none" id="BootstrapEstruturaController-to-EquipaRepository" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#A80036" points="225.872,264.68,231.7372,259.4189,227.5082,261.03,225.8972,256.801,225.872,264.68" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="20" x="243.2" y="237.9961">repo</text><!--MD5=[b212259cdfa06bfff2b0825de42377f7]
+link BootstrapEstruturaController to ColaboradorRepository--><path codeLine="33" d="M206.24,202.512 C173.024,224.264 134.256,249.656 106.52,267.824 " fill="none" id="BootstrapEstruturaController-to-ColaboradorRepository" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#A80036" points="102.848,270.224,110.6251,268.9607,106.1955,268.0344,107.1218,263.6047,102.848,270.224" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="20" x="166.4" y="237.9961">repo</text><!--MD5=[b8651b23c39c332b0c00dfd9b5b93ef1]
+link BootstrapEstruturaController to Colaborador--><path codeLine="34" d="M293.68,202.512 C302.36,221.592 312.32,243.472 320.208,260.824 " fill="none" id="BootstrapEstruturaController-to-Colaborador" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#A80036" points="321.968,264.68,321.9018,256.8012,320.3128,261.0385,316.0754,259.4495,321.968,264.68" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="53.6" x="310.4" y="237.9961">colaborador</text><!--MD5=[8ac01d3c61a36126f959a8a72f0d316f]
+link BootstrapEstruturaController to Equipa--><path codeLine="35" d="M340.4,202.584 C350.944,210.224 361.544,218.312 371.2,226.4 C386.232,238.984 401.792,254.424 413.984,267.168 " fill="none" id="BootstrapEstruturaController-to-Equipa" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#A80036" points="417.008,270.344,414.359,262.9236,414.2491,267.4477,409.7249,267.3378,417.008,270.344" style="stroke:#A80036;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="30.4" x="387.2" y="237.9961">equipa</text><!--MD5=[8684175d300d48e60440960355ce17db]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class BootstrapEstrutura <<participant>>{
+
+}
+
+class BootstrapEstruturaController <<application>>{
+extrairConteudoFicheiro (caminhoFicheiroEquipa)
+determinarFormatoFicheiro(caminhoFicheiroEquipa)
+extrairConteudoFicheiro (caminhoFicheiroColaborador)
+determinarFormatoFicheiro(caminhoFicheiroColaborador)
+}
+
+class ColaboradorRepository <<repository>>{
+
+}
+
+class EquipaRepository <<repository>> {
+save(novaEquipa)
+}
+
+class Colaborador <<domain>> {
+save(novoColab)
+}
+
+class Equipa <<domain>> {
+
+}
+
+BootstrapEstrutura - -> BootstrapEstruturaController : theController
+BootstrapEstruturaController - -> EquipaRepository : repo
+BootstrapEstruturaController - -> ColaboradorRepository : repo
+BootstrapEstruturaController - -> Colaborador : colaborador
+BootstrapEstruturaController - -> Equipa : equipa
+
+@enduml
+
+@startuml
+
+
+class BootstrapEstrutura <<participant>>{
+
+}
+
+class BootstrapEstruturaController <<application>>{
+extrairConteudoFicheiro (caminhoFicheiroEquipa)
+determinarFormatoFicheiro(caminhoFicheiroEquipa)
+extrairConteudoFicheiro (caminhoFicheiroColaborador)
+determinarFormatoFicheiro(caminhoFicheiroColaborador)
+}
+
+class ColaboradorRepository <<repository>>{
+
+}
+
+class EquipaRepository <<repository>> {
+save(novaEquipa)
+}
+
+class Colaborador <<domain>> {
+save(novoColab)
+}
+
+class Equipa <<domain>> {
+
+}
+
+BootstrapEstrutura - -> BootstrapEstruturaController : theController
+BootstrapEstruturaController - -> EquipaRepository : repo
+BootstrapEstruturaController - -> ColaboradorRepository : repo
+BootstrapEstruturaController - -> Colaborador : colaborador
+BootstrapEstruturaController - -> Equipa : equipa
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

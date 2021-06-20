@@ -1,0 +1,77 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+autonumber
+
+'Ator'
+actor Gestor_De_Recursos_Humanos as GSH
+
+'PRESENTATION'
+participant VerEstadoMotorFluxosUI as UI<<presentation>>
+
+'SERVICE'
+participant AtualizarEstadoMotorFluxosService as MFS<<service>>
+
+'APPLICATION'
+participant VerEstadoMotorFluxosController as Controller <<application>>
+
+'DOMAIN'
+participant Pedido <<domain>>
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as RepositoryFactory <<factory>>
+
+'REPOSITORY'
+participant PedidoRepository as PR <<repository>>
+
+
+loop automaticamente e periodicamente atualiza o estado do motor de fluxos na webpage
+MFS->Controller: atualizarEstado()
+activate Controller
+end loop
+
+GSH->UI: pede para ver o estado do motor de fluxos
+activate UI
+
+UI->Controller: mostrarEstatisticaDoMotorDeFluxos()
+
+
+Controller --> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> RepositoryFactory: create()
+            activate RepositoryFactory
+            Persistence --> Controller: factory()
+        deactivate Persistence
+
+'inicializar repositórios'
+Controller -> RepositoryFactory: pedidos()
+
+RepositoryFactory --> PR: create()
+activate PR
+deactivate RepositoryFactory
+
+Controller->PR:calcularMediaTemposAprovacao()
+note right of PR : Query de JPQL que devolve\n a media dos tempos de resolucao\n de todos os pedidos resolvidos.
+
+Controller->PR:calcularMediaTemposResolucaoResolvidos()
+note right of PR : Query de JPQL que devolve\n a media dos tempos de aprovacao\n de todos os pedidos resolvidos.
+
+Controller->PR:calcularMediaTemposResolucaoNaoResolvidos()
+note right of PR : Query de JPQL que devolve\n a media dos tempos de aprovacao\n de todos os pedidos a ser resolvidos.
+
+deactivate PR
+
+Controller->UI:mostrarEstatisticaDoMotorDeFluxos()
+
+UI->GSH: mostra a estatística do estado do motor de fluxos
+deactivate Controller
+deactivate UI
+
+@enduml

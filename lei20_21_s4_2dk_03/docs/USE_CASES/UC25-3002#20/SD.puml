@@ -1,0 +1,170 @@
+@startuml
+
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+autonumber
+
+'ACTOR'
+actor Utilizador as U
+
+'PRESENTATION'
+participant EfetuarPedidoUI as UI <<presentation>>
+
+'APPLICATION'
+participant EfetuarPedidoController as Controller <<application>>
+
+'DOMAIN'
+participant Pedido as Pedido <<domain>>
+participant Servico as S <<domain>>
+participant Formulario as F <<domain>>
+
+'Builder'
+participant PedidoBuilder as PedidoB <<Builder>>
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+'Repository'
+participant EquipaRepository as EREP <<repository>>
+participant CatalogoRepository as CREP <<repository>>
+participant ServicoRepository as SREP <<repository>>
+participant PedidoRepository as PREPO <<repository>>
+participant FormularioRepository as FREPO <<repository>>
+
+U->UI: efetuar pedido
+activate UI
+UI->Controller: mostrarCatalogosDisponiveisParaColaborador()
+
+activate Controller
+note right: Lista os serviços a que o\n utilizador poderá efetuar pedido
+
+Controller --> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> Factory: create()
+            activate Factory
+            Persistence --> Controller: factory()
+        deactivate Persistence
+
+Controller->Factory:equipas()
+Factory->EREP:create
+Controller->Factory:pedidos()
+Factory->PREPO:create
+activate PREPO
+Controller->EREP:getEquipasByMecanographicNumber(numeroMecanografico)
+
+
+note left: retorna uma lista de equipas
+Controller->Factory:catalogos()
+Factory->CREP:create
+activate CREP
+
+    loop para cada uma das equipas a que o colaborador existe
+        Controller->CREP:getServiçosDisponiveisParaOColaborador(equipa)
+        note right: mostrar o catálogo
+    end loop
+
+UI->U:mostra os catálogos a que o\ncolaborador tem acesso\ne pede que selecione 1
+
+note left: deve inserir o identificadorCatalogo
+
+U->UI: insere o identificadorCatalogo
+
+UI->Controller: mostrarServicosCatalogo(identificadorCatalogo)
+Controller->Factory:servicos()
+Factory->SREP:create
+activate SREP
+
+Controller->SREP: getServicosByCatalogo(identificadorCatalogo)
+
+UI->U: mostra os serviços e pede que escolha um
+
+note right:deve inserir o codigoUnicoServico respetivo
+
+U->UI: insere o código único do serviço
+
+UI->Controller:iniciarPedido(codigoUnicoServico)
+
+Controller->PedidoB:create
+
+activate PedidoB
+
+Controller->SREP:servico=ofIdentity(codigoUnicoServico)
+
+Controller->PedidoB:withServico(servico)
+
+UI->U: pede dados do pedido (urgenciaPedido,dataLimiteResolucaoPedido)
+
+U->UI: Insere a informação requerida urgenciaPedido,\ndataLimiteResolucaoPedido)
+
+UI->Controller: associarInformacoes(urgenciaPedido,dataLimiteResolucaoPedido)
+
+Controller->PedidoB: withUrgencia(urgenciaPedido)
+Controller->PedidoB: withDataLimiteResolucao(dataLimiteResolucaoPedido)
+Controller->PedidoB: withInformacaoRelevante(informacaoRelevante)
+
+UI->Controller:iniciarPreenchimentoFormulario()
+Controller->S:form=getFormulario()
+activate F
+
+
+    loop para cada atributo formulario
+
+note left of U: utilização da gramática: é pedido\nao utilizador que vá inserindo\ninformação e esta vai sendo\nvalidada pela gramatica
+    end loop
+
+
+UI->Controller:guardarFormulario()
+Controller->PedidoB:associarFormularioPreenchido(form)
+    note right: form é do tipo Fomulário Preenchido
+
+UI->U: pergunta se deseja inserir ficheiro(s)\n e se sim a quantidade
+
+alt decide inserir ficheiro(s) e insere quantidade
+
+    loop para o número de ficheiros a inserir
+
+    UI->U: insira o nome do ficheiro
+
+    U->UI: insere o nome do ficheiro
+
+    UI->Controller:adicionarFicheiro(nomeFicheiro)
+
+    Controller->PedidoB:adicionarFicheiro(nomeFicheiro)
+    end loop
+
+end
+
+UI->U:pede a confirmação
+
+U->UI:confirma
+
+UI->Controller:efetuarPedido()
+
+Controller->PedidoB:pedido=build()
+activate Pedido
+
+Controller->PREPO:pedido=save(pedido)
+
+deactivate EREP
+
+deactivate CREP
+
+deactivate SREP
+
+deactivate PREPO
+
+deactivate Pedido
+
+deactivate PedidoB
+
+deactivate Controller
+
+deactivate UI
+
+@enduml

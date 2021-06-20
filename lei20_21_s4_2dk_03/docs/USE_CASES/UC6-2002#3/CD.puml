@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class EspecificarServicoUI <<presentation>>{
+
+}
+
+class EspecificarServicoController <<application>>{
+createServico(codigoUnico, tituloServico, requerFeedback)
+mostrarCatalogos()
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+guardarServico()
+especificarFormulario()
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoFormulario(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,\nDescricaoAjudaAtributo,TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+procurarServico(codigoUnicoServico)
+}
+
+interface RepositoryFactory <<factory>>{
+servicos()
+catalogos()
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Servico <<domain>>{
+create(codigoUnico,tituloServico)
+associarFormularioAServico(formulario)
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+}
+
+class ServicoBuilder <<Builder>>{
+withCatalogo(cat)
+withKeywords()
+withcone()
+withDescBreve()
+withDescCompleta()
+createServico()
+withFormularioAServico(formulario)
+buidl()
+}
+
+class ServicoRepository <<repository>>{
+create()
+findById(codigoUnicoServico)
+save(servico)
+}
+
+class CatalogoRepository <<repository>>{
+create()
+findAll()
+}
+
+class Formulario <<domain>>{
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoRequeridoFormulario(novoAtributoRequeridoFormulario)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+}
+
+class Script <<domain>>{
+
+}
+class NivelCriticidade <<domain>>{
+
+}
+
+class AtributoRequeridoFormulario <<domain>>{
+create(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,DescricaoAjudaAtributo,\n TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+}
+
+EspecificarServicoUI --> EspecificarServicoController : theController
+
+EspecificarServicoUI ..> Servico : Servico
+
+EspecificarServicoController --> Servico : Servico
+EspecificarServicoController --> Formulario : Formulario
+Formulario --> AtributoRequeridoFormulario : AtributoRequeridoFormulario
+Servico --> Script : Script
+Servico --> NivelCriticidade : NivelCriticidade
+EspecificarServicoController --> ServicoBuilder : theBuilder
+
+EspecificarServicoController --> RepositoryFactory : factory
+
+EspecificarServicoController --> PersistenceContext : persistence
+PersistenceContext --> ServicoRepository : repo
+PersistenceContext --> CatalogoRepository : repo
+
+@enduml

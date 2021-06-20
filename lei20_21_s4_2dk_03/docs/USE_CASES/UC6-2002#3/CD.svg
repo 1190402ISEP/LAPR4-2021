@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1031.25px" preserveAspectRatio="none" style="width:1603px;height:1031px;" version="1.1" viewBox="0 0 1603 1031" width="1603.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f1nkytnhs0t438" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7edf8479ad866c43c0130f19b028396c]
+class EspecificarServicoUI--><rect codeLine="4" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="70.2344" id="EspecificarServicoUI" style="stroke:#A80036;stroke-width:1.875;" width="181.25" x="1171.25" y="8.75"/><ellipse cx="1190" cy="33.8672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1192.5,29.4922 Q1192.7539,28.8672 1193.0469,28.5547 Q1193.3398,28.2422 1193.6719,28.2422 Q1194.2578,28.2422 1194.6289,28.5938 Q1195,28.9453 1195,29.7656 L1195,31.7188 Q1195,32.5391 1194.6484,32.8906 Q1194.2969,33.2422 1193.75,33.2422 Q1193.2617,33.2422 1192.9492,33.0273 Q1192.6367,32.8125 1192.5,32.2461 Q1192.4414,31.8555 1192.2266,31.6406 Q1191.8359,31.2305 1191.1328,30.9961 Q1190.4297,30.7422 1189.7266,30.7422 Q1188.8477,30.7422 1188.1055,31.0938 Q1187.3828,31.4453 1186.8164,32.2266 Q1186.25,33.0078 1186.25,34.082 L1186.25,35.2344 Q1186.25,36.5234 1187.3047,37.3828 Q1188.3594,38.2422 1190.2344,38.2422 Q1191.3477,38.2422 1192.1289,37.9883 Q1192.5781,37.8516 1193.0859,37.4023 Q1193.418,37.1484 1193.5938,37.0703 Q1193.7695,36.9922 1193.9844,36.9922 Q1194.3945,36.9922 1194.6875,37.3242 Q1195,37.6367 1195,38.0859 Q1195,38.5156 1194.5703,39.0234 Q1193.9453,39.7656 1192.9492,40.1758 Q1191.6406,40.7422 1190.0391,40.7422 Q1188.1641,40.7422 1186.6602,40 Q1185.4492,39.4141 1184.5898,38.1445 Q1183.75,36.875 1183.75,35.3711 L1183.75,34.0039 Q1183.75,32.4414 1184.4922,31.0742 Q1185.2539,29.707 1186.5625,28.9844 Q1187.8906,28.2422 1189.375,28.2422 Q1190.2734,28.2422 1191.0547,28.5547 Q1191.8359,28.8672 1192.5,29.4922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="102.5" x="1226.875" y="30.5713">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="141.25" x="1207.5" y="49.4385">EspecificarServicoUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1172.5" x2="1351.25" y1="58.9844" y2="58.9844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1172.5" x2="1351.25" y1="68.9844" y2="68.9844"/><!--MD5=[0d4e5460865fab64524af805768c65c5]
+class EspecificarServicoController--><rect codeLine="8" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="312.3633" id="EspecificarServicoController" style="stroke:#A80036;stroke-width:1.875;" width="503.75" x="741.25" y="176.25"/><ellipse cx="890.9375" cy="201.3672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M893.4375,196.9922 Q893.6914,196.3672 893.9844,196.0547 Q894.2773,195.7422 894.6094,195.7422 Q895.1953,195.7422 895.5664,196.0938 Q895.9375,196.4453 895.9375,197.2656 L895.9375,199.2188 Q895.9375,200.0391 895.5859,200.3906 Q895.2344,200.7422 894.6875,200.7422 Q894.1992,200.7422 893.8867,200.5273 Q893.5742,200.3125 893.4375,199.7461 Q893.3789,199.3555 893.1641,199.1406 Q892.7734,198.7305 892.0703,198.4961 Q891.3672,198.2422 890.6641,198.2422 Q889.7852,198.2422 889.043,198.5938 Q888.3203,198.9453 887.7539,199.7266 Q887.1875,200.5078 887.1875,201.582 L887.1875,202.7344 Q887.1875,204.0234 888.2422,204.8828 Q889.2969,205.7422 891.1719,205.7422 Q892.2852,205.7422 893.0664,205.4883 Q893.5156,205.3516 894.0234,204.9023 Q894.3555,204.6484 894.5313,204.5703 Q894.707,204.4922 894.9219,204.4922 Q895.332,204.4922 895.625,204.8242 Q895.9375,205.1367 895.9375,205.5859 Q895.9375,206.0156 895.5078,206.5234 Q894.8828,207.2656 893.8867,207.6758 Q892.5781,208.2422 890.9766,208.2422 Q889.1016,208.2422 887.5977,207.5 Q886.3867,206.9141 885.5273,205.6445 Q884.6875,204.375 884.6875,202.8711 L884.6875,201.5039 Q884.6875,199.9414 885.4297,198.5742 Q886.1914,197.207 887.5,196.4844 Q888.8281,195.7422 890.3125,195.7422 Q891.2109,195.7422 891.9922,196.0547 Q892.7734,196.3672 893.4375,196.9922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="92.5" x="967.1875" y="198.0713">«application»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="193.75" x="916.5625" y="216.9385">EspecificarServicoController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="742.5" x2="1243.75" y1="226.4844" y2="226.4844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="742.5" x2="1243.75" y1="236.4844" y2="236.4844"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="356.25" x="748.75" y="255.7581">createServico(codigoUnico, tituloServico, requerFeedback)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="116.25" x="748.75" y="273.053">mostrarCatalogos()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="133.75" x="748.75" y="290.3479">associarCatalogo(cat)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="126.25" x="748.75" y="307.6428">associarKeywords()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="95" x="748.75" y="324.9377">associarIcone()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="130" x="748.75" y="342.2327">associarDescBreve()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="148.75" x="748.75" y="359.5276">associarDescCompleta()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="103.75" x="748.75" y="376.8225">guardarServico()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="140" x="748.75" y="394.1174">especificarFormulario()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="257.5" x="748.75" y="411.4124">adicionarNomeFormulario(NomeFormulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="488.75" x="748.75" y="428.7073">adicionarAtributoFormulario(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="465" x="748.75" y="446.0022">DescricaoAjudaAtributo,TipoDadosBaseAtributo,ExpressaoRegularAtributos)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="380" x="748.75" y="463.2971">adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="228.75" x="748.75" y="480.592">procurarServico(codigoUnicoServico)</text><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="24" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="104.8242" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.875;" width="163.75" x="1113.75" y="638.125"/><ellipse cx="1132.5" cy="663.2422" fill="#B4A7E5" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1133.75,659.4922 L1133.75,666.9922 L1136.25,666.9922 L1136.8555,666.9922 L1137.5,667.7734 L1137.5,668.2422 L1137.5,668.7109 L1136.8555,669.4922 L1136.25,669.4922 L1128.75,669.4922 L1128.1445,669.4922 L1127.5,668.7109 L1127.5,668.2422 L1127.5,667.7734 L1128.1445,666.9922 L1128.75,666.9922 L1131.25,666.9922 L1131.25,659.4922 L1128.75,659.4922 L1128.1445,659.4922 L1127.5,658.7109 L1127.5,658.2422 L1127.5,657.7734 L1128.1445,656.9922 L1128.75,656.9922 L1136.25,656.9922 L1136.8555,656.9922 L1137.5,657.7734 L1137.5,658.2422 L1137.5,658.7109 L1136.8555,659.4922 L1136.25,659.4922 L1133.75,659.4922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="62.5" x="1180.625" y="659.9463">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="123.75" x="1150" y="678.8135">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1115" x2="1276.25" y1="688.3594" y2="688.3594"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1115" x2="1276.25" y1="698.3594" y2="698.3594"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="62.5" x="1121.25" y="717.6331">servicos()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="68.75" x="1121.25" y="734.928">catalogos()</text><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="29" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="87.5293" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.875;" width="173.75" x="125" y="646.875"/><ellipse cx="143.75" cy="671.9922" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M146.25,667.6172 Q146.5039,666.9922 146.7969,666.6797 Q147.0898,666.3672 147.4219,666.3672 Q148.0078,666.3672 148.3789,666.7188 Q148.75,667.0703 148.75,667.8906 L148.75,669.8438 Q148.75,670.6641 148.3984,671.0156 Q148.0469,671.3672 147.5,671.3672 Q147.0117,671.3672 146.6992,671.1523 Q146.3867,670.9375 146.25,670.3711 Q146.1914,669.9805 145.9766,669.7656 Q145.5859,669.3555 144.8828,669.1211 Q144.1797,668.8672 143.4766,668.8672 Q142.5977,668.8672 141.8555,669.2188 Q141.1328,669.5703 140.5664,670.3516 Q140,671.1328 140,672.207 L140,673.3594 Q140,674.6484 141.0547,675.5078 Q142.1094,676.3672 143.9844,676.3672 Q145.0977,676.3672 145.8789,676.1133 Q146.3281,675.9766 146.8359,675.5273 Q147.168,675.2734 147.3438,675.1953 Q147.5195,675.1172 147.7344,675.1172 Q148.1445,675.1172 148.4375,675.4492 Q148.75,675.7617 148.75,676.2109 Q148.75,676.6406 148.3203,677.1484 Q147.6953,677.8906 146.6992,678.3008 Q145.3906,678.8672 143.7891,678.8672 Q141.9141,678.8672 140.4102,678.125 Q139.1992,677.5391 138.3398,676.2695 Q137.5,675 137.5,673.4961 L137.5,672.1289 Q137.5,670.5664 138.2422,669.1992 Q139.0039,667.832 140.3125,667.1094 Q141.6406,666.3672 143.125,666.3672 Q144.0234,666.3672 144.8047,666.6797 Q145.5859,666.9922 146.25,667.6172 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="97.5" x="179.375" y="668.6963">«Persistence»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="133.75" x="161.25" y="687.5635">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.875;" x1="126.25" x2="297.5" y1="697.1094" y2="697.1094"/><line style="stroke:#A80036;stroke-width:1.875;" x1="126.25" x2="297.5" y1="707.1094" y2="707.1094"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="81.25" x="132.5" y="726.3831">repositories()</text><!--MD5=[faf4d635eea35b16677487bac6ad9bf5]
+class Servico--><rect codeLine="33" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="191.2988" id="Servico" style="stroke:#A80036;stroke-width:1.875;" width="256.25" x="1321.25" y="595"/><ellipse cx="1411.5625" cy="620.1172" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1414.0625,615.7422 Q1414.3164,615.1172 1414.6094,614.8047 Q1414.9023,614.4922 1415.2344,614.4922 Q1415.8203,614.4922 1416.1914,614.8438 Q1416.5625,615.1953 1416.5625,616.0156 L1416.5625,617.9688 Q1416.5625,618.7891 1416.2109,619.1406 Q1415.8594,619.4922 1415.3125,619.4922 Q1414.8242,619.4922 1414.5117,619.2773 Q1414.1992,619.0625 1414.0625,618.4961 Q1414.0039,618.1055 1413.7891,617.8906 Q1413.3984,617.4805 1412.6953,617.2461 Q1411.9922,616.9922 1411.2891,616.9922 Q1410.4102,616.9922 1409.668,617.3438 Q1408.9453,617.6953 1408.3789,618.4766 Q1407.8125,619.2578 1407.8125,620.332 L1407.8125,621.4844 Q1407.8125,622.7734 1408.8672,623.6328 Q1409.9219,624.4922 1411.7969,624.4922 Q1412.9102,624.4922 1413.6914,624.2383 Q1414.1406,624.1016 1414.6484,623.6523 Q1414.9805,623.3984 1415.1563,623.3203 Q1415.332,623.2422 1415.5469,623.2422 Q1415.957,623.2422 1416.25,623.5742 Q1416.5625,623.8867 1416.5625,624.3359 Q1416.5625,624.7656 1416.1328,625.2734 Q1415.5078,626.0156 1414.5117,626.4258 Q1413.2031,626.9922 1411.6016,626.9922 Q1409.7266,626.9922 1408.2227,626.25 Q1407.0117,625.6641 1406.1523,624.3945 Q1405.3125,623.125 1405.3125,621.6211 L1405.3125,620.2539 Q1405.3125,618.6914 1406.0547,617.3242 Q1406.8164,615.957 1408.125,615.2344 Q1409.4531,614.4922 1410.9375,614.4922 Q1411.8359,614.4922 1412.6172,614.8047 Q1413.3984,615.1172 1414.0625,615.7422 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="70" x="1434.6875" y="616.8213">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="50" x="1444.6875" y="635.6885">Servico</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1322.5" x2="1576.25" y1="645.2344" y2="645.2344"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1322.5" x2="1576.25" y1="655.2344" y2="655.2344"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="200" x="1328.75" y="674.5081">create(codigoUnico,tituloServico)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="241.25" x="1328.75" y="691.803">associarFormularioAServico(formulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="133.75" x="1328.75" y="709.0979">associarCatalogo(cat)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="126.25" x="1328.75" y="726.3928">associarKeywords()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="95" x="1328.75" y="743.6877">associarIcone()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="130" x="1328.75" y="760.9827">associarDescBreve()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="148.75" x="1328.75" y="778.2776">associarDescCompleta()</text><!--MD5=[27fbecddafeed049b4f631f921ad8164]
+class ServicoBuilder--><rect codeLine="43" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="208.5938" id="ServicoBuilder" style="stroke:#A80036;stroke-width:1.875;" width="230" x="343.125" y="586.25"/><ellipse cx="403.4375" cy="611.3672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M405.9375,606.9922 Q406.1914,606.3672 406.4844,606.0547 Q406.7773,605.7422 407.1094,605.7422 Q407.6953,605.7422 408.0664,606.0938 Q408.4375,606.4453 408.4375,607.2656 L408.4375,609.2188 Q408.4375,610.0391 408.0859,610.3906 Q407.7344,610.7422 407.1875,610.7422 Q406.6992,610.7422 406.3867,610.5273 Q406.0742,610.3125 405.9375,609.7461 Q405.8789,609.3555 405.6641,609.1406 Q405.2734,608.7305 404.5703,608.4961 Q403.8672,608.2422 403.1641,608.2422 Q402.2852,608.2422 401.543,608.5938 Q400.8203,608.9453 400.2539,609.7266 Q399.6875,610.5078 399.6875,611.582 L399.6875,612.7344 Q399.6875,614.0234 400.7422,614.8828 Q401.7969,615.7422 403.6719,615.7422 Q404.7852,615.7422 405.5664,615.4883 Q406.0156,615.3516 406.5234,614.9023 Q406.8555,614.6484 407.0313,614.5703 Q407.207,614.4922 407.4219,614.4922 Q407.832,614.4922 408.125,614.8242 Q408.4375,615.1367 408.4375,615.5859 Q408.4375,616.0156 408.0078,616.5234 Q407.3828,617.2656 406.3867,617.6758 Q405.0781,618.2422 403.4766,618.2422 Q401.6016,618.2422 400.0977,617.5 Q398.8867,616.9141 398.0273,615.6445 Q397.1875,614.375 397.1875,612.8711 L397.1875,611.5039 Q397.1875,609.9414 397.9297,608.5742 Q398.6914,607.207 400,606.4844 Q401.3281,605.7422 402.8125,605.7422 Q403.7109,605.7422 404.4922,606.0547 Q405.2734,606.3672 405.9375,606.9922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="66.25" x="445.3125" y="608.0713">«Builder»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="98.75" x="429.0625" y="626.9385">ServicoBuilder</text><line style="stroke:#A80036;stroke-width:1.875;" x1="344.375" x2="571.875" y1="636.4844" y2="636.4844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="344.375" x2="571.875" y1="646.4844" y2="646.4844"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="107.5" x="350.625" y="665.7581">withCatalogo(cat)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="350.625" y="683.053">withKeywords()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="350.625" y="700.3479">withcone()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="103.75" x="350.625" y="717.6428">withDescBreve()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="122.5" x="350.625" y="734.9377">withDescCompleta()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="95" x="350.625" y="752.2327">createServico()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="215" x="350.625" y="769.5276">withFormularioAServico(formulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="37.5" x="350.625" y="786.8225">buidl()</text><!--MD5=[51865f8cbfe0824679c335d6e733f291]
+class ServicoRepository--><rect codeLine="54" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="122.1191" id="ServicoRepository" style="stroke:#A80036;stroke-width:1.875;" width="193.75" x="228.75" y="892.5"/><ellipse cx="261" cy="917.6172" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M263.5,913.2422 Q263.7539,912.6172 264.0469,912.3047 Q264.3398,911.9922 264.6719,911.9922 Q265.2578,911.9922 265.6289,912.3438 Q266,912.6953 266,913.5156 L266,915.4688 Q266,916.2891 265.6484,916.6406 Q265.2969,916.9922 264.75,916.9922 Q264.2617,916.9922 263.9492,916.7773 Q263.6367,916.5625 263.5,915.9961 Q263.4414,915.6055 263.2266,915.3906 Q262.8359,914.9805 262.1328,914.7461 Q261.4297,914.4922 260.7266,914.4922 Q259.8477,914.4922 259.1055,914.8438 Q258.3828,915.1953 257.8164,915.9766 Q257.25,916.7578 257.25,917.832 L257.25,918.9844 Q257.25,920.2734 258.3047,921.1328 Q259.3594,921.9922 261.2344,921.9922 Q262.3477,921.9922 263.1289,921.7383 Q263.5781,921.6016 264.0859,921.1523 Q264.418,920.8984 264.5938,920.8203 Q264.7695,920.7422 264.9844,920.7422 Q265.3945,920.7422 265.6875,921.0742 Q266,921.3867 266,921.8359 Q266,922.2656 265.5703,922.7734 Q264.9453,923.5156 263.9492,923.9258 Q262.6406,924.4922 261.0391,924.4922 Q259.1641,924.4922 257.6602,923.75 Q256.4492,923.1641 255.5898,921.8945 Q254.75,920.625 254.75,919.1211 L254.75,917.7539 Q254.75,916.1914 255.4922,914.8242 Q256.2539,913.457 257.5625,912.7344 Q258.8906,911.9922 260.375,911.9922 Q261.2734,911.9922 262.0547,912.3047 Q262.8359,912.6172 263.5,913.2422 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="85" x="300.875" y="914.3213">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="123.75" x="281.5" y="933.1885">ServicoRepository</text><line style="stroke:#A80036;stroke-width:1.875;" x1="230" x2="421.25" y1="942.7344" y2="942.7344"/><line style="stroke:#A80036;stroke-width:1.875;" x1="230" x2="421.25" y1="952.7344" y2="952.7344"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="48.75" x="236.25" y="972.0081">create()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="178.75" x="236.25" y="989.303">findById(codigoUnicoServico)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="236.25" y="1006.5979">save(servico)</text><!--MD5=[37de35b2239f3e75f2a4e341603fb23d]
+class CatalogoRepository--><rect codeLine="60" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="104.8242" id="CatalogoRepository" style="stroke:#A80036;stroke-width:1.875;" width="176.25" x="8.75" y="901.25"/><ellipse cx="27.5" cy="926.3672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M30,921.9922 Q30.2539,921.3672 30.5469,921.0547 Q30.8398,920.7422 31.1719,920.7422 Q31.7578,920.7422 32.1289,921.0938 Q32.5,921.4453 32.5,922.2656 L32.5,924.2188 Q32.5,925.0391 32.1484,925.3906 Q31.7969,925.7422 31.25,925.7422 Q30.7617,925.7422 30.4492,925.5273 Q30.1367,925.3125 30,924.7461 Q29.9414,924.3555 29.7266,924.1406 Q29.3359,923.7305 28.6328,923.4961 Q27.9297,923.2422 27.2266,923.2422 Q26.3477,923.2422 25.6055,923.5938 Q24.8828,923.9453 24.3164,924.7266 Q23.75,925.5078 23.75,926.582 L23.75,927.7344 Q23.75,929.0234 24.8047,929.8828 Q25.8594,930.7422 27.7344,930.7422 Q28.8477,930.7422 29.6289,930.4883 Q30.0781,930.3516 30.5859,929.9023 Q30.918,929.6484 31.0938,929.5703 Q31.2695,929.4922 31.4844,929.4922 Q31.8945,929.4922 32.1875,929.8242 Q32.5,930.1367 32.5,930.5859 Q32.5,931.0156 32.0703,931.5234 Q31.4453,932.2656 30.4492,932.6758 Q29.1406,933.2422 27.5391,933.2422 Q25.6641,933.2422 24.1602,932.5 Q22.9492,931.9141 22.0898,930.6445 Q21.25,929.375 21.25,927.8711 L21.25,926.5039 Q21.25,924.9414 21.9922,923.5742 Q22.7539,922.207 24.0625,921.4844 Q25.3906,920.7422 26.875,920.7422 Q27.7734,920.7422 28.5547,921.0547 Q29.3359,921.3672 30,921.9922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="85" x="70.625" y="923.0713">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="136.25" x="45" y="941.9385">CatalogoRepository</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="183.75" y1="951.4844" y2="951.4844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="183.75" y1="961.4844" y2="961.4844"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="48.75" x="16.25" y="980.7581">create()</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="47.5" x="16.25" y="998.053">findAll()</text><!--MD5=[76acc874f09693b2f2def29d0cdf8ced]
+class Formulario--><rect codeLine="65" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="122.1191" id="Formulario" style="stroke:#A80036;stroke-width:1.875;" width="452.5" x="616.875" y="629.375"/><ellipse cx="800.3125" cy="654.4922" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M802.8125,650.1172 Q803.0664,649.4922 803.3594,649.1797 Q803.6523,648.8672 803.9844,648.8672 Q804.5703,648.8672 804.9414,649.2188 Q805.3125,649.5703 805.3125,650.3906 L805.3125,652.3438 Q805.3125,653.1641 804.9609,653.5156 Q804.6094,653.8672 804.0625,653.8672 Q803.5742,653.8672 803.2617,653.6523 Q802.9492,653.4375 802.8125,652.8711 Q802.7539,652.4805 802.5391,652.2656 Q802.1484,651.8555 801.4453,651.6211 Q800.7422,651.3672 800.0391,651.3672 Q799.1602,651.3672 798.418,651.7188 Q797.6953,652.0703 797.1289,652.8516 Q796.5625,653.6328 796.5625,654.707 L796.5625,655.8594 Q796.5625,657.1484 797.6172,658.0078 Q798.6719,658.8672 800.5469,658.8672 Q801.6602,658.8672 802.4414,658.6133 Q802.8906,658.4766 803.3984,658.0273 Q803.7305,657.7734 803.9063,657.6953 Q804.082,657.6172 804.2969,657.6172 Q804.707,657.6172 805,657.9492 Q805.3125,658.2617 805.3125,658.7109 Q805.3125,659.1406 804.8828,659.6484 Q804.2578,660.3906 803.2617,660.8008 Q801.9531,661.3672 800.3516,661.3672 Q798.4766,661.3672 796.9727,660.625 Q795.7617,660.0391 794.9023,658.7695 Q794.0625,657.5 794.0625,655.9961 L794.0625,654.6289 Q794.0625,653.0664 794.8047,651.6992 Q795.5664,650.332 796.875,649.6094 Q798.2031,648.8672 799.6875,648.8672 Q800.5859,648.8672 801.3672,649.1797 Q802.1484,649.4922 802.8125,650.1172 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="70" x="828.4375" y="651.1963">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="75" x="825.9375" y="670.0635">Formulario</text><line style="stroke:#A80036;stroke-width:1.875;" x1="618.125" x2="1068.125" y1="679.6094" y2="679.6094"/><line style="stroke:#A80036;stroke-width:1.875;" x1="618.125" x2="1068.125" y1="689.6094" y2="689.6094"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="257.5" x="624.375" y="708.8831">adicionarNomeFormulario(NomeFormulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="437.5" x="624.375" y="726.178">adicionarAtributoRequeridoFormulario(novoAtributoRequeridoFormulario)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="380" x="624.375" y="743.4729">adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)</text><!--MD5=[d0d7b0900e371541ba11cbff692d2bc7]
+class Script--><rect codeLine="71" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="70.2344" id="Script" style="stroke:#A80036;stroke-width:1.875;" width="105" x="1481.875" y="918.75"/><ellipse cx="1500.625" cy="943.8672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1503.125,939.4922 Q1503.3789,938.8672 1503.6719,938.5547 Q1503.9648,938.2422 1504.2969,938.2422 Q1504.8828,938.2422 1505.2539,938.5938 Q1505.625,938.9453 1505.625,939.7656 L1505.625,941.7188 Q1505.625,942.5391 1505.2734,942.8906 Q1504.9219,943.2422 1504.375,943.2422 Q1503.8867,943.2422 1503.5742,943.0273 Q1503.2617,942.8125 1503.125,942.2461 Q1503.0664,941.8555 1502.8516,941.6406 Q1502.4609,941.2305 1501.7578,940.9961 Q1501.0547,940.7422 1500.3516,940.7422 Q1499.4727,940.7422 1498.7305,941.0938 Q1498.0078,941.4453 1497.4414,942.2266 Q1496.875,943.0078 1496.875,944.082 L1496.875,945.2344 Q1496.875,946.5234 1497.9297,947.3828 Q1498.9844,948.2422 1500.8594,948.2422 Q1501.9727,948.2422 1502.7539,947.9883 Q1503.2031,947.8516 1503.7109,947.4023 Q1504.043,947.1484 1504.2188,947.0703 Q1504.3945,946.9922 1504.6094,946.9922 Q1505.0195,946.9922 1505.3125,947.3242 Q1505.625,947.6367 1505.625,948.0859 Q1505.625,948.5156 1505.1953,949.0234 Q1504.5703,949.7656 1503.5742,950.1758 Q1502.2656,950.7422 1500.6641,950.7422 Q1498.7891,950.7422 1497.2852,950 Q1496.0742,949.4141 1495.2148,948.1445 Q1494.375,946.875 1494.375,945.3711 L1494.375,944.0039 Q1494.375,942.4414 1495.1172,941.0742 Q1495.8789,939.707 1497.1875,938.9844 Q1498.5156,938.2422 1500,938.2422 Q1500.8984,938.2422 1501.6797,938.5547 Q1502.4609,938.8672 1503.125,939.4922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="70" x="1515.625" y="940.5713">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="38.75" x="1531.25" y="959.4385">Script</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1483.125" x2="1585.625" y1="968.9844" y2="968.9844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1483.125" x2="1585.625" y1="978.9844" y2="978.9844"/><!--MD5=[6f77dd65fc1ccb211befa507bd2ea97a]
+class NivelCriticidade--><rect codeLine="74" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="70.2344" id="NivelCriticidade" style="stroke:#A80036;stroke-width:1.875;" width="147.5" x="1290.625" y="918.75"/><ellipse cx="1309.375" cy="943.8672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1311.875,939.4922 Q1312.1289,938.8672 1312.4219,938.5547 Q1312.7148,938.2422 1313.0469,938.2422 Q1313.6328,938.2422 1314.0039,938.5938 Q1314.375,938.9453 1314.375,939.7656 L1314.375,941.7188 Q1314.375,942.5391 1314.0234,942.8906 Q1313.6719,943.2422 1313.125,943.2422 Q1312.6367,943.2422 1312.3242,943.0273 Q1312.0117,942.8125 1311.875,942.2461 Q1311.8164,941.8555 1311.6016,941.6406 Q1311.2109,941.2305 1310.5078,940.9961 Q1309.8047,940.7422 1309.1016,940.7422 Q1308.2227,940.7422 1307.4805,941.0938 Q1306.7578,941.4453 1306.1914,942.2266 Q1305.625,943.0078 1305.625,944.082 L1305.625,945.2344 Q1305.625,946.5234 1306.6797,947.3828 Q1307.7344,948.2422 1309.6094,948.2422 Q1310.7227,948.2422 1311.5039,947.9883 Q1311.9531,947.8516 1312.4609,947.4023 Q1312.793,947.1484 1312.9688,947.0703 Q1313.1445,946.9922 1313.3594,946.9922 Q1313.7695,946.9922 1314.0625,947.3242 Q1314.375,947.6367 1314.375,948.0859 Q1314.375,948.5156 1313.9453,949.0234 Q1313.3203,949.7656 1312.3242,950.1758 Q1311.0156,950.7422 1309.4141,950.7422 Q1307.5391,950.7422 1306.0352,950 Q1304.8242,949.4141 1303.9648,948.1445 Q1303.125,946.875 1303.125,945.3711 L1303.125,944.0039 Q1303.125,942.4414 1303.8672,941.0742 Q1304.6289,939.707 1305.9375,938.9844 Q1307.2656,938.2422 1308.75,938.2422 Q1309.6484,938.2422 1310.4297,938.5547 Q1311.2109,938.8672 1311.875,939.4922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="70" x="1345.625" y="940.5713">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="107.5" x="1326.875" y="959.4385">NivelCriticidade</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1291.875" x2="1436.875" y1="968.9844" y2="968.9844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1291.875" x2="1436.875" y1="978.9844" y2="978.9844"/><!--MD5=[144d8500ff5ceeb459f213940aff5919]
+class AtributoRequeridoFormulario--><rect codeLine="78" fill="#FEFECE" filter="url(#f1nkytnhs0t438)" height="104.8242" id="AtributoRequeridoFormulario" style="stroke:#A80036;stroke-width:1.875;" width="525" x="580.625" y="901.25"/><ellipse cx="738.4375" cy="926.3672" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M740.9375,921.9922 Q741.1914,921.3672 741.4844,921.0547 Q741.7773,920.7422 742.1094,920.7422 Q742.6953,920.7422 743.0664,921.0938 Q743.4375,921.4453 743.4375,922.2656 L743.4375,924.2188 Q743.4375,925.0391 743.0859,925.3906 Q742.7344,925.7422 742.1875,925.7422 Q741.6992,925.7422 741.3867,925.5273 Q741.0742,925.3125 740.9375,924.7461 Q740.8789,924.3555 740.6641,924.1406 Q740.2734,923.7305 739.5703,923.4961 Q738.8672,923.2422 738.1641,923.2422 Q737.2852,923.2422 736.543,923.5938 Q735.8203,923.9453 735.2539,924.7266 Q734.6875,925.5078 734.6875,926.582 L734.6875,927.7344 Q734.6875,929.0234 735.7422,929.8828 Q736.7969,930.7422 738.6719,930.7422 Q739.7852,930.7422 740.5664,930.4883 Q741.0156,930.3516 741.5234,929.9023 Q741.8555,929.6484 742.0313,929.5703 Q742.207,929.4922 742.4219,929.4922 Q742.832,929.4922 743.125,929.8242 Q743.4375,930.1367 743.4375,930.5859 Q743.4375,931.0156 743.0078,931.5234 Q742.3828,932.2656 741.3867,932.6758 Q740.0781,933.2422 738.4766,933.2422 Q736.6016,933.2422 735.0977,932.5 Q733.8867,931.9141 733.0273,930.6445 Q732.1875,929.375 732.1875,927.8711 L732.1875,926.5039 Q732.1875,924.9414 732.9297,923.5742 Q733.6914,922.207 735,921.4844 Q736.3281,920.7422 737.8125,920.7422 Q738.7109,920.7422 739.4922,921.0547 Q740.2734,921.3672 740.9375,921.9922 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="70" x="828.4375" y="923.0713">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="198.75" x="764.0625" y="941.9385">AtributoRequeridoFormulario</text><line style="stroke:#A80036;stroke-width:1.875;" x1="581.875" x2="1104.375" y1="951.4844" y2="951.4844"/><line style="stroke:#A80036;stroke-width:1.875;" x1="581.875" x2="1104.375" y1="961.4844" y2="961.4844"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="510" x="588.125" y="980.7581">create(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,DescricaoAjudaAtributo,</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="317.5" x="591.875" y="998.053">TipoDadosBaseAtributo,ExpressaoRegularAtributos)</text><!--MD5=[efe504891857edf9ba4f5cd907237d6b]
+link EspecificarServicoUI to EspecificarServicoController--><path codeLine="82" d="M1229.9875,78.9625 C1207.7,102.7 1176.15,136.3 1143.325,171.275 " fill="none" id="EspecificarServicoUI-to-EspecificarServicoController" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1138.8875,175.9875,1150.2289,171.1984,1143.1615,171.4273,1142.9326,164.36,1138.8875,175.9875" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="91.25" x="1190.625" y="134.3689">theController</text><!--MD5=[01cb2f965c8cf6795479d12899f8e998]
+link EspecificarServicoUI to Servico--><path codeLine="84" d="M1278.0125,79.0125 C1283.2125,90.675 1288.7625,103.9 1293.125,116.25 C1350.525,278.65 1399.5375,473.075 1426.6625,588.6375 " fill="none" id="EspecificarServicoUI-to-Servico" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1428.1,594.7625,1430.3983,582.6679,1426.6725,588.6777,1420.6626,584.9519,1428.1,594.7625" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="52.5" x="1403.125" y="339.3689">Servico</text><!--MD5=[3b4e9fec8f9a906b2809fbf725460666]
+link EspecificarServicoController to Servico--><path codeLine="86" d="M1192.25,488.9625 C1236.575,523.5 1282.375,559.2125 1322.825,590.7375 " fill="none" id="EspecificarServicoController-to-Servico" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1328.25,594.9625,1322.4477,584.1045,1323.3194,591.1217,1316.3023,591.9934,1328.25,594.9625" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="52.5" x="1263.125" y="544.3689">Servico</text><!--MD5=[85743cb2e7a0b92205e08eae6da0b835]
+link EspecificarServicoController to Formulario--><path codeLine="87" d="M927.55,489.2125 C907.725,536.225 887,585.3625 871.05,623.175 " fill="none" id="EspecificarServicoController-to-Formulario" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="868.525,629.15,877.4988,620.7219,870.9504,623.3898,868.2825,616.8413,868.525,629.15" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="76.25" x="909.375" y="544.3689">Formulario</text><!--MD5=[964cdeb9dc6a1c3df4df2f7e23a15fa2]
+link Formulario to AtributoRequeridoFormulario--><path codeLine="88" d="M843.125,752 C843.125,794.8 843.125,852.0125 843.125,894.375 " fill="none" id="Formulario-to-AtributoRequeridoFormulario" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="843.125,901.0375,848.125,889.7875,843.125,894.7875,838.125,889.7875,843.125,901.0375" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="205" x="844.375" y="850.6189">AtributoRequeridoFormulario</text><!--MD5=[10d5026855d78c643670255e912eaf8f]
+link Servico to Script--><path codeLine="89" d="M1480.1875,786.3375 C1494.3625,829.8125 1510.425,879.05 1521.35,912.575 " fill="none" id="Servico-to-Script" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1523.3375,918.65,1524.5897,906.4028,1521.3932,912.7101,1515.0859,909.5136,1523.3375,918.65" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="42.5" x="1503.125" y="850.6189">Script</text><!--MD5=[0fa6861b6289a1249dbc9d2c2422d8e9]
+link Servico to NivelCriticidade--><path codeLine="90" d="M1392.325,786.4875 C1385.2375,801.475 1378.9125,817.1 1374.375,832.5 C1366.7625,858.35 1364.275,888.5875 1363.6875,912.2375 " fill="none" id="Servico-to-NivelCriticidade" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1363.575,918.725,1368.7671,907.5624,1363.6821,912.4759,1358.7686,907.391,1363.575,918.725" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="110" x="1375.625" y="850.6189">NivelCriticidade</text><!--MD5=[5c07f8b2ac68e9f81a3704481c603bbb]
+link EspecificarServicoController to ServicoBuilder--><path codeLine="91" d="M741.1,488.8625 C691.95,520.3625 641.175,553.8 594.375,586.25 C589.1625,589.8625 583.875,593.5875 578.55,597.3875 " fill="none" id="EspecificarServicoController-to-ServicoBuilder" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="573.225,601.2125,585.2832,598.7302,578.3072,597.5747,579.4628,590.5987,573.225,601.2125" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="72.5" x="681.875" y="544.3689">theBuilder</text><!--MD5=[7cd1aaa6c33f72b9a3b8415b315b362e]
+link EspecificarServicoController to RepositoryFactory--><path codeLine="93" d="M1081.65,489.2125 C1110.6625,540.1625 1141.0875,593.6 1163.2,632.425 " fill="none" id="EspecificarServicoController-to-RepositoryFactory" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1166.4,638.05,1165.1814,625.7994,1163.3088,632.618,1156.4902,630.7454,1166.4,638.05" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="48.75" x="1113.125" y="544.3689">factory</text><!--MD5=[f445eaf63a95a027fd666edc240d9caa]
+link EspecificarServicoController to PersistenceContext--><path codeLine="95" d="M740.875,402.025 C609.7,443.925 450.1375,505.225 320.625,586.25 C296.425,601.3875 273,622.4875 254.125,641.6625 " fill="none" id="EspecificarServicoController-to-PersistenceContext" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="249.425,646.4875,260.8518,641.906,253.7815,642.006,253.6815,634.9357,249.425,646.4875" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="83.75" x="424.375" y="544.3689">persistence</text><!--MD5=[376c25fa8cb974739bb625004c9da3ec]
+link PersistenceContext to ServicoRepository--><path codeLine="96" d="M230.6625,734.9125 C248.6,776.0125 275.8875,838.5375 296.6125,886.025 " fill="none" id="PersistenceContext-to-ServicoRepository" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="299.3625,892.3375,299.4482,880.0267,296.8639,886.6087,290.282,884.0244,299.3625,892.3375" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="31.25" x="284.375" y="850.6189">repo</text><!--MD5=[c1819b64bd5645251942512eab852b79]
+link PersistenceContext to CatalogoRepository--><path codeLine="97" d="M192.8875,734.9125 C173.575,778.675 143.5375,846.75 122.2125,895.0875 " fill="none" id="PersistenceContext-to-CatalogoRepository" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="119.65,900.875,128.7617,892.5962,122.1701,895.1556,119.6107,888.564,119.65,900.875" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="31.25" x="149.375" y="850.6189">repo</text><!--MD5=[4e0be591a3c406ce22c80b269d0ffc8f]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class EspecificarServicoUI <<presentation>>{
+
+}
+
+class EspecificarServicoController <<application>>{
+createServico(codigoUnico, tituloServico, requerFeedback)
+mostrarCatalogos()
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+guardarServico()
+especificarFormulario()
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoFormulario(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,\nDescricaoAjudaAtributo,TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+procurarServico(codigoUnicoServico)
+}
+
+interface RepositoryFactory <<factory>>{
+servicos()
+catalogos()
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Servico <<domain>>{
+create(codigoUnico,tituloServico)
+associarFormularioAServico(formulario)
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+}
+
+class ServicoBuilder <<Builder>>{
+withCatalogo(cat)
+withKeywords()
+withcone()
+withDescBreve()
+withDescCompleta()
+createServico()
+withFormularioAServico(formulario)
+buidl()
+}
+
+class ServicoRepository <<repository>>{
+create()
+findById(codigoUnicoServico)
+save(servico)
+}
+
+class CatalogoRepository <<repository>>{
+create()
+findAll()
+}
+
+class Formulario <<domain>>{
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoRequeridoFormulario(novoAtributoRequeridoFormulario)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+}
+
+class Script <<domain>>{
+
+}
+class NivelCriticidade <<domain>>{
+
+}
+
+class AtributoRequeridoFormulario <<domain>>{
+create(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,DescricaoAjudaAtributo,\n TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+}
+
+EspecificarServicoUI - -> EspecificarServicoController : theController
+
+EspecificarServicoUI ..> Servico : Servico
+
+EspecificarServicoController - -> Servico : Servico
+EspecificarServicoController - -> Formulario : Formulario
+Formulario - -> AtributoRequeridoFormulario : AtributoRequeridoFormulario
+Servico - -> Script : Script
+Servico - -> NivelCriticidade : NivelCriticidade
+EspecificarServicoController - -> ServicoBuilder : theBuilder
+
+EspecificarServicoController - -> RepositoryFactory : factory
+
+EspecificarServicoController - -> PersistenceContext : persistence
+PersistenceContext - -> ServicoRepository : repo
+PersistenceContext - -> CatalogoRepository : repo
+
+@enduml
+
+@startuml
+
+
+class EspecificarServicoUI <<presentation>>{
+
+}
+
+class EspecificarServicoController <<application>>{
+createServico(codigoUnico, tituloServico, requerFeedback)
+mostrarCatalogos()
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+guardarServico()
+especificarFormulario()
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoFormulario(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,\nDescricaoAjudaAtributo,TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+procurarServico(codigoUnicoServico)
+}
+
+interface RepositoryFactory <<factory>>{
+servicos()
+catalogos()
+}
+
+class PersistenceContext <<Persistence>>{
+repositories()
+}
+
+class Servico <<domain>>{
+create(codigoUnico,tituloServico)
+associarFormularioAServico(formulario)
+associarCatalogo(cat)
+associarKeywords()
+associarIcone()
+associarDescBreve()
+associarDescCompleta()
+}
+
+class ServicoBuilder <<Builder>>{
+withCatalogo(cat)
+withKeywords()
+withcone()
+withDescBreve()
+withDescCompleta()
+createServico()
+withFormularioAServico(formulario)
+buidl()
+}
+
+class ServicoRepository <<repository>>{
+create()
+findById(codigoUnicoServico)
+save(servico)
+}
+
+class CatalogoRepository <<repository>>{
+create()
+findAll()
+}
+
+class Formulario <<domain>>{
+adicionarNomeFormulario(NomeFormulario)
+adicionarAtributoRequeridoFormulario(novoAtributoRequeridoFormulario)
+adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+}
+
+class Script <<domain>>{
+
+}
+class NivelCriticidade <<domain>>{
+
+}
+
+class AtributoRequeridoFormulario <<domain>>{
+create(nomeVariavelAtributo,EtiquetaApresentacaoAtributo,DescricaoAjudaAtributo,\n TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+}
+
+EspecificarServicoUI - -> EspecificarServicoController : theController
+
+EspecificarServicoUI ..> Servico : Servico
+
+EspecificarServicoController - -> Servico : Servico
+EspecificarServicoController - -> Formulario : Formulario
+Formulario - -> AtributoRequeridoFormulario : AtributoRequeridoFormulario
+Servico - -> Script : Script
+Servico - -> NivelCriticidade : NivelCriticidade
+EspecificarServicoController - -> ServicoBuilder : theBuilder
+
+EspecificarServicoController - -> RepositoryFactory : factory
+
+EspecificarServicoController - -> PersistenceContext : persistence
+PersistenceContext - -> ServicoRepository : repo
+PersistenceContext - -> CatalogoRepository : repo
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

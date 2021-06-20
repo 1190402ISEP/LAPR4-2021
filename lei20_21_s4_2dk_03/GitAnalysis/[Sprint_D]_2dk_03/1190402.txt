@@ -1,0 +1,794 @@
+commit 7f3b8847c26efb40b71435e9940f087170c0fe8b
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 15 18:55:05 2021 +0100
+
+    #35 inicio da implementacao de Listener
+
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.g4
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.interp
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/Linguagem.tokens
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemBaseListener.java
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemBaseVisitor.java
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemLexer.interp
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemLexer.java
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemLexer.tokens
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemListener.java
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemParser.java
+M	docs/TASKS/UC11-1004#16/Compilacao_Scripts/LinguagemVisitor.java
+
+commit 4be4d415da074cebb345496a7c56e4599ce0779e
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 15 15:37:08 2021 +0100
+
+    #42 #43 melhorias na classe EscalonadorSettings
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorSettings.java
+
+commit f83d44c6a8195924022dc0602e10d0a79cd01d7f
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 15 15:11:33 2021 +0100
+
+    #43 correcao na configuracao do algoritmo e implementacao da configuracao do algoritmo atribuidor de tarefas
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorSettings.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/AtribuidorDeTarefasFCFS.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/AtribuidorDeTarefasInteligente.java
+M	base.app.servidor/src/main/resources/escalonamento.properties
+
+commit 24ab8e7dfaeca6108973c5bc7a02a39352f337e1
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 15 14:50:03 2021 +0100
+
+    JAVADOC dos repositórios
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/EscalonadoresAssignarTarefas.java
+M	base.core/src/main/java/eapli/base/clientusermanagement/repositories/SignupRequestRepository.java
+M	base.core/src/main/java/eapli/base/equipa/repositories/EquipaRepository.java
+M	base.core/src/main/java/eapli/base/formulario/repository/FormularioRepository.java
+M	base.core/src/main/java/eapli/base/funcao/repositories/FuncaoRepository.java
+M	base.core/src/main/java/eapli/base/nivelCriticidade/repository/NivelRepository.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/servico/repository/ServicoRepository.java
+M	base.core/src/main/java/eapli/base/tipoequipa/repositories/TipoEquipaRepository.java
+
+commit 67d341fd409ab13caac9d0e234a0bb8f0b3670a5
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 15 11:18:45 2021 +0100
+
+    #44 inicio da implementacao e criacao de duas apps separadas e ficheiros .bat e .sh
+
+A	base.app.executortarefasautomaticas/.gitignore
+A	base.app.executortarefasautomaticas/pom.xml
+A	base.app.executortarefasautomaticas/src/main/java/eapli/base/app/executortarefasautomaticas/Main.java
+A	base.app.motorfluxoatividades/.gitignore
+A	base.app.motorfluxoatividades/pom.xml
+A	base.app.motorfluxoatividades/src/main/java/eapli/base/app/motorfluxosatividades/Main.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/TODO.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/UtilAtribuicaoAtividadesManuais.java
+M	base.core/src/main/java/eapli/base/atividade/application/ReinvindicarTarefasPendentesController.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/atividade/repositories/AtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaColaboradorRepository.java
+M	pom.xml
+A	run-executor-tarefas-automaticas.bat
+A	run-executor-tarefas-automaticas.sh
+A	run-motor-fluxo-atividades.bat
+A	run-motor-fluxo-atividades.sh
+
+commit 4f980956ffd20e636c70a737baa627552df0b8e9
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 14 22:11:13 2021 +0100
+
+    #44 correcoes nos packages e estabelecimento da base de interfaces do atribuidor de tarefas manuais a colaboradores
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/EscalonadoresAssignarTarefas.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/TODO.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/assignartarefasacolaboradores/UtilAtribuicaoAtividadesManuais.java
+
+commit e7c8d40f9a1c305d59e9333de3cfac420bc1e928
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 14 20:47:25 2021 +0100
+
+    #43 adaptacao dos algoritmos de escalonamento de forma a preparar para os novos
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorSettings.java
+R090	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Escalonador.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorAtividadesAutomaticasExecutor.java
+R095	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFSAtividadeAutomaticaInstancia.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorPorCargaEOcupacao.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+
+commit 7c3e43519967b407f1d1f383e70d76a558d4561d
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 14 18:25:08 2021 +0100
+
+    #43 correcao no algoritmo FCFS otimizado e funcional
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java
+
+commit d9ce90c1ae4645e880379b3118bc3725a31d1d72
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 14 17:12:41 2021 +0100
+
+    #43 correcao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java
+
+commit 4fc917bb386ea8f0add51b5bef40a7d3b02574b1
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sun Jun 13 15:01:15 2021 +0100
+
+    #40 tcp Server update
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.app.servidor/src/main/java/utils/Constantes.java
+
+commit 6fef1443c89dac360203d01abcf34d6be3cdccf8
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sun Jun 13 10:13:20 2021 +0100
+
+    Classe EscalonadorSettings movida para o package escalonadores
+
+R083	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorSettings.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorSettings.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+
+commit 483525244a736628bbd05ba665b20a34795a23ad
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sun Jun 13 10:09:52 2021 +0100
+
+    #43 remocao da classe EscalonadorFactory
+
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFactory.java
+
+commit a122e513b9559c82c4a6194773d8ebb75abd4352
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sun Jun 13 10:07:44 2021 +0100
+
+    #43 funcionalidade de escolher algoritmo via ficheiro de configuracoes implementada
+
+R079	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorInterface.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Escalonador.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFactory.java
+R089	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java
+R095	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorPorCargaEOcupacao.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorSettings.java
+R094	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Instancia.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/Instancia.java
+R092	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Trabalho.java	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/Trabalho.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+A	base.app.servidor/src/main/resources/escalonamento.properties
+
+commit 7c5dfe693939158f3d86fcc456b34642c3364473
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 12 14:56:23 2021 +0100
+
+    #43 Implementacao de interface Escalonador
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorInterface.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+
+commit aa47631c985342e5e971471acea4be2f0009a913
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 12 13:30:59 2021 +0100
+
+    #43 Adaptação do algoritmo por carga e ocupacao e melhoria do escalonador FCFS
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+
+commit ea2b1c6d2fee863e0c6414d8fff641f277e59691
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 12 12:40:54 2021 +0100
+
+    #43 escalonador FCFS corrigido
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+
+commit 17decc6c5ac4743e7afe34e8e6880fb052c89e6a
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 18:06:42 2021 +0100
+
+    #28 HTML e JavaScript corrigidos
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.png
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/isep.png
+
+commit 11098da525e1faf1f6abfe7f78a3557ba66c2e75
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 15:35:18 2021 +0100
+
+    #28 dashboard- html done
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+
+commit 128516cf0b1d09304274ecd2e7102ba2b9740575
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 14:32:36 2021 +0100
+
+    Correcao na configuracao da db
+
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit b8f976f723df5b7602322dc81a4180e6757ba8c6
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 12:23:30 2021 +0100
+
+    REMOTE DATABASE IMPLEMENTED
+
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit 14597c9a691292f8b92c12c25e9f82f81b26bbae
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 11:08:03 2021 +0100
+
+    Melhoria Reivindicar Tarefa UI
+
+M	base.core/src/main/java/eapli/base/atividade/application/ReinvindicarTarefasPendentesController.java
+
+commit 487ac217b3215b4c65f5733f18f08c58d541d74a
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 10:46:09 2021 +0100
+
+    Atualizacao nome dashboard
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+
+commit d0f5c8f5a9b5bf51834faad482c19ed3751e0732
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 09:41:45 2021 +0100
+
+    codigo reformatado e mais organizado
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+
+commit 6caab4c204a56dd894ef9f512b7d53c59de2b9c3
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 09:29:58 2021 +0100
+
+    Icones adicionados ao html e melhoria geral da aparência
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.ico
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.jpg
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.ico
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.jpg
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.png
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+
+commit 72eef83bbe56dced87b076733b66c83cf2c8c09c
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 11 08:52:15 2021 +0100
+
+    Melhoria na UI da webdashboard do utilizador e criacao da UI da dashboard EstadoMotorFluxos
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/isep.png
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/isep.png
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/style.css
+M	base.app.servidor/src/main/java/utils/Constantes.java
+
+commit 1bbc6044a0b0c2bbcbc4b2297da99c2f45b138d2
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 20:47:36 2021 +0100
+
+    Correcao de erros no enumerado String Colors
+
+M	base.core/src/main/java/eapli/base/utils/scriptreader/StringColors.java
+
+commit 7542c5ec8fe4c18e2f9085aa158994ef971e68db
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 20:15:06 2021 +0100
+
+    Correção na UI de adicionar colaborador via csv
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/AddUserUI.java
+M	base.core/src/main/java/eapli/base/usermanagement/application/AddUserController.java
+
+commit c21d6d9752c8e58c602dd1cd3242451719af8aca
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 19:52:56 2021 +0100
+
+    Algoritmo gerador de passwords atualizado e sem falhas
+
+M	SAMPLE_COLABORADORES.csv
+M	base.core/src/main/java/eapli/base/utils/PasswordGenerator.java
+
+commit 606369950cf6cff9a3becc90aedae3e262a51dde
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 17:36:58 2021 +0100
+
+    correcao
+
+M	run-bootstrap.sh
+
+commit 328c635a8a3235418f32ea2b97ef2790f9000566
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 17:31:14 2021 +0100
+
+    correcao scripts de run no linux
+
+M	build-all.sh
+M	run-aplicacao-servidora.sh
+M	run-backoffice.sh
+M	run-bootstrap.sh
+M	run-other.sh
+M	run-portal.sh
+M	run-user.sh
+
+commit 865879fe49552568e2201e4fdcf02374fa3e2d8d
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 16:55:43 2021 +0100
+
+    #25 implementacao da classe dados para remocao da interface com o mesmo efeito (boa prática)
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/dados_protocolo/Dados.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit 8d5a79308017640f40f878ab24795e2140d4b4c9
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 15:55:50 2021 +0100
+
+    #25 continuacao do tcp
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/InformacaoUtilizador.java
+
+commit 6b1a891b28104d231bb22483d1e0f1d0e18c3b18
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 15:37:18 2021 +0100
+
+    FICHEIROS BINÁRIOS PARA CORRER EM LINUX
+
+A	run-aplicacao-servidora.sh
+A	run-portal.sh
+A	run-servicos-e-rec-humanos.sh
+
+commit ce80cc3cc71b941cc031c8b2a41313965a63957b
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 15:15:13 2021 +0100
+
+    CRIADAS APP PORTAL E SERVICOS E RECURSOS HUMANOS
+
+A	base.app.portal/.gitignore
+A	base.app.portal/pom.xml
+A	base.app.portal/src/main/java/eapli/base/app/portal/Main.java
+A	base.app.servicoserecursoshumanos/.gitignore
+A	base.app.servicoserecursoshumanos/pom.xml
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/Main.java
+A	base.app.servidor/.gitignore
+M	pom.xml
+A	run-portal.bat
+A	run-servicos-e-rec-humanos.bat
+
+commit af9233b55e5d6e7c0c3abcae0f0af1754c232996
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 10 14:29:27 2021 +0100
+
+    #43 correcao nos algoritmos
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+M	base.app.servidor/src/test/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFSTest.java
+
+commit 69e379c8319374126f4b7f9485318862f2e37c1e
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 22:11:00 2021 +0100
+
+    #43 JavaDoc EscalonadorPorCargaEOcupacao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+
+commit faf6ed99cf55a7f5e5b2b3e3684a5928a23f5090
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 22:03:16 2021 +0100
+
+    #52 BUG FIXED
+
+M	base.core/src/main/java/eapli/base/atividade/application/ConsultarAtividadeController.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/servico/application/EspecificarServicoController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+
+commit fdd4e6e14126757ad9153745748c8401c16d4109
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 19:45:11 2021 +0100
+
+    #51 BUG FIXED afetava o uc #23 reivindicar tarefa
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeAutomatica.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/atividade/domain/EstadoAtividade.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+
+commit bb228cc18256a47c10ca1e2b8f2132385126d96b
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 18:04:03 2021 +0100
+
+    #43 implementacao do algoritmo 2 de escalonamento
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Instancia.java
+
+commit 619f5f03539e43a2a2cf928d4481cc4684b2b416
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 15:00:29 2021 +0100
+
+    #43 início da implementação do segundo algoritmo e duas classes apenas para testes
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorPorCargaEOcupacao.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Instancia.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Trabalho.java
+
+commit e64ffba560a2e5499b1d92da515f813aa8e9d1b6
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 10:45:15 2021 +0100
+
+    #43 correção nos testes EscalonadorFCFSTest
+
+M	base.app.servidor/src/test/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFSTest.java
+
+commit 0a7493a4fb7d991d5f835b6e77b3a66af0305597
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 09:52:24 2021 +0100
+
+    #43 javadoc EscalonadorFCFS e EscalonadorFCFSTest
+
+M	base.app.servidor/src/test/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFSTest.java
+
+commit 6118600bd5a1fd39cc883a7f1df24e3800af9a30
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 09:50:13 2021 +0100
+
+    #43 testes unitários ao Escalonador
+
+M	.gitignore
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+A	base.app.servidor/src/test/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFSTest.java
+
+commit 3044c5154aee183281a1f9e13572ebac78b5a4a8
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 09:31:13 2021 +0100
+
+    #43 correcao de issues no codigo e alteracao na assinatura de dois metodos
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFiFo.java
+
+commit ccf19434dd4ad088a146779357235936d44d8187
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 9 07:55:02 2021 +0100
+
+    #43 implementação do algoritmo FIFO de escalonamento para qualquer tipo de dados
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFiFo.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+
+commit dc15112945d1a2c8bc0f6aa25b140678c4e54682
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 8 18:15:51 2021 +0100
+
+    #45 implementacao tls de Executor_Tarefas_Automaticas
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/testserver/TesteConexao.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+R084	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/DashBoardUtilizadorTCPClient.java	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+R094	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/DashBoardUtilizadorTCPServer.java	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit de9fe01f32b2a33440c138cbbe7f8037658f2e05
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 8 15:59:13 2021 +0100
+
+    #41 alteração nas constantes rcomp
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit 81af8a032a8ae5b6931910740ddfd4df043ef5d6
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 8 14:54:13 2021 +0100
+
+    #41 tls implementado
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/DashBoardUtilizadorTCPClient.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/DashBoardUtilizadorTCPServer.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/clients/TCPClienteDashboardUtilizador.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/servers/TCPServerDashboardUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+A	client1_J.jks
+A	client1_J.pem
+A	client2_J.jks
+A	client2_J.pem
+A	client3_J.jks
+A	client3_J.pem
+A	client4_J.jks
+A	client4_J.pem
+A	make_certs
+A	server_J.jks
+A	server_J.pem
+
+commit 3c0669219386522e8380e8732c52d5571e988447
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 20:13:15 2021 +0100
+
+    #28 inicio da implementação do controlador
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/application/MotorFluxoAtividadeController.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/servers/TCPServerDashboardUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/servico/domain/Servico.java
+
+commit e7ffc5577b38085f72c62608df8d9c44a67de15c
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 19:40:33 2021 +0100
+
+    #21  atualizacao da dashboard
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.jpg
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+
+commit 0ef68f5b08c7c2888a48174eed535356cd39363f
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 17:23:37 2021 +0100
+
+    Organizacao dos TCP Cli and Serv e criacao das classes relativas ao dashboard do utilizador marcado com todo no local a continuar implementação
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/testserver/TesteConexao.java
+D	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/rcomp_tcp/TCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+D	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/TCPCliente.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/clients/TCPClienteDashboardUtilizador.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/servers/TCPServerDashboardUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit 30bb0959aaaad3ff896fd2223d1bac21e54d8f50
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 15:00:59 2021 +0100
+
+    28 tcp cliente e tcp servidor correção de ips para testar funcionalidade
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/rcomp_tcp/TCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/TCPCliente.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit 31b342bee1ac1210efe613cc9714d7e1b724e9b9
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 14:08:41 2021 +0100
+
+    #28 início da implementação do TCPCliente à maquina
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/TCPCliente.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+A	base.core/src/main/java/eapli/base/utils/scriptreader/CoresOutput.java
+
+commit ed264414a6901d5cfd409085757f2da048f1b538
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Mon Jun 7 10:56:28 2021 +0100
+
+    16 correção
+
+D	gen/Linguagem.interp
+D	gen/Linguagem.tokens
+D	gen/LinguagemBaseListener.java
+D	gen/LinguagemBaseVisitor.java
+D	gen/LinguagemLexer.interp
+D	gen/LinguagemLexer.java
+D	gen/LinguagemLexer.tokens
+D	gen/LinguagemListener.java
+D	gen/LinguagemParser.java
+D	gen/LinguagemVisitor.java
+
+commit 45a2adad5f03e43a1153de7ec0473f58a20ae067
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 5 19:02:58 2021 +0100
+
+    #21 HTML melhorado
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.jpg
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+
+commit bd99abcb68a625e51d7f3834c323d8a35b5d8c87
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 5 13:24:16 2021 +0100
+
+    #21 html atualizado,funcao para carregar informacoes das atv.manuais colaborador, correção na classe ConverterData
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpAjaxRequest.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpServerAjax.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/rcomp-ajax.js
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/utils/ConversaoDatas.java
+
+commit e731d8213dbc7ff65e87550d061f85cce9d00dfd
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Sat Jun 5 11:59:04 2021 +0100
+
+    #21 correção de erro em que dashboard não fazia refresh automatico do colaborador
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/rcomp-ajax.js
+
+commit 860c17b136d2783756761ec66d3ecb566703cc92
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 4 13:49:27 2021 +0100
+
+    #16 Implementação de mecanismo de leitura de Script
+
+A	base.core/src/main/java/eapli/base/utils/scriptreader/ScriptFileImporter.java
+A	base.core/src/main/java/eapli/base/utils/scriptreader/ScriptReader.java
+
+commit cd44b7dc8bb7a312c4a5b128a812ee5b1ec65f2c
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 4 10:50:03 2021 +0100
+
+    #38 requisitos e análise
+
+A	docs/USE_CASES/UC26-3031#38/ProcessoEngenhariaFuncionalidade.md
+
+commit 59741f7973cfc9730161f3332f12b8cc6de29aff
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Fri Jun 4 09:30:19 2021 +0100
+
+    #20 #34 adição dos padrões à documentacao (efetuar pedido)
+
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+
+commit b70ced742fa8ec3cfc939b0bb7b2ef51e6400275
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Thu Jun 3 16:03:31 2021 +0100
+
+    #24 implementation of the class MotorFluxosAtividadesTCPServer
+
+R097	base.app.servidor/src/main/java/eapli/base/app/servidor/domain/motordefluxodeatividades/MotorFluxoTCPServer.java	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosAtividadesTCPServer.java
+
+commit 2bf9d698dc5d0f4de949cac42253895c349f86e3
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 16:49:11 2021 +0100
+
+    #20 #34 documentacao atualizada (lifelines SD)
+
+M	docs/USE_CASES/UC25-3002#20/SD.puml
+M	docs/USE_CASES/UC25-3002#20/SD.svg
+
+commit 78644b97ff2dea75b5e5ca0a8eeee5cfd2ef244e
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 15:38:57 2021 +0100
+
+    #20 #34 atualizacao da documentacao -> testes
+
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+
+commit d41fa8163944b0d32689f190660c06b144f1b95a
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 14:59:27 2021 +0100
+
+    otimização de imports
+
+M	base.core/src/main/java/eapli/base/utils/ConversaoDatas.java
+
+commit ecf510006a90a5eff5717fe3ca8edd698de5cf94
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 14:58:50 2021 +0100
+
+    #20 #34 testes unitários
+
+M	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+A	base.core/src/test/java/eapli/base/pedido/DataLimiteResolucaoPedidoTest.java
+M	docs/USE_CASES/UC25-3002#20/SD.puml
+
+commit 1b79352ddb8556c6f3e30b99182f56369b163a3a
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 14:19:21 2021 +0100
+
+    sd correção no loop
+
+M	docs/USE_CASES/UC25-3002#20/SD.puml
+
+commit e9ab9b8a9a157915d1cbc75afdba88348dc79d11
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 14:14:49 2021 +0100
+
+    #20 #34 sd corrigido
+
+M	docs/USE_CASES/UC25-3002#20/SD.puml
+
+commit 9ada111cb0d45e5e17e7d709e10b5c45e2a78683
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 11:12:54 2021 +0100
+
+    #20 #34 design-> sd concluido
+
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC25-3002#20/SD.puml
+A	docs/USE_CASES/UC25-3002#20/SD.svg
+D	docs/USE_CASES/UC25-3002#20/img.png
+
+commit 450b68b68aa18cde6cf827dade528da9a4a91d5f
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Wed Jun 2 09:53:50 2021 +0100
+
+    #20 #34 Efetuar Pedido-> Levantamento de requisitos e análise concluídos
+
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC25-3002#20/img.png
+
+commit 8d120ef5fe1f4b92932cf3a5f2098a31564975af
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 1 20:26:57 2021 +0100
+
+    #20 inicio da documentação -> requisitos praticamente concluidos e análise iniciada
+
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+
+commit b29d1fda2e8f27bf86e7621e7bf4f7168bb0236f
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 1 20:18:53 2021 +0100
+
+    #20 correcoes ao nivel do pedido
+
+A	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/EstagioPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/FeedBack.java
+A	base.core/src/main/java/eapli/base/pedido/domain/FicheiroAnexadoPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/UrgenciaPedido.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+
+commit dee44096b1ecfc66a3398c61d89c4be103d01c49
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 1 19:47:07 2021 +0100
+
+    #20 remocao de classes do Pedido (mal implementadas ou com falhas nas regras de negócio)
+
+D	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstadoPedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/EstagioPedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/FeedBack.java
+D	base.core/src/main/java/eapli/base/pedido/domain/FicheiroAnexadoPedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+D	base.core/src/main/java/eapli/base/pedido/domain/UrgenciaPedido.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	docs/USE_CASES/UC25-3002#20/ProcessoEngenhariaFuncionalidade.md
+
+commit ba6b86ba412fbdd883222f4e0bdba3a0e19ba8f7
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 1 16:09:56 2021 +0100
+
+    24 inicio da implementacao do MotorFluxoTCPServer
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/domain/motordefluxodeatividades/MotorFluxoTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+
+commit d5dca6ba50afb52bda81e3c839f3b4617956399c
+Author: Antonio Fernandes <1190402@isep.ipp.pt>
+Date:   Tue Jun 1 13:52:12 2021 +0100
+
+    #3 #19 correcao implementacao da associacao de colaborador e equipa a atividade manual
+
+M	base.core/src/main/java/eapli/base/servico/application/EspecificarServicoController.java

@@ -1,0 +1,196 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+autonumber
+
+'ACTOR'
+actor Gestor_De_Recursos_Humanos as GRH
+'PRESENTATION'
+participant EspecificarServicoUI as UI<<presentation>>
+'APPLICATION'
+participant EspecificarServicoController as Controller <<application>>
+'DOMAIN'
+participant Servico as Servico <<domain>>
+participant FluxoDeAtividade as FluxoDeAtividade <<domain>>
+participant AtividadeManual as AtividadeManual <<domain>>
+participant AtividadeAutomatica as AtividadeAutomatica <<domain>>
+participant Slot as Slot <<domain>>
+participant Equipa as Equipa<<domain>>
+participant Colaborador as Colaborador<<domain>>
+participant FluxoDeAtividadeBuilder as FluxoDeAtividade<<builder>>
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+'REPOSITORY'
+participant FluxoDeAtividadeRepository as FluxoDeAtividadeRepository <<repository>>
+participant AtividadeRepository as AtividadeRepository <<repository>>
+participant SlotRepository as SlotRepository <<repository>>
+participant ColaboradorRepository as ColaboradorRepository<<repository>>
+'SD->DESIGN'
+
+
+GRH->UI: inicia a definição do \nfluxo de atividade
+activate UI
+
+
+UI->GRH:pergunta em que data entrará em vigor\no fluxo e se este é no sentido restrito\nou sentido lato
+GRH->UI:insere os dados pedidos
+
+UI->Controller:iniciarDefinicaoFluxoDeAtividade(dataEntradaEmVigor,horaEntradaEmVigor,sentidoDeAplicacao)
+activate Controller
+Controller --> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> RepositoryFactory: create()
+            activate RepositoryFactory
+            Persistence --> Controller: factory()
+        deactivate Persistence
+
+'inicializar repositórios'
+Controller->RepositoryFactory:fluxosDeAtividade()
+activate FluxoDeAtividadeRepository
+RepositoryFactory-->FluxoDeAtividadeRepository:create()
+
+Controller->RepositoryFactory:atividades()
+RepositoryFactory-->AtividadeRepository: create()
+activate AtividadeRepository
+
+Controller->RepositoryFactory:equipas()
+RepositoryFactory-->EquipaRepository: create()
+activate EquipaRepository
+
+Controller->RepositoryFactory:colaboradores()
+RepositoryFactory-->ColaboradorRepository: create()
+activate ColaboradorRepository
+
+Controller->RepositoryFactory:slots()
+RepositoryFactory-->SlotRepository: create()
+activate SlotRepository
+
+deactivate RepositoryFactory
+
+Controller->FluxoDeAtividade:create()
+activate FluxoDeAtividade
+
+
+UI->GRH: pergunta quantas atividades \npretende especificar
+GRH->UI:insere a quantidade de atividades que pretende associar ao fluxo
+
+    loop Pedido de informação da atividade
+    UI->GRH:mostra os tipos de atividade e pede que escolha\no tipo em que a atividade se enquadra
+    GRH->UI:seleciona o tipo de atividade
+
+    note right: Dependendo do tipo de atividade será acionado um fluxo diferente, mas caso ela seja de aprovação será manual enquanto que se for de resolução tanto pode ser manual como automática\n
+
+    alt GRH->UI:escolhe atividade manual
+
+        UI->GRH:pede informações sobre a atividade (descrição, \na ordem de execução e delay)
+        GRH->UI:insere os dados pedidos
+        UI->Controller:novaAtividadeManual(ordemExecucao,descricao,delay)
+        Controller->AtividadeManual:atividadeManual=create(descricao,delay)
+        activate AtividadeManual
+
+
+        UI->GRH:pergunta se pretende adicionar equipa responsável \nou colaboradores específicos
+
+            alt Equipa
+            GRH->UI:escolhe equipa
+                UI->Controller: mostrarTodasAsEquipas()
+                 Controller->EquipaRepository:findAll()
+
+                            Controller->UI:mostrar lista de equipas
+
+                                UI->GRH:Mostra a lista de equipas e\npergunta quem pode efetuar a atividade (equipa)
+                                GRH->UI:seleciona id da equipa
+                                UI->Controller:adicionarEquipaParaResolver(CodigoUnicoEquipa)
+                                Controller->EquipaRepository:equipa=ofIdentity(CodigoUnicoEquipa)
+                                deactivate EquipaRepository
+                                    activate Equipa
+                                        Controller->AtividadeManual:associarEquipaParaEfetuarAtividade(equipa)
+
+
+            else Colaboradores
+                GRH->UI:colaboradores
+                UI->Controller:mostrarTodosOsColaboradores()
+                Controller->ColaboradorRepository:findAll()
+                Controller->UI: mostrar lista de colaboradores
+
+
+                UI->GRH:Quantos pretende associar
+                GRH->UI:quantidade a associar
+
+                    loop para o numero de colaboradores a associar
+                        UI->GRH:pede que introduza o mecanographicNumber
+                        GRH->UI:insere o mecanographicNumber
+                        UI->Controller:associarColaborador(mecanographicNumber)
+                        Controller->ColaboradorRepository:colab=ofIdentity(mecanographicNumber)
+                        deactivate ColaboradorRepository
+                        Controller->AtividadeManual:associarColaborador(colab)
+                        note right: adiciona à lista
+                    end loop
+
+            end
+
+        UI->GRH: pergunta se pretende associar um formulario a atividade manual
+
+        alt escolhe formulario
+
+        GRH->UI: insere o formulario
+        note right: interaction use sd:definirFormulario
+
+
+        end
+
+        Controller->AtividadeRepository:save(atividadeManual)
+        Controller->Slot:slot=create(ordemExecucao,atividadeManual)
+        activate Slot
+        Controller->SlotRepository:save(slot)
+        Controller->FluxoDeAtividade:associarSlotComAtividade(slot)
+        deactivate Slot
+
+        deactivate AtividadeManual
+
+
+    else Atividade Automática
+     GRH->UI:escolhe atividade automática
+        UI->GRH:pede informações sobre a atividade (descrição, \na ordem de execução e delay)
+        GRH->UI:insere a descrição
+        UI->GRH:pede o script para realizar a Atividade automática
+        GRH->UI:indica o script a associar
+        UI->Controller:novaAtividadeAutomatica(descricao,script,delay)
+        Controller->AtividadeAutomatica:atividadeAutomatica=create(descricao,delay,ficheiroScript)
+        activate AtividadeAutomatica
+        Controller->AtividadeRepository:save(atividadeAutomatica)
+        Controller->Slot:slot=create(ordemExecucao,atividadeAutomatica)
+        activate Slot
+        Controller->SlotRepository:save(slot)
+        Controller->FluxoDeAtividade:associarSlotComAtividade(slot)
+        deactivate AtividadeAutomatica
+        deactivate Slot
+    end
+end
+Controller->Servico:associarFluxoAtividade(fluxoAtividade)
+note right:Associar o fluxo ao serviço(e guardar no repositorio) e posteriormente\n continua o uc no SD principal
+
+Controller->FluxoDeAtividadeRepository:save(fluxo)
+
+
+deactivate AtividadeRepository
+
+deactivate SlotRepository
+
+deactivate FluxoDeAtividade
+
+deactivate FluxoDeAtividadeRepository
+
+deactivate Controller
+
+deactivate UI
+
+@enduml

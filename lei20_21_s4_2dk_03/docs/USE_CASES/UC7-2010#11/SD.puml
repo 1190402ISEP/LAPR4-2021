@@ -1,0 +1,71 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Gestor de Servico" as ator
+participant CriarNivelUI as UI <<presentation>>
+participant CriarNivelController as Controller <<application>>
+participant NivelBuilder as Builder <<builder>>
+participant "nivel:Nivel" as Nivel <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database NivelRepository as Repository <<repository>>
+
+ator --> UI : criarNivel
+
+activate UI
+
+UI -> Controller**: create
+UI --> ator: pede informacao(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+ator --> UI : insere informacao
+UI -> Controller: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+activate Controller
+Controller -> Nivel**: create
+
+note right of Controller: set the information
+
+Controller -> Builder:setEtiqueta()
+activate Builder
+Controller -> Builder:setCor()
+Controller -> Builder:setValorEscala()
+Controller -> Builder:setObjetivoDistinto()
+Controller -> Builder:setDesignacaoNivel()
+
+Controller -> Builder:criarNivel()
+
+            Builder -> Nivel: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+            activate Nivel
+            Nivel->Builder: nivel
+            deactivate Nivel
+            Builder -> Controller: nivel
+        deactivate Builder
+
+Controller -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence -> Factory**: create
+            Persistence -> Controller: factory
+        deactivate Persistence
+
+        Controller -> Factory: niveis()
+        activate Factory
+            Factory -> Repository: criarNivel
+            activate Repository
+                    deactivate Repository
+            Factory -> Controller: userRepository
+        deactivate Factory
+
+        Controller->Repository:save(nivel)
+        activate Repository
+        deactivate Repository
+        Controller->UI: nivel
+    deactivate Controller
+
+        UI-->ator: mostrarNivelInfo
+
+deactivate UI
+
+@enduml

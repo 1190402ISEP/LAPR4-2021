@@ -1,0 +1,89 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant ": CatalogoServicoBootstrapper" as CSB <<presentation>>
+participant ": AdicionarCatalogoServicoController" as CTRL <<application>>
+participant ": CatalogoServicoRepository" as CSREP <<repository>>
+participant ": ServicoRepository" as SREP <<repository>>
+participant ": CatalogoServicoDTO" as CSDTO <<DTO>>
+participant ": ServicoDTO" as SDTO <<DTO>>
+participant ": FicheiroCatalogoServico" as FCS <<domain>> <<valueObject>>
+participant ": CatalogoServico" as CS <<domain>> <<entity>>
+participant ": FicheiroServico" as FS <<domain>> <<valueObject>>
+participant ": Servico" as S <<domain>> <<entity>>
+
+    CSB++
+
+create CTRL
+    CSB -> CTRL++ : create()
+
+create CSREP
+    CTRL -> CSREP : create()
+
+create SREP
+    CTRL -> SREP : create()
+
+    CTRL --> CSB : adicionarCatalogoServicoController
+deactivate CTRL
+
+loop Para cada um dos Catalogos de Servico a ser inicializado no sistema
+
+    CSB -> CSB : registarCatalogoServico(identificador,descBreve,descCompleta,icone,titulo,criteriosAcesso,ColaboradorResponsavel,null)
+    CSB++
+
+create CSDTO
+    CSB -> CSDTO : catalogoServicoDTO = create(identificador,descBreve,descCompleta,icone,titulo,criteriosAcesso,ColaboradorResponsavel,null)
+    CSB -> CTRL++ : adicionarCatalogoServico(catalogoServicoDTO)
+
+    CTRL -> CTRL : extrairConteudoFicheiroCatalogoServico(caminhoFicheiroCatalogoServico)
+note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar o value object ficheiroCatalogoServico.
+end note
+    CTRL -> CTRL : determinarFormatoFicheiroCatalogoServico(caminhoFicheiroCatalogoServico)
+create FCS
+    CTRL -> FCS : ficheiroCatalogoServico = create(conteudoFicheiroCatalogoServico, formatoFicheiroCatalogoServico)
+
+create CS
+    CTRL -> CS : novoCatalogoServico = create(identificador,descBreve,descCompleta,icone,titulo,criteriosAcesso,ColaboradorResponsavel,null,ficheiroCatalogoServico)
+    CTRL -> CSREP : save(novoCatalogoServico)
+    CTRL--
+
+    CSB--
+end loop
+
+loop Para cada um dos Servicos a ser inicializado no sistema
+
+    CSB -> CSB : registarServico(codigoUnico,tituloServico,keyWords,icone,descBreve,descCompleta)
+    CSB++
+
+create SDTO
+    CSB -> SDTO : servicoDTO = create(codigoUnico,tituloServico,keyWords,icone,descBreve,descCompleta)
+    CSB -> CTRL++ : adicionarServico(servicoDTO)
+
+    CTRL -> CTRL : extrairConteudoFicheiroServico(caminhoFicheiroServico)
+note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar o value object ficheiroServico.
+end note
+    CTRL -> CTRL : determinarFormatoFicheiroServico(caminhoFicheiroServico)
+create FS
+    CTRL -> FS : ficheiroServico = create(conteudoFicheiroServico, formatoFicheiroServico)
+
+create S
+    CTRL -> S : novoServico = create(codigoUnico,tituloServico,keyWords,icone,descBreve,descCompleta,ficheiroServico)
+    CTRL -> SREP : save(novoServico)
+    CTRL--
+
+    CSB--
+end loop
+
+
+
+@enduml

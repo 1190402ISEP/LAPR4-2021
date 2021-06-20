@@ -1,0 +1,68 @@
+@startuml
+autonumber
+
+'ACTOR'
+actor Utilizador as U
+
+'PRESENTATION'
+participant ListarPedidosUI as UI<<presentation>>
+
+'APPLICATION'
+participant ListarPedidosController as Controller <<application>>
+
+'DOMAIN'
+participant Pedido as P <<domain>>
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+'REPOSITORY'
+participant PedidoRepository as PREPO <<repository>>
+
+U->UI:listar os pedidos
+activate UI
+
+UI->Controller: prepararListagem()
+activate Controller
+
+Controller --> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> Factory: create()
+            activate Factory
+            Persistence --> Controller: factory()
+        deactivate Persistence
+
+Controller->Factory:pedidos()
+    Factory->PREPO:create
+    activate PREPO
+
+UI->U: pergunta se quer listar o histórico \nou apenas os pedidos em aberto
+
+note right: o sistema através da autenticação irá obter\n os dados do colaborador
+
+alt Histórico
+    U->UI: listar o histórico
+        note right: opção 0 indica que é para listar o histórico
+
+    UI->Controller:listarPedidos(0)
+
+    Controller->PREPO:getHistorico(colab)
+            note right: listagem apresentada
+
+else Em aberto
+    U->UI: listar pedidos em aberto
+        note right: opção 1 para listar os pedidos em aberto
+
+        Controller->PREPO:getPedidosEmAberto(colab)
+        note right: listagem apresentada
+end alt
+
+UI->U:mostra os pedidos
+
+ deactivate PREPO
+ deactivate Controller
+ deactivate UI
+
+@enduml

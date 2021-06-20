@@ -1,0 +1,46 @@
+@startuml avancarFluxoDeAtividade.svg
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing true
+autonumber
+
+participant WebDashboard <<client>>
+
+AvancarFluxoDeAtividade -> MotorFluxoAtividadesTCPServer : new
+loop verifica se algum pedido foi criado ou alguma das atividades fica concluida
+AvancarFluxoDeAtividade -> MotorFluxoAtividadesTCPServer: start
+Activate MotorFluxoAtividadesTCPServer
+MotorFluxoAtividadesTCPServer -> MotorFluxoAtividadesTCPServer: accept
+
+WebDashboard --> MotorFluxoAtividadesTCPServer: request
+
+'ExecutarTarefaAutomatica <<thread>>'
+
+participant AvancarFluxo <<thread>>
+activate AvancarFluxo
+MotorFluxoAtividadesTCPServer -\ AvancarFluxo: start
+
+end
+
+AvancarFluxo -> MessageParser:parse(request)
+create SDP2021Protocol <<abstract>>
+MessageParser -> SDP2021Protocol:new
+
+AvancarFluxo -> SDP2021Protocol: execute
+activate SDP2021Protocol
+SDP2021Protocol -> SDP2021Protocol:buildResponse
+SDP2021Protocol --> AvancarFluxo: response
+note right of WebDashboard: Vê no estadoDoFluxo o id de Execucao do Slot e avança para o próximo\n caso o pedido não tenha mais tarefas a executar o seu estado torna-se concluido
+deactivate SDP2021Protocol
+
+AvancarFluxo-->MotorFluxoAtividadesTCPServer: response
+deactivate AvancarFluxo
+
+MotorFluxoAtividadesTCPServer --> WebDashboard: response
+deactivate MotorFluxoAtividadesTCPServer
+
+
+@enduml

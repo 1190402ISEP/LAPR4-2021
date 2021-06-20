@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class BootstrapEstrutura <<participant>>{
+
+}
+
+class BootstrapEstruturaController <<application>>{
+extrairConteudoFicheiro (caminhoFicheiroEquipa)
+determinarFormatoFicheiro(caminhoFicheiroEquipa)
+extrairConteudoFicheiro (caminhoFicheiroColaborador)
+determinarFormatoFicheiro(caminhoFicheiroColaborador)
+}
+
+class ColaboradorRepository <<repository>>{
+
+}
+
+class EquipaRepository <<repository>> {
+save(novaEquipa)
+}
+
+class Colaborador <<domain>> {
+save(novoColab)
+}
+
+class Equipa <<domain>> {
+
+}
+
+BootstrapEstrutura --> BootstrapEstruturaController : theController
+BootstrapEstruturaController --> EquipaRepository : repo
+BootstrapEstruturaController --> ColaboradorRepository : repo
+BootstrapEstruturaController --> Colaborador : colaborador
+BootstrapEstruturaController --> Equipa : equipa
+
+@enduml

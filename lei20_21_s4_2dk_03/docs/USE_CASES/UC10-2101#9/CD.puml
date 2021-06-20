@@ -1,0 +1,70 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+class CatalogoServicoBootstrapper <<presentation>>{
+    registarCatalogoServico(identificador,descBreve,descCompleta,icone,titulo,criteriosAcesso,ColaboradorResponsavel,null)
+    registarServico(codigoUnico,tituloServico,keyWords,icone,descBreve,descCompleta)
+}
+
+
+class AdicionarCatalogoServicoController <<application>>{
+    adicionarCatalogoServico(catalogoServicoDTO)
+    extrairConteudoFicheiroCatalogoServico(caminhoFicheiroCatalogoServico)
+    determinarFormatoFicheiroCatalogoServico(caminhoFicheiroCatalogoServico)
+    adicionarServico(servicoDTO)
+    extrairConteudoFicheiroServico(caminhoFicheiroServico)
+    determinarFormatoFicheiroServico(caminhoFicheiroServico)
+}
+
+
+class CatalogoServicoDTO <<DTO>>{
+
+}
+
+class ServicoDTO <<DTO>>{
+
+}
+
+class CatalogoServicoRepository <<repository>>{
+    save(novoCatalogoServico)
+}
+
+class ServicoRepository <<repository>>{
+    save(novoServico)
+}
+
+class FicheiroCatalogoServico <<domain>> <<valueObject>> {
+
+}
+
+class CatalogoServico <<domain>> <<entity>> {
+
+}
+
+class FicheiroServico <<domain>> <<valueObject>> {
+
+}
+
+class Servico <<domain>> <<entity>> {
+
+}
+
+
+CatalogoServicoBootstrapper --> AdicionarCatalogoServicoController
+CatalogoServicoBootstrapper ..> CatalogoServicoDTO
+CatalogoServicoBootstrapper ..> ServicoDTO
+
+AdicionarCatalogoServicoController ..> CatalogoServicoDTO
+AdicionarCatalogoServicoController ..> ServicoDTO
+AdicionarCatalogoServicoController --> CatalogoServicoRepository
+AdicionarCatalogoServicoController --> ServicoRepository
+AdicionarCatalogoServicoController --> CatalogoServico
+AdicionarCatalogoServicoController --> Servico
+AdicionarCatalogoServicoController --> FicheiroCatalogoServico
+AdicionarCatalogoServicoController --> FicheiroServico
+
+CatalogoServicoRepository ...> CatalogoServico
+ServicoRepository ...> Servico
+
+
+@enduml

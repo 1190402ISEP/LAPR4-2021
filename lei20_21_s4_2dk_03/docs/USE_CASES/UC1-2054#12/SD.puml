@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Responsável de \n Recursos Humanos" as RRH
+participant CriarTipoEquipaUI as UI <<presentation>>
+participant CriarTipoEquipaController as CTRL <<application>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+database TipoEquipaRepository as TER <<repository>>
+participant "tipoEquipa:TipoEquipa" as TE <<domain>>
+
+    RRH -> UI: Criar tipo equipa
+activate UI
+    UI -> CTRL: create
+
+activate CTRL
+CTRL -> PC: repositories()
+
+activate PC
+PC -> REP: create
+
+activate REP
+REP -> TER: create
+
+activate TER
+deactivate TER
+deactivate REP
+
+PC --> CTRL: TipoEquipaRepository
+deactivate PC
+deactivate CTRL
+deactivate CTRL
+
+    UI --> RRH: Pede informacao
+    RRH -> UI: Envia informacao (codigoInternoUnicoTipoEquipa, \n cor, descricaoTipoEquipa)
+
+    UI-> CTRL:adicionarTipoEquipa(codigoInternoUnicoTipoEquipa, \n cor, descricaoTipoEquipa)
+activate CTRL
+
+
+    CTRL -> TE: novoTipoEquipa = create(codigoInternoUnicoTipoEquipa, cor, descricaoTipoEquipa)
+activate TE
+deactivate TE
+
+        CTRL->TER:save(novoTipoEquipa)
+activate TER
+deactivate TER
+deactivate CTRL
+
+        UI-->RRH: DisplayTipoEquipaInfo
+deactivate UI
+
+@enduml

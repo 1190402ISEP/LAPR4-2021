@@ -1,0 +1,150 @@
+7f3b884,2021-06-15 18:55:05 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#35 inicio da implementacao de Listener
+4cb42af,2021-06-15 17:19:45 +0100,Rui Soares,1191045@isep.ipp.pt,#24 Correcao relacionada com o comeco do portal
+376c99b,2021-06-15 16:35:43 +0100,Rui Soares,1191045@isep.ipp.pt,#28 Correcao da query
+9de75c2,2021-06-15 16:01:28 +0100,Rui Soares,1191045@isep.ipp.pt,Transicao das funcionalidades para os respetivos modulos
+4be4d41,2021-06-15 15:37:08 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#42 #43 melhorias na classe EscalonadorSettings
+f83d44c,2021-06-15 15:11:33 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correcao na configuracao do algoritmo e implementacao da configuracao do algoritmo atribuidor de tarefas
+24ab8e7,2021-06-15 14:50:03 +0100,Antonio Fernandes,1190402@isep.ipp.pt,JAVADOC dos repositórios
+ed76bec,2021-06-15 14:38:48 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#44 implementacao do algoritmo FCFS e metodos necessarios
+67d341f,2021-06-15 11:18:45 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#44 inicio da implementacao e criacao de duas apps separadas e ficheiros .bat e .sh
+4f98095,2021-06-14 22:11:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#44 correcoes nos packages e estabelecimento da base de interfaces do atribuidor de tarefas manuais a colaboradores
+e7c8d40,2021-06-14 20:47:25 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 adaptacao dos algoritmos de escalonamento de forma a preparar para os novos
+7c3e435,2021-06-14 18:25:08 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correcao no algoritmo FCFS otimizado e funcional
+523270d,2021-06-14 18:17:47 +0100,Rui Soares,1191045@isep.ipp.pt,#43 Implementacao: EscalonadorPorCargaEOcupacao
+d9ce90c,2021-06-14 17:12:41 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correcao
+e1d6bbe,2021-06-14 16:58:54 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#43 implementacao do algoritmo FCFS
+1484c14,2021-06-13 15:49:33 +0100,Paulo Couto,1200587@isep.ipp.pt,#40 implementacao: conclusao
+4fc917b,2021-06-13 15:01:15 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#40 tcp Server update
+ac780a8,2021-06-13 11:44:13 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#24 continuacao da implementacao
+6fef144,2021-06-13 10:13:20 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Classe EscalonadorSettings movida para o package escalonadores
+4835252,2021-06-13 10:09:52 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 remocao da classe EscalonadorFactory
+a122e51,2021-06-13 10:07:44 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 funcionalidade de escolher algoritmo via ficheiro de configuracoes implementada
+afe02cb,2021-06-12 17:35:19 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#24 continuacao da implementacao
+cd36ded,2021-06-12 17:05:40 +0100,Rui Soares,1191045@isep.ipp.pt,#26 Implementacao: executor tarefas
+79f35d4,2021-06-12 17:03:05 +0100,Rui Soares,1191045@isep.ipp.pt,#26 Implementacao: executor tarefas
+57b016e,2021-06-12 16:36:39 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 #41 atualizacoes no motor de fluxos: ssl e tcp
+9fd9bc3,2021-06-12 16:24:45 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 atualizacoes no motor de fluxos: ssl e tcp
+5d4bd21,2021-06-12 15:50:56 +0100,Paulo Couto,1200587@isep.ipp.pt,#24 implemtacao class MotorDeFluxoDeActividade
+7c5dfe6,2021-06-12 14:56:23 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 Implementacao de interface Escalonador
+aa47631,2021-06-12 13:30:59 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 Adaptação do algoritmo por carga e ocupacao e melhoria do escalonador FCFS
+ea2b1c6,2021-06-12 12:40:54 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 escalonador FCFS corrigido
+b82c7c6,2021-06-12 12:27:32 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#26 #24 implementacao
+2f394e0,2021-06-11 18:15:26 +0100,Rui Soares,1191045@isep.ipp.pt,#28 Implementacao: correcao e finalizacao
+17decc6,2021-06-11 18:06:42 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#28 HTML e JavaScript corrigidos
+7aa3af5,2021-06-11 17:20:17 +0100,Rui Soares,1191045@isep.ipp.pt,MERGE
+873d967,2021-06-11 17:13:46 +0100,Rui Soares,1191045@isep.ipp.pt,#28 implementacao
+48ef314,2021-06-11 16:17:18 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 #25 ligeiras alteracoes no motor de fluxos
+11098da,2021-06-11 15:35:18 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#28 dashboard- html done
+128516c,2021-06-11 14:32:36 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Correcao na configuracao da db
+b8f976f,2021-06-11 12:23:30 +0100,Antonio Fernandes,1190402@isep.ipp.pt,REMOTE DATABASE IMPLEMENTED
+14597c9,2021-06-11 11:08:03 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Melhoria Reivindicar Tarefa UI
+487ac21,2021-06-11 10:46:09 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Atualizacao nome dashboard
+d0f5c8f,2021-06-11 09:41:45 +0100,Antonio Fernandes,1190402@isep.ipp.pt,codigo reformatado e mais organizado
+6caab4c,2021-06-11 09:29:58 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Icones adicionados ao html e melhoria geral da aparência
+72eef83,2021-06-11 08:52:15 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Melhoria na UI da webdashboard do utilizador e criacao da UI da dashboard EstadoMotorFluxos
+f60699c,2021-06-11 08:24:31 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 #25 continuacao da implementacao do motor de fluxos de atividades
+1bbc604,2021-06-10 20:47:36 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Correcao de erros no enumerado String Colors
+7542c5e,2021-06-10 20:15:06 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Correção na UI de adicionar colaborador via csv
+c21d6d9,2021-06-10 19:52:56 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Algoritmo gerador de passwords atualizado e sem falhas
+df85db0,2021-06-10 17:40:37 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,codigo geral e ficheiros individuais
+6063699,2021-06-10 17:36:58 +0100,Antonio Fernandes,1190402@isep.ipp.pt,correcao
+328c635,2021-06-10 17:31:14 +0100,Antonio Fernandes,1190402@isep.ipp.pt,correcao scripts de run no linux
+865879f,2021-06-10 16:55:43 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#25 implementacao da classe dados para remocao da interface com o mesmo efeito (boa prática)
+8d5a793,2021-06-10 15:55:50 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#25 continuacao do tcp
+6b1a891,2021-06-10 15:37:18 +0100,Antonio Fernandes,1190402@isep.ipp.pt,FICHEIROS BINÁRIOS PARA CORRER EM LINUX
+ce80cc3,2021-06-10 15:15:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,CRIADAS APP PORTAL E SERVICOS E RECURSOS HUMANOS
+af9233b,2021-06-10 14:29:27 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correcao nos algoritmos
+2594d84,2021-06-10 03:41:40 +0100,Rui Soares,1191045@isep.ipp.pt,Revisão de todas as classes Action e UIs, aplicacao da classe StringColor.
+9953687,2021-06-10 01:56:57 +0100,Joao Pereira,1190742@isep.ipp.pt,#26 classe ControloMotorFluxoAtividades:metodo de execucao do delay-pequena correcao na conversao do tempo
+ae44cda,2021-06-10 01:54:48 +0100,Joao Pereira,1190742@isep.ipp.pt,#26 classe ControloMotorFluxoAtividades:metodo de execucao do delay #24 revisões design
+69e379c,2021-06-09 22:11:00 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 JavaDoc EscalonadorPorCargaEOcupacao
+faf6ed9,2021-06-09 22:03:16 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#52 BUG FIXED
+fdd4e6e,2021-06-09 19:45:11 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#51 BUG FIXED afetava o uc #23 reivindicar tarefa
+6bdb6a2,2021-06-09 18:25:16 +0100,Rui Soares,1191045@isep.ipp.pt,#48 Implementacao: finalizacao da UC
+bb228cc,2021-06-09 18:04:03 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 implementacao do algoritmo 2 de escalonamento
+5e5ae2e,2021-06-09 17:41:44 +0100,Joao Pereira,1190742@isep.ipp.pt,#28 revisões no design
+58ad690,2021-06-09 17:29:51 +0100,Rui Soares,1191045@isep.ipp.pt,#50 Correcao do Design. #48 Design: finalizado. Implementacao: Falta verificacao do In/Cumprimento dos contratos
+68ee2b5,2021-06-09 15:27:51 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 implementacao de alguns metodos da classe controller do motor de fluxos
+129860a,2021-06-09 15:15:31 +0100,Rui Soares,1191045@isep.ipp.pt,#50 Correcao do Design. #48 Design: finalizado. Implementacao: Falta verificacao do In/Cumprimento dos contratos
+619f5f0,2021-06-09 15:00:29 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 início da implementação do segundo algoritmo e duas classes apenas para testes
+9c520ae,2021-06-09 14:35:33 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#28 inicio da implementacao da dashboard do motor de fluxo
+415ec7e,2021-06-09 12:17:30 +0100,Joao Pereira,1190742@isep.ipp.pt,#35 pequena correcao no link
+8a180dc,2021-06-09 12:15:48 +0100,Joao Pereira,1190742@isep.ipp.pt,#16 #35 revisão dedesign
+e64ffba,2021-06-09 10:45:15 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correção nos testes EscalonadorFCFSTest
+0a7493a,2021-06-09 09:52:24 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 javadoc EscalonadorFCFS e EscalonadorFCFSTest
+6118600,2021-06-09 09:50:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 testes unitários ao Escalonador
+3044c51,2021-06-09 09:31:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 correcao de issues no codigo e alteracao na assinatura de dois metodos
+ccf1943,2021-06-09 07:55:02 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#43 implementação do algoritmo FIFO de escalonamento para qualquer tipo de dados
+8e0e32d,2021-06-08 23:22:14 +0100,Paulo Proença,prp@isep.ipp.pt,Repository Analysis
+5d3b41a,2021-06-08 18:40:31 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#16 gramatica ficheiros de teste
+dc15112,2021-06-08 18:15:51 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#45 implementacao tls de Executor_Tarefas_Automaticas
+de9fe01,2021-06-08 15:59:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#41 alteração nas constantes rcomp
+81af8a0,2021-06-08 14:54:13 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#41 tls implementado
+fe05261,2021-06-08 14:53:40 +0100,Rui Soares,1191045@isep.ipp.pt,#50 Design: concluido. Implementacao: Concluida.
+2889053,2021-06-08 13:54:35 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#39 #41 #42 #45 #43 #49 #35 requisitos e analise das UC 28 34 37 33 27 36 35
+882da89,2021-06-08 01:03:19 +0100,Rui Soares,1191045@isep.ipp.pt,#24 Controller e javadoc para as classes
+56f62a2,2021-06-07 22:27:20 +0100,Joao Pereira,1190742@isep.ipp.pt,#26 Design
+a962b23,2021-06-07 22:06:55 +0100,Joao Pereira,1190742@isep.ipp.pt,#24 Revisão e Design
+3c06692,2021-06-07 20:13:15 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#28 inicio da implementação do controlador
+e7ffc55,2021-06-07 19:40:33 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#21  atualizacao da dashboard
+0ef68f5,2021-06-07 17:23:37 +0100,Antonio Fernandes,1190402@isep.ipp.pt,Organizacao dos TCP Cli and Serv e criacao das classes relativas ao dashboard do utilizador marcado com todo no local a continuar implementação
+906d381,2021-06-07 15:53:36 +0100,Paulo Couto,1200587@isep.ipp.pt,#16 correcao da gramatica dos if
+40237af,2021-06-07 15:26:30 +0100,Rui Soares,1191045@isep.ipp.pt,#38 Implementacao: Finalizacao da implementacao do UC, correcao do JPA e melhorias relativamente a Strings e ao Pedido
+25a2369,2021-06-07 15:19:42 +0100,Joao Pereira,1190742@isep.ipp.pt,#28 Requisitos, Análise e Design do Caso de Uso 23: Conhecer o estado dos fluxos de atividades
+30bb095,2021-06-07 15:00:59 +0100,Antonio Fernandes,1190402@isep.ipp.pt,28 tcp cliente e tcp servidor correção de ips para testar funcionalidade
+3748a9d,2021-06-07 14:52:54 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#48 #50 #36 #44 requisitos e analise das UCs 29 30 31 e 32
+31b342b,2021-06-07 14:08:41 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#28 início da implementação do TCPCliente à maquina
+ed26441,2021-06-07 10:56:28 +0100,Antonio Fernandes,1190402@isep.ipp.pt,16 correção
+7f595b9,2021-06-07 10:55:25 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#38 pequena resolucao de problema
+46509c9,2021-06-07 10:53:18 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#38 implementacao das classes controller e UI e metodos necessarios no colaborador inMemory pedidoRepository e jpa da uc26
+45a2ada,2021-06-05 19:02:58 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#21 HTML melhorado
+32b32f9,2021-06-05 16:44:43 +0100,Rui Soares,1191045@isep.ipp.pt,#24 Implementacao
+96914ce,2021-06-05 15:23:26 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#21 resolucao de problema no html
+bd99abc,2021-06-05 13:24:16 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#21 html atualizado,funcao para carregar informacoes das atv.manuais colaborador, correção na classe ConverterData
+e731d82,2021-06-05 11:59:04 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#21 correção de erro em que dashboard não fazia refresh automatico do colaborador
+1a555fa,2021-06-04 14:51:51 +0100,Rui Soares,1191045@isep.ipp.pt,#34 Implementacao: Correcao de erros relativos a criacao do pedido
+875f9b5,2021-06-04 14:41:11 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,Ficheiro de planeamento
+a1c9792,2021-06-04 14:35:20 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,Criacao das pastas e identificacao das UCs no DUC
+042ed9e,2021-06-04 13:58:57 +0100,Joao Pereira,1190742@isep.ipp.pt,#26 executor de tarefas automaticas implementado
+860c17b,2021-06-04 13:49:27 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#16 Implementação de mecanismo de leitura de Script
+db7c38e,2021-06-04 13:28:16 +0100,Joao Pereira,1190742@isep.ipp.pt,#38 pequena correcao nos padroes
+2d14ff2,2021-06-04 11:37:54 +0100,Joao Pereira,1190742@isep.ipp.pt,#38 Padrões aplicados
+9bf5cf1,2021-06-04 11:10:32 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#38 DESIGN-> SD
+cd44b7d,2021-06-04 10:50:03 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#38 requisitos e análise
+59741f7,2021-06-04 09:30:19 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 adição dos padrões à documentacao (efetuar pedido)
+52ff5e6,2021-06-04 01:42:53 +0100,Rui Soares,1191045@isep.ipp.pt,#20 #34 Implementacao: UI finalizada, melhorias nas classes Pedido e DataLimiteResolucaoPedido, atualizacoes no PedidoRepository e melhoria no PedidoBuilder e PedidoController. Apenas falta parte relacionada com a #34
+583667e,2021-06-04 00:35:35 +0100,Rui Soares,1191045@isep.ipp.pt,#20 #34 Implementacao: Controller finalizado, melhorias nas classes domain relacionadas a pedido, atualizacoes nos Repositorys
+a48b76b,2021-06-03 16:39:40 +0100,Paulo Couto,1200587@isep.ipp.pt,#24 continuacao da implementacao da classe MotorFLuxoDeAtividadesTcpServerConn
+b70ced7,2021-06-03 16:03:31 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#24 implementation of the class MotorFluxosAtividadesTCPServer
+762d2cf,2021-06-03 15:55:01 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#16 correcao na gramatica
+d4c488c,2021-06-03 02:54:23 +0100,Joao Pereira,1190742@isep.ipp.pt,#23 refinamento do SD e implementacao (testes dizem respeito a atividade)
+cf5c708,2021-06-03 02:35:36 +0100,Rui Soares,1191045@isep.ipp.pt,#20 #34 Implementacao: comeco do PedidoBuilder, melhorias nas classes de Domain, criacao do FormularioPreenchido e value objects relativos ao mesmo, inicio do identificador automatico e inicio do controller
+38cec57,2021-06-02 18:17:47 +0100,Joao Pereira,1190742@isep.ipp.pt,#23 refinamento do SD
+2bf9d69,2021-06-02 16:49:11 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 documentacao atualizada (lifelines SD)
+4e99962,2021-06-02 16:48:07 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#24 implementacao da classe avancarMotorFluxo e respetivos metodos nas classes de dominio
+78644b9,2021-06-02 15:38:57 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 atualizacao da documentacao -> testes
+ffda634,2021-06-02 15:33:57 +0100,Joao Pereira,1190742@isep.ipp.pt,#17 #18 testes de atividade automatica e atividade manual
+c773c00,2021-06-02 15:12:09 +0100,Rui Soares,1191045@isep.ipp.pt,#20 #34 Implementacao: Revisao das classes de dominio
+d41fa81,2021-06-02 14:59:27 +0100,Antonio Fernandes,1190402@isep.ipp.pt,otimização de imports
+ecf5100,2021-06-02 14:58:50 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 testes unitários
+1b79352,2021-06-02 14:19:21 +0100,Antonio Fernandes,1190402@isep.ipp.pt,sd correção no loop
+e9ab9b8,2021-06-02 14:14:49 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 sd corrigido
+e16ffd9,2021-06-02 13:31:47 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#27 sd do bootstrapper
+c4e3376,2021-06-02 11:18:46 +0100,Joao Pereira,1190742@isep.ipp.pt,#18 requisitos, análise e design da componente representativa da tarefa automática (implementação previamente feita no ambito da definicao de um fluxo de atividades)
+9ada111,2021-06-02 11:12:54 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 design-> sd concluido
+94c567b,2021-06-02 11:11:24 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#27 continuacao da implementacao do bootstrapper do catalogoServico
+450b68b,2021-06-02 09:53:50 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 #34 Efetuar Pedido-> Levantamento de requisitos e análise concluídos
+8d120ef,2021-06-01 20:26:57 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 inicio da documentação -> requisitos praticamente concluidos e análise iniciada
+b29d1fd,2021-06-01 20:18:53 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 correcoes ao nivel do pedido
+dee4409,2021-06-01 19:47:07 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#20 remocao de classes do Pedido (mal implementadas ou com falhas nas regras de negócio)
+1571d91,2021-06-01 18:36:58 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#3 #19 atualizacao do sd
+bb5e9d9,2021-06-01 18:10:57 +0100,Paulo Couto,1200587@isep.ipp.pt,#16 insercao dos ciclos for
+218d6c0,2021-06-01 17:41:26 +0100,Joao Pereira,1190742@isep.ipp.pt,#16 continuacao dos ciclos for e for each
+26497d2,2021-06-01 17:13:26 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#16 atualizacao da gramatica
+ba6b86b,2021-06-01 16:09:56 +0100,Antonio Fernandes,1190402@isep.ipp.pt,24 inicio da implementacao do MotorFluxoTCPServer
+7b34a01,2021-06-01 15:56:55 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#22 correcao no repositorio e conclusao da implementacao
+117114d,2021-06-01 14:49:41 +0100,Joao Pereira,1190742@isep.ipp.pt,#17 Requisitos,Análise e Design da componente representativa de uma tarefa manual (implementação previamente executada na US 2002)
+ed56b05,2021-06-01 14:34:40 +0100,Rui Soares,1191045@isep.ipp.pt,#3 #19 Implementacao: Ultimas funcionalidades ligadas ao Icon, ao Nivel e a confirmacao se o servico se encontra ou nao completo
+4f74ab3,2021-06-01 13:59:21 +0100,Rui Soares,1191045@isep.ipp.pt,#30 Design: finalizacao do design
+d5dca6b,2021-06-01 13:52:12 +0100,Antonio Fernandes,1190402@isep.ipp.pt,#3 #19 correcao implementacao da associacao de colaborador e equipa a atividade manual
+68d1a53,2021-06-01 13:33:24 +0100,Teresa Pereira Leite,1191072@isep.ipp.pt,#3 #19 atualizacao da UI

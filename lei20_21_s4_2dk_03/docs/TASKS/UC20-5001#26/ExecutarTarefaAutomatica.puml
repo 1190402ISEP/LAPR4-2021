@@ -1,0 +1,62 @@
+@startuml AvancarMotorFluxo.svg
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing true
+autonumber
+
+participant Pedido <<client>>
+AvancarMotorFluxo -> MotorFluxoAtividadesTCPServer : new
+loop verifica se algum pedido foi criado ou alguma das atividades fica concluida
+AvancarMotorFluxo -> MotorFluxoAtividadesTCPServer: start
+activate MotorFluxoAtividadesTCPServer
+MotorFluxoAtividadesTCPServer -> MotorFluxoAtividadesTCPServer: accept
+
+Pedido --> MotorFluxoAtividadesTCPServer: request
+
+participant AvancarFluxo <<thread>>
+activate AvancarFluxo
+MotorFluxoAtividadesTCPServer -\ AvancarFluxo: start
+deactivate MotorFluxoAtividadesTCPServer
+end
+participant ExecutorTarefasAutomaticasServer
+
+AvancarFluxo -> MessageParser:parse(request)
+activate MessageParser
+create SDP2021ProtocolRequest <<abstract>>
+MessageParser -> SDP2021ProtocolRequest:new
+
+AvancarFluxo -> SDP2021ProtocolRequest: execute
+activate SDP2021ProtocolRequest
+
+SDP2021ProtocolRequest -> SDP2021ProtocolRequest:buildResponse
+
+SDP2021ProtocolRequest --> AvancarFluxo: response
+
+alt caso a próxima atividade seja automática delega a mesma ao executor de tarefas automáticas
+
+AvancarFluxo->ExecutorTarefasAutomaticasServer: start
+activate ExecutorTarefasAutomaticasServer
+ExecutorTarefasAutomaticasServer->ExecutorTarefasAutomaticasServer: accept
+
+participant ExecutorTarefasAutomaticas <<thread>>
+ExecutorTarefasAutomaticasServer->ExecutorTarefasAutomaticas:start
+activate ExecutorTarefasAutomaticas
+
+ExecutorTarefasAutomaticas -> MessageParser:parse(request)
+deactivate ExecutorTarefasAutomaticas
+MessageParser -> SDP2021ProtocolRequest:new
+
+AvancarFluxo -> SDP2021ProtocolRequest: execute
+
+SDP2021ProtocolRequest -> SDP2021ProtocolRequest:buildResponse
+
+SDP2021ProtocolRequest --> AvancarFluxo: response
+deactivate SDP2021ProtocolRequest
+end
+note right of Pedido: Vê no estadoDoFluxo o id de Execucao do Slot e avança para o próximo\n caso o pedido não tenha mais tarefas a executar o seu estado torna-se concluido
+AvancarFluxo --> Pedido: response
+deactivate AvancarFluxo
+@enduml

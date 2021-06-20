@@ -1,0 +1,494 @@
+commit 4cb42afb2e6720825328257e6b97b95793a685a3
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 15 17:19:45 2021 +0100
+
+    #24 Correcao relacionada com o comeco do portal
+
+M	base.app.portal/src/main/java/eapli/base/app/portal/presentation/MainMenuPortal.java
+
+commit 376c99baad6abd71021bbd6eab13616c8fb208b4
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 15 16:35:43 2021 +0100
+
+    #28 Correcao da query
+
+M	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/HttpServerAjax.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 9de75c26c9c240a0b720ef4178956ed40bee42b1
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 15 16:01:28 2021 +0100
+
+    Transicao das funcionalidades para os respetivos modulos
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/BaseBackoffice.java
+M	base.app.executortarefasautomaticas/pom.xml
+R095	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/comunicacao/ExecutorTarefasAutomaticasTCPClient.java	base.app.executortarefasautomaticas/src/main/java/eapli/base/app/executortarefasautomaticas/comunicacao/ExecutorTarefasAutomaticasTCPClient.java
+R096	base.app.portal/src/main/java/eapli/base/app/portal/utils/Constantes.java	base.app.executortarefasautomaticas/src/main/java/eapli/base/app/executortarefasautomaticas/utils/Constantes.java
+R095	base.app.portal/src/main/java/eapli/base/app/portal/utils/StringColors.java	base.app.executortarefasautomaticas/src/main/java/eapli/base/app/executortarefasautomaticas/utils/StringColors.java
+M	base.app.motorfluxoatividades/pom.xml
+M	base.app.portal/pom.xml
+D	base.app.portal/src/main/java/eapli/base/app/portal/Main.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/Portal.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/presentation/MainMenuPortal.java
+R091	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ConsultarAtividadeAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/atividade/ConsultarAtividadeAction.java
+R092	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ConsultarAtividadeUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/atividade/ConsultarAtividadeUI.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/presentation/atividade/ReivindicarTarefasPendentesAction.java
+R081	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/atividade/ReivindicarTarefasPendentesUI.java
+R091	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/AddUserAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/AddUserAction.java
+R099	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/AddUserUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/AddUserUI.java
+R093	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/DeactivateUserAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/DeactivateUserAction.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/DeactivateUserUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/DeactivateUserUI.java
+R093	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/ListUsersAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/ListUsersAction.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/ListUsersUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/ListUsersUI.java
+R096	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/SystemUserPrinter.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/authz/SystemUserPrinter.java
+R091	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/clientuser/AcceptRefuseSignupRequestAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/clientuser/AcceptRefuseSignupRequestAction.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/clientuser/AcceptRefuseSignupRequestUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/clientuser/AcceptRefuseSignupRequestUI.java
+R087	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/clientuser/SignupRequestPrinter.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/clientuser/SignupRequestPrinter.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/consultar/ConsultarAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/consultar/ConsultarAction.java
+R089	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/consultar/ConsultarUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/consultar/ConsultarUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/efetuarPedido/ConsultarPedidosAction.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/efetuarPedido/ConsultarPedidosUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/efetuarPedido/EfetuarPedidoAction.java
+R095	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/efetuarPedido/EfetuarPedidoUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/insertFeedback/InserirFeedbackAction.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/insertFeedback/InserirFeedbackUI.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/presentation/testserver/TesteConexao.java
+R098	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HTTPmessage.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/HTTPmessage.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpAjaxRequest.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/HttpAjaxRequest.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/HttpServerAjax.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/HttpServerAjax.java
+R088	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/WebDashboardAction.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/WebDashboardAction.java
+R082	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/WebDashboardUI.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/WebDashboardUI.java
+R087	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/application/DashboardController.java	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/application/DashboardController.java
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.ico	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/2DK-03.ico
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/2DK-03.jpg	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/2DK-03.jpg
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/index.html	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/index.html
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/isep.png	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/isep.png
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/rcomp-ajax.js	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/rcomp-ajax.js
+R100	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/www/style.css	base.app.portal/src/main/java/eapli/base/app/portal/presentation/webdashboard/www/style.css
+M	base.app.servicoserecursoshumanos/pom.xml
+D	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/Main.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/ServicosRecursosHumanos.java
+R099	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HTTPmessage.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/HTTPmessage.java
+R098	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpAjaxRequest.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/HttpAjaxRequest.java
+R093	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/HttpServerAjax.java
+R089	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/MotorFluxoDashboardAction.java
+R078	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/MotorFluxoDashboardUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/MotorFluxoDashboardUI.java
+R085	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/application/MotorFluxoDashboardController.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/application/MotorFluxoDashboardController.java
+R100	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.ico	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/www/2DK-03.ico
+R100	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/2DK-03.png	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/www/2DK-03.png
+R100	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/www/index.html
+R100	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/isep.png	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/www/isep.png
+R100	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/rcomp-ajax.js	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/motorFluxoDashboard/www/rcomp-ajax.js
+R056	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/MainMenuServicosRH.java
+R089	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/addServicoCatalogo/AddServicoCatalogoAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/addServicoCatalogo/AddServicoCatalogoAction.java
+R095	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/addServicoCatalogo/AddServicoCatalogoUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/addServicoCatalogo/AddServicoCatalogoUI.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/AddUserAction.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/AddUserUI.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/DeactivateUserAction.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/DeactivateUserUI.java
+R056	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/ListUsersAction.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/ListUsersUI.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/authz/SystemUserPrinter.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/clientuser/AcceptRefuseSignupRequestAction.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/clientuser/AcceptRefuseSignupRequestUI.java
+A	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/clientuser/SignupRequestPrinter.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/colaborador/AddRemColaboradorAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/colaborador/AddRemColaboradorAction.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/colaborador/AddRemColaboradorUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/colaborador/AddRemColaboradorUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/equipa/CriarEquipaAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/equipa/CriarEquipaAction.java
+R097	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/equipa/CriarEquipaUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/equipa/CriarEquipaUI.java
+R089	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/listarCumprimento/ListarCumprimentoAction.java
+R095	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/listarCumprimento/ListarCumprimentoUI.java
+R089	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelCatalago/AplicarNivelAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/nivelCatalago/AplicarNivelAction.java
+R096	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelCatalago/AplicarNivelUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/nivelCatalago/AplicarNivelUI.java
+R089	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelcriticidade/CriarNivelCriticidadeAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/nivelcriticidade/CriarNivelCriticidadeAction.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelcriticidade/CriarNivelCriticidadeUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/nivelcriticidade/CriarNivelCriticidadeUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/CriarCatalogoAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/servico/CriarCatalogoAction.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/CriarCatalogoUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/servico/CriarCatalogoUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/servico/EspecificarServicoAction.java
+R095	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/servico/EspecificarServicoUI.java
+R090	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/tipoequipa/CriarTipoEquipaAction.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/tipoequipa/CriarTipoEquipaAction.java
+R094	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/tipoequipa/CriarTipoEquipaUI.java	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/presentation/tipoequipa/CriarTipoEquipaUI.java
+M	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/utils/Constantes.java
+D	base.app.servicoserecursoshumanos/src/main/java/eapli/base/app/servicoserecursoshumanos/utils/StringColors.java
+A	base.app.servicoserecursoshumanos/src/main/resources/application.properties
+A	base.app.servicoserecursoshumanos/src/main/resources/logback.xml
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/BaseBootstrapper.java
+M	base.core/src/main/java/eapli/base/Application.java
+M	base.core/src/main/java/eapli/base/atividade/application/ConsultarAtividadeController.java
+R077	base.core/src/main/java/eapli/base/atividade/application/ReinvindicarTarefasPendentesController.java	base.core/src/main/java/eapli/base/atividade/application/ReivindicarTarefasPendentesController.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/catalogoServico/application/ConsultarController.java
+M	base.core/src/main/java/eapli/base/equipa/domain/Equipa.java
+M	base.core/src/main/java/eapli/base/infrastructure/persistence/PersistenceContext.java
+M	base.core/src/main/java/eapli/base/servico/application/EspecificarServicoController.java
+M	base.core/src/main/java/eapli/base/usermanagement/application/AddUserController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaRepositoryFactory.java
+M	run-portal.bat
+M	run-servicos-e-rec-humanos.bat
+
+commit 523270d91d59be6bf8e81d180a1c99824f075e61
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Mon Jun 14 18:17:47 2021 +0100
+
+    #43 Implementacao: EscalonadorPorCargaEOcupacao
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/Escalonador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/atividadespelasinstancias/EscalonadorPorCargaEOcupacao.java
+M	base.core/src/main/java/eapli/base/atividade/domain/Atividade.java
+M	base.core/src/main/java/eapli/base/atividade/domain/AtividadeAutomatica.java
+
+commit cd36ded53f6cb355a5fe4a3d2448707c66c0c3e8
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Sat Jun 12 17:05:40 2021 +0100
+
+    #26 Implementacao: executor tarefas
+
+M	base.app.portal/pom.xml
+M	base.app.portal/src/main/java/eapli/base/app/portal/comunicacao/ExecutorTarefasAutomaticasTCPClient.java
+M	base.app.portal/src/main/java/eapli/base/app/portal/utils/Constantes.java
+M	base.app.portal/src/main/java/eapli/base/app/portal/utils/StringColors.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+
+commit 79f35d441c20630ee42e3dcc91501a269e163b5b
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Sat Jun 12 17:03:05 2021 +0100
+
+    #26 Implementacao: executor tarefas
+
+A	base.app.portal/src/main/java/eapli/base/app/portal/comunicacao/ExecutorTarefasAutomaticasTCPClient.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/utils/Constantes.java
+A	base.app.portal/src/main/java/eapli/base/app/portal/utils/StringColors.java
+
+commit 2f394e00a0e64e6a17d29906b93cc9fece4cfa7d
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 11 18:15:26 2021 +0100
+
+    #28 Implementacao: correcao e finalizacao
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 7aa3af5dde7501f6a46df5002824516ea2766da3
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 11 17:20:17 2021 +0100
+
+    MERGE
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 873d967ad9742a61daa54570e1697d30874ef8ee
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 11 17:13:46 2021 +0100
+
+    #28 implementacao
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/HttpServerAjax.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/motorFluxoDashboard/www/index.html
+M	base.app.servidor/src/main/java/utils/Constantes.java
+A	base.core/src/main/java/eapli/base/pedido/domain/DataAprovacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.puml
+M	docs/USE_CASES/UC23-2011#28/VerEstadoMotorFluxos.svg
+
+commit 2594d842ad91b42ad79eda67ee6a3cd4da2a673c
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Thu Jun 10 03:41:40 2021 +0100
+
+    Revisão de todas as classes Action e UIs, aplicacao da classe StringColor.
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/addServicoCatalogo/AddServicoCatalogoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/addServicoCatalogo/AddServicoCatalogoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ConsultarAtividadeAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ConsultarAtividadeUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/atividade/ReinvindicarTarefasPendentesUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/AddUserAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/AddUserUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/DeactivateUserAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/DeactivateUserUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/ListUsersAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/authz/ListUsersUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/clientuser/AcceptRefuseSignupRequestAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/clientuser/AcceptRefuseSignupRequestUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/colaborador/AddRemColaboradorAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/colaborador/AddRemColaboradorUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/consultar/ConsultarAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/consultar/ConsultarUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/ConsultarPedidosUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/equipa/CriarEquipaAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/equipa/CriarEquipaUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelCatalago/AplicarNivelAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelCatalago/AplicarNivelUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelcriticidade/CriarNivelCriticidadeAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/nivelcriticidade/CriarNivelCriticidadeUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/CriarCatalogoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/CriarCatalogoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/tipoequipa/CriarTipoEquipaAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/tipoequipa/CriarTipoEquipaUI.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/application/MotorFluxoAtividadeController.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/escalonadores/EscalonadorFCFS.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/ExecutorTarefasAutomaticasTCPServer.java
+M	base.core/src/main/java/eapli/base/usermanagement/application/AddUserController.java
+D	base.core/src/main/java/eapli/base/utils/scriptreader/CoresOutput.java
+
+commit 6bdb6a2dc9940a16e798156413951bbae39864ed
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Wed Jun 9 18:25:16 2021 +0100
+
+    #48 Implementacao: finalizacao da UC
+
+M	base.core/src/main/java/eapli/base/nivelCriticidade/domain/Nivel.java
+M	base.core/src/main/java/eapli/base/pedido/application/InserirFeedbackController.java
+M	base.core/src/main/java/eapli/base/pedido/application/ListarCumprimentoController.java
+A	base.core/src/main/java/eapli/base/pedido/domain/DataResolucaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 58ad69075309965d48a3870e3cdef5e8825bc634
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Wed Jun 9 17:29:51 2021 +0100
+
+    #50 Correcao do Design. #48 Design: finalizado. Implementacao: Falta verificacao do In/Cumprimento dos contratos
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoAction.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoUI.java
+M	base.core/src/main/java/eapli/base/pedido/application/ListarCumprimentoController.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/utils/ConversaoDatas.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	docs/USE_CASES/UC29 - 2013 #48/ProcessoEngenhariaFuncionalidade.md
+M	docs/USE_CASES/UC29 - 2013 #48/SD.puml
+A	docs/USE_CASES/UC29 - 2013 #48/SD.svg
+M	docs/USE_CASES/UC30 - 3051 #50/ProcessoEngenhariaFuncionalidade.md
+
+commit 129860a20b681dc3089081ba36fd187ad71f9111
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Wed Jun 9 15:15:31 2021 +0100
+
+    #50 Correcao do Design. #48 Design: finalizado. Implementacao: Falta verificacao do In/Cumprimento dos contratos
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/listarCumprimento/ListarCumprimentoUI.java
+A	base.core/src/main/java/eapli/base/pedido/application/ListarCumprimentoController.java
+A	docs/USE_CASES/UC29 - 2013 #48/SD.puml
+
+commit fe052617648346b9ac9ee476263ada143c93d0fb
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 8 14:53:40 2021 +0100
+
+    #50 Design: concluido. Implementacao: Concluida.
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/insertFeedback/InserirFeedbackUI.java
+A	base.core/src/main/java/eapli/base/pedido/application/InserirFeedbackController.java
+M	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/utils/Cor.java
+M	base.core/src/main/java/eapli/base/utils/PasswordGenerator.java
+A	base.core/src/main/java/eapli/base/utils/scriptreader/StringColors.java
+A	docs/USE_CASES/UC30 - 3051 #50/SD.puml
+A	docs/USE_CASES/UC30 - 3051 #50/SD.svg
+
+commit 882da89f8acd96dc91b568c5fc89f9f18920f8b2
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 8 01:03:19 2021 +0100
+
+    #24 Controller e javadoc para as classes
+
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/AvancarMotorFluxo.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/ExecutorTarefasAutomaticas.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/Main.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/application/MotorFluxoAtividadeController.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/ETAServerMF.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/GerirMotorFluxo.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoClientETA.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoServerPU.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/MotorFluxoServerSRH.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/PUClienteMF.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/SRHClientMF.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/BadRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/BaseErrorRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/EndRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/ErrorInRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/SDP2021ProtocolRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/UnknownRequest.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/clients/TCPClienteDashboardUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/protocol/tcp/servers/TCPServerDashboardUtilizador.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxoDeAtividadesTcpServerConn.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosAtividadesTCPServer.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosTCPClient.java
+M	base.app.servidor/src/main/java/eapli/base/app/servidor/utils/Constantes.java
+M	base.core/src/main/java/eapli/base/clientusermanagement/repositories/ColaboradorRepository.java
+M	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryColaboradorRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaColaboradorRepository.java
+
+commit 40237af7cc4c8840fe956b801d2e35ee6f2d5667
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Mon Jun 7 15:26:30 2021 +0100
+
+    #38 Implementacao: Finalizacao da implementacao do UC, correcao do JPA e melhorias relativamente a Strings e ao Pedido
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+M	base.core/src/main/java/eapli/base/clientusermanagement/domain/Colaborador.java
+M	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/PedidoBuilder.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 32b32f9f0356965029c6c84a72ca0cc719a1ee18
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Sat Jun 5 16:44:43 2021 +0100
+
+    #24 Implementacao
+
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/presentation/GerirMotorFluxo.java
+A	base.app.servidor/src/main/java/eapli/base/app/servidor/servidores/MotorFluxosTCPClient.java
+
+commit 1a555fa49f79676c51eb5a7a9424d30957465ac3
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 4 14:51:51 2021 +0100
+
+    #34 Implementacao: Correcao de erros relativos a criacao do pedido
+
+M	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstadoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstagioPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/UrgenciaPedido.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaColaboradorRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 52ff5e69882575ccb51a22e774507f9756e0e853
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 4 01:42:53 2021 +0100
+
+    #20 #34 Implementacao: UI finalizada, melhorias nas classes Pedido e DataLimiteResolucaoPedido, atualizacoes no PedidoRepository e melhoria no PedidoBuilder e PedidoController. Apenas falta parte relacionada com a #34
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/efetuarPedido/EfetuarPedidoUI.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/webdashboard/WebDashboardAction.java
+M	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/PedidoBuilder.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/utils/ConversaoDatas.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 583667ef490562149d86653ffbbc64c9362ab0ca
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Fri Jun 4 00:35:35 2021 +0100
+
+    #20 #34 Implementacao: Controller finalizado, melhorias nas classes domain relacionadas a pedido, atualizacoes nos Repositorys
+
+M	base.core/src/main/java/eapli/base/catalogoServico/application/AddServicoCatalogoController.java
+M	base.core/src/main/java/eapli/base/catalogoServico/application/ConsultarController.java
+M	base.core/src/main/java/eapli/base/catalogoServico/domain/CatalogoServico.java
+M	base.core/src/main/java/eapli/base/equipa/repositories/EquipaRepository.java
+M	base.core/src/main/java/eapli/base/nivelCriticidade/application/AplicarNivelController.java
+M	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstadoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstagioPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/PedidoBuilder.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.core/src/test/java/eapli/base/pedido/DataLimiteResolucaoPedidoTest.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit cf5c7086760622548b7b372145ba6f016df34e24
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Thu Jun 3 02:35:36 2021 +0100
+
+    #20 #34 Implementacao: comeco do PedidoBuilder, melhorias nas classes de Domain, criacao do FormularioPreenchido e value objects relativos ao mesmo, inicio do identificador automatico e inicio do controller
+
+M	base.core/src/main/java/eapli/base/equipa/repositories/EquipaRepository.java
+A	base.core/src/main/java/eapli/base/pedido/application/EfetuarPedidoController.java
+A	base.core/src/main/java/eapli/base/pedido/domain/AtributoFormularioPreenchido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/FicheiroAnexadoPedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/FormularioPreenchido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+A	base.core/src/main/java/eapli/base/pedido/domain/PedidoBuilder.java
+A	base.core/src/main/java/eapli/base/pedido/domain/RespostaFormularioPreenchido.java
+M	base.core/src/main/java/eapli/base/pedido/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit c773c007dd6abf001f6a83a921c620d9c9e70498
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Wed Jun 2 15:12:09 2021 +0100
+
+    #20 #34 Implementacao: Revisao das classes de dominio
+
+M	base.core/src/main/java/eapli/base/pedido/domain/DataLimiteResolucaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/DataSolicitacaoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstadoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/EstagioPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/FeedBack.java
+M	base.core/src/main/java/eapli/base/pedido/domain/FicheiroAnexadoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/IdentificadorAutomaticoPedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedido/domain/UrgenciaPedido.java
+
+commit ed56b055f9be68846a8ae7c43be5f435549cb015
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 1 14:34:40 2021 +0100
+
+    #3 #19 Implementacao: Ultimas funcionalidades ligadas ao Icon, ao Nivel e a confirmacao se o servico se encontra ou nao completo
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servico/EspecificarServicoUI.java
+M	base.core/src/main/java/eapli/base/servico/application/EspecificarServicoController.java
+M	base.core/src/main/java/eapli/base/servico/domain/Servico.java
+M	base.core/src/main/java/eapli/base/servico/domain/ServicoBuilder.java
+
+commit 4f74ab354db783679b958026eabfea186ee52954
+Author: Rui Soares <1191045@isep.ipp.pt>
+Date:   Tue Jun 1 13:59:21 2021 +0100
+
+    #30 Design: finalizacao do design
+
+M	base.app.bootstrap/src/main/java/eapli/base/app/bootstrap/BaseBootstrap.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/NivelBootstrapper.java
+M	docs/USE_CASES/UC22-2105#30/ProcessoEngenhariaFuncionalidade.md
+A	docs/USE_CASES/UC22-2105#30/SD.puml
+A	docs/USE_CASES/UC22-2105#30/SD.svg

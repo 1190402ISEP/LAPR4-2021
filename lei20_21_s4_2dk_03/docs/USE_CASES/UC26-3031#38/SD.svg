@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="775px" preserveAspectRatio="none" style="width:1164px;height:775px;" version="1.1" viewBox="0 0 1164 775" width="1164px" zoomAndPan="magnify"><defs><filter height="300%" id="f17m8n85z6wuyt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="549.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="283.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="519.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="434.5" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="101.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="687.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="427.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="834.5" y="253.3672"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="327" style="stroke:#A80036;stroke-width:1.0;" width="10" x="976.5" y="344.4219"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="225.9453" style="stroke:#000000;stroke-width:2.0;" width="1140.5" x="10" y="416.125"/><rect fill="#FFFFFF" height="96.5391" style="stroke:none;stroke-width:1.0;" width="1140.5" x="10" y="545.5313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="288.5" x2="288.5" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="439.5" x2="439.5" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="572.5" x2="572.5" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="692.5" x2="692.5" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="839.5" x2="839.5" y1="89.6094" y2="689.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="981.5" x2="981.5" y1="89.6094" y2="689.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="20" y="86.5332">Utilizador</text><ellipse cx="51.5" cy="15" fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51.5,23 L51.5,50 M38.5,31 L64.5,31 M51.5,50 L38.5,65 M51.5,50 L64.5,65 " fill="none" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="20" y="702.9551">Utilizador</text><ellipse cx="51.5" cy="716.0313" fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51.5,724.0313 L51.5,751.0313 M38.5,732.0313 L64.5,732.0313 M51.5,751.0313 L38.5,766.0313 M51.5,751.0313 L64.5,766.0313 " fill="none" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="112" x="230.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="239" y="56.9238">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="237.5" y="74.5332">ListarPedidosUI</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="112" x="230.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="239" y="709.9551">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="237.5" y="727.5645">ListarPedidosUI</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="162" x="356.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="395.5" y="56.9238">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="363.5" y="74.5332">ListarPedidosController</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="162" x="356.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="395.5" y="709.9551">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="363.5" y="727.5645">ListarPedidosController</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="76" x="532.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="539.5" y="56.9238">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="548.5" y="74.5332">Pedido</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="76" x="532.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="539.5" y="709.9551">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="548.5" y="727.5645">Pedido</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="622.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="646" y="56.9238">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="629.5" y="74.5332">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="622.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="646" y="709.9551">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="629.5" y="727.5645">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="772.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="808" y="56.9238">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="779.5" y="74.5332">RepositoryFactory</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="772.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="808" y="709.9551">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="779.5" y="727.5645">RepositoryFactory</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="126" x="916.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="940" y="56.9238">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="923.5" y="74.5332">PedidoRepository</text><rect fill="#FEFECE" filter="url(#f17m8n85z6wuyt)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="126" x="916.5" y="688.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="940" y="709.9551">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="923.5" y="727.5645">PedidoRepository</text><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="549.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="283.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="519.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="434.5" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="101.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="687.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="427.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="834.5" y="253.3672"/><rect fill="#FFFFFF" filter="url(#f17m8n85z6wuyt)" height="327" style="stroke:#A80036;stroke-width:1.0;" width="10" x="976.5" y="344.4219"/><polygon fill="#A80036" points="271.5,117.9609,281.5,121.9609,271.5,125.9609,275.5,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="51.5" x2="277.5" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="58.5" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="69.5" y="117.1045">listar os pedidos</text><polygon fill="#A80036" points="422.5,148.3125,432.5,152.3125,422.5,156.3125,426.5,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="293.5" x2="428.5" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="300.5" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="311.5" y="147.4561">prepararListagem()</text><polygon fill="#A80036" points="675.5,178.6641,685.5,182.6641,675.5,186.6641,679.5,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="444.5" x2="681.5" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="451.5" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="462.5" y="177.8076">repositories()</text><path d="M702,195.6641 L702,221.6641 L966,221.6641 L966,205.6641 L956,195.6641 L702,195.6641 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M956,195.6641 L956,205.6641 L966,205.6641 L956,195.6641 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="708" y="214.1592">pode criar repositório em memória ou JPA</text><polygon fill="#A80036" points="822.5,249.3672,832.5,253.3672,822.5,257.3672,826.5,253.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="697.5" x2="828.5" y1="253.3672" y2="253.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="704.5" y="248.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="715.5" y="248.5107">create()</text><polygon fill="#A80036" points="455.5,279.7188,445.5,283.7188,455.5,287.7188,451.5,283.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="449.5" x2="691.5" y1="283.7188" y2="283.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="461.5" y="278.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="472.5" y="278.8623">factory()</text><polygon fill="#A80036" points="822.5,310.0703,832.5,314.0703,822.5,318.0703,826.5,314.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="444.5" x2="828.5" y1="314.0703" y2="314.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="451.5" y="309.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="462.5" y="309.2139">pedidos()</text><polygon fill="#A80036" points="964.5,340.4219,974.5,344.4219,964.5,348.4219,968.5,344.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="844.5" x2="970.5" y1="344.4219" y2="344.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="851.5" y="339.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="862.5" y="339.5654">create</text><polygon fill="#A80036" points="62.5,392.125,52.5,396.125,62.5,400.125,58.5,396.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="56.5" x2="282.5" y1="396.125" y2="396.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="68.5" y="383.0928">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="79.5" y="374.917">pergunta se quer listar o histórico</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="79.5" y="391.2686">ou apenas os pedidos em aberto</text><path d="M298,357.4219 L298,399.4219 L568,399.4219 L568,367.4219 L558,357.4219 L298,357.4219 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M558,357.4219 L558,367.4219 L568,367.4219 L558,357.4219 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="304" y="375.917">o sistema através da autenticação irá obter</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="308" y="392.2686">os dados do colaborador</text><path d="M10,416.125 L71,416.125 L71,424.125 L61,434.125 L10,434.125 L10,416.125 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="225.9453" style="stroke:#000000;stroke-width:2.0;" width="1140.5" x="10" y="416.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="25" y="430.6201">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="57" x="86" y="429.5439">[Histórico]</text><polygon fill="#A80036" points="271.5,457.8281,281.5,461.8281,271.5,465.8281,275.5,461.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="51.5" x2="277.5" y1="461.8281" y2="461.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="58.5" y="456.9717">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="69.5" y="456.9717">listar o histórico</text><path d="M298,439.4766 L298,465.4766 L564,465.4766 L564,449.4766 L554,439.4766 L298,439.4766 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M554,439.4766 L554,449.4766 L564,449.4766 L554,439.4766 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="304" y="457.9717">opção 0 indica que é para listar o histórico</text><polygon fill="#A80036" points="422.5,493.1797,432.5,497.1797,422.5,501.1797,426.5,497.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="293.5" x2="428.5" y1="497.1797" y2="497.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="300.5" y="492.3232">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="318.5" y="492.3232">listarPedidos(0)</text><polygon fill="#A80036" points="964.5,528.5313,974.5,532.5313,964.5,536.5313,968.5,532.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="444.5" x2="970.5" y1="532.5313" y2="532.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="451.5" y="527.6748">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="469.5" y="527.6748">getHistorico(colab)</text><path d="M991,510.1797 L991,536.1797 L1136,536.1797 L1136,520.1797 L1126,510.1797 L991,510.1797 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1126,510.1797 L1126,520.1797 L1136,520.1797 L1126,510.1797 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="997" y="528.6748">listagem apresentada</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1150.5" y1="546.5313" y2="546.5313"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="64" x="15" y="557.9502">[Em aberto]</text><polygon fill="#A80036" points="271.5,584.7188,281.5,588.7188,271.5,592.7188,275.5,588.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="51.5" x2="277.5" y1="588.7188" y2="588.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="58.5" y="583.8623">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="76.5" y="583.8623">listar pedidos em aberto</text><path d="M298,566.3672 L298,592.3672 L555,592.3672 L555,576.3672 L545,566.3672 L298,566.3672 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M545,566.3672 L545,576.3672 L555,576.3672 L545,566.3672 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="304" y="584.8623">opção 1 para listar os pedidos em aberto</text><polygon fill="#A80036" points="964.5,625.0703,974.5,629.0703,964.5,633.0703,968.5,629.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="444.5" x2="970.5" y1="629.0703" y2="629.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="451.5" y="624.2139">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="469.5" y="624.2139">getPedidosEmAberto(colab)</text><path d="M991,606.7188 L991,632.7188 L1136,632.7188 L1136,616.7188 L1126,606.7188 L991,606.7188 " fill="#FBFB77" filter="url(#f17m8n85z6wuyt)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1126,606.7188 L1126,616.7188 L1136,616.7188 L1126,606.7188 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="997" y="625.2139">listagem apresentada</text><polygon fill="#A80036" points="62.5,667.4219,52.5,671.4219,62.5,675.4219,58.5,671.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="56.5" x2="287.5" y1="671.4219" y2="671.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="68.5" y="666.5654">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="86.5" y="666.5654">mostra os pedidos</text><!--MD5=[39dcd5cf36e8b17902f902866c5749f4]
+@startuml
+autonumber
+
+'ACTOR'
+actor Utilizador as U
+
+'PRESENTATION'
+participant ListarPedidosUI as UI<<presentation>>
+
+'APPLICATION'
+participant ListarPedidosController as Controller <<application>>
+
+'DOMAIN'
+participant Pedido as P <<domain>>
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+'REPOSITORY'
+participant PedidoRepository as PREPO <<repository>>
+
+U->UI:listar os pedidos
+activate UI
+
+UI->Controller: prepararListagem()
+activate Controller
+
+Controller - -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence - -> Factory: create()
+            activate Factory
+            Persistence - -> Controller: factory()
+        deactivate Persistence
+
+Controller->Factory:pedidos()
+    Factory->PREPO:create
+    activate PREPO
+
+UI->U: pergunta se quer listar o histórico \nou apenas os pedidos em aberto
+
+note right: o sistema através da autenticação irá obter\n os dados do colaborador
+
+alt Histórico
+    U->UI: listar o histórico
+        note right: opção 0 indica que é para listar o histórico
+
+    UI->Controller:listarPedidos(0)
+
+    Controller->PREPO:getHistorico(colab)
+            note right: listagem apresentada
+
+else Em aberto
+    U->UI: listar pedidos em aberto
+        note right: opção 1 para listar os pedidos em aberto
+
+        Controller->PREPO:getPedidosEmAberto(colab)
+        note right: listagem apresentada
+end alt
+
+UI->U:mostra os pedidos
+
+ deactivate PREPO
+ deactivate Controller
+ deactivate UI
+
+@enduml
+
+@startuml
+autonumber
+
+actor Utilizador as U
+
+participant ListarPedidosUI as UI<<presentation>>
+
+participant ListarPedidosController as Controller <<application>>
+
+participant Pedido as P <<domain>>
+
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+participant PedidoRepository as PREPO <<repository>>
+
+U->UI:listar os pedidos
+activate UI
+
+UI->Controller: prepararListagem()
+activate Controller
+
+Controller - -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence - -> Factory: create()
+            activate Factory
+            Persistence - -> Controller: factory()
+        deactivate Persistence
+
+Controller->Factory:pedidos()
+    Factory->PREPO:create
+    activate PREPO
+
+UI->U: pergunta se quer listar o histórico \nou apenas os pedidos em aberto
+
+note right: o sistema através da autenticação irá obter\n os dados do colaborador
+
+alt Histórico
+    U->UI: listar o histórico
+        note right: opção 0 indica que é para listar o histórico
+
+    UI->Controller:listarPedidos(0)
+
+    Controller->PREPO:getHistorico(colab)
+            note right: listagem apresentada
+
+else Em aberto
+    U->UI: listar pedidos em aberto
+        note right: opção 1 para listar os pedidos em aberto
+
+        Controller->PREPO:getPedidosEmAberto(colab)
+        note right: listagem apresentada
+end alt
+
+UI->U:mostra os pedidos
+
+ deactivate PREPO
+ deactivate Controller
+ deactivate UI
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

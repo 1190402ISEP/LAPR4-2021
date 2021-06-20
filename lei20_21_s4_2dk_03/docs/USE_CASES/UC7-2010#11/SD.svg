@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1167px" preserveAspectRatio="none" style="width:2066px;height:1167px;" version="1.1" viewBox="0 0 2066 1167" width="2066px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mggrw4wk0a4d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="940.3906" style="stroke:#A80036;stroke-width:1.0;" width="10" x="545" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="754.7656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="987" y="277.2344"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="242.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1160" y="412.1563"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1609" y="594.2656"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="134.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1729.5" y="685.3203"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1879.5" y="850.5938"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2008.5" y="880.9453"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2008.5" y="971.6484"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="65" x2="65" y1="89.6094" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="549.5" x2="549.5" y1="89.6094" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="991.5" x2="991.5" y1="172.0703" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1165" x2="1165" y1="89.6094" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1613.5" x2="1613.5" y1="327.3438" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1734.5" x2="1734.5" y1="89.6094" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1884.5" x2="1884.5" y1="775.7813" y2="1080.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2013.5" x2="2013.5" y1="89.6094" y2="1080.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="5" y="86.5332">Gestor de Servico</text><ellipse cx="65" cy="15" fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M65,23 L65,50 M52,31 L78,31 M65,50 L52,65 M65,50 L78,65 " fill="none" filter="url(#f1mggrw4wk0a4d)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="5" y="1093.8848">Gestor de Servico</text><ellipse cx="65" cy="1106.9609" fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M65,1114.9609 L65,1141.9609 M52,1122.9609 L78,1122.9609 M65,1141.9609 L52,1156.9609 M65,1141.9609 L78,1156.9609 " fill="none" filter="url(#f1mggrw4wk0a4d)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="109" x="493.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="500.5" y="56.9238">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="511.5" y="74.5332">CriarNivelUI</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="109" x="493.5" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="500.5" y="1100.8848">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="511.5" y="1118.4941">CriarNivelUI</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="137" x="921.5" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="948" y="1100.8848">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="928.5" y="1118.4941">CriarNivelController</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="88" x="1119" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1133.5" y="56.9238">«builder»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1126" y="74.5332">NivelBuilder</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="88" x="1119" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1133.5" y="1100.8848">«builder»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1126" y="1118.4941">NivelBuilder</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="77" x="1573.5" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1581" y="1100.8848">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1580.5" y="1118.4941">nivel:Nivel</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="1664.5" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="1688" y="56.9238">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1671.5" y="74.5332">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="1664.5" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="1688" y="1100.8848">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1671.5" y="1118.4941">PersistenceContext</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="1817.5" y="1079.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1853" y="1100.8848">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1824.5" y="1118.4941">RepositoryFactory</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1971" y="68.9238">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1961.5" y="86.5332">NivelRepository</text><path d="M1995.5,18.3906 C1995.5,8.3906 2013.5,8.3906 2013.5,8.3906 C2013.5,8.3906 2031.5,8.3906 2031.5,18.3906 L2031.5,44.3906 C2031.5,54.3906 2013.5,54.3906 2013.5,54.3906 C2013.5,54.3906 1995.5,54.3906 1995.5,44.3906 L1995.5,18.3906 " fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1995.5,18.3906 C1995.5,28.3906 2013.5,28.3906 2013.5,28.3906 C2013.5,28.3906 2031.5,28.3906 2031.5,18.3906 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1971" y="1093.8848">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1961.5" y="1111.4941">NivelRepository</text><path d="M1995.5,1124.5703 C1995.5,1114.5703 2013.5,1114.5703 2013.5,1114.5703 C2013.5,1114.5703 2031.5,1114.5703 2031.5,1124.5703 L2031.5,1150.5703 C2031.5,1160.5703 2013.5,1160.5703 2013.5,1160.5703 C2013.5,1160.5703 1995.5,1160.5703 1995.5,1150.5703 L1995.5,1124.5703 " fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1995.5,1124.5703 C1995.5,1134.5703 2013.5,1134.5703 2013.5,1134.5703 C2013.5,1134.5703 2031.5,1134.5703 2031.5,1124.5703 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="940.3906" style="stroke:#A80036;stroke-width:1.0;" width="10" x="545" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="754.7656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="987" y="277.2344"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="242.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1160" y="412.1563"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1609" y="594.2656"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="134.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1729.5" y="685.3203"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="90.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1879.5" y="850.5938"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2008.5" y="880.9453"/><rect fill="#FFFFFF" filter="url(#f1mggrw4wk0a4d)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2008.5" y="971.6484"/><polygon fill="#A80036" points="533,117.9609,543,121.9609,533,125.9609,537,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="65" x2="539" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="72" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="83" y="117.1045">criarNivel</text><polygon fill="#A80036" points="909.5,148.3125,919.5,152.3125,909.5,156.3125,913.5,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="555" x2="915.5" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="562" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="573" y="147.4561">create</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="137" x="921.5" y="129.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="948" y="151.4941">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="928.5" y="169.1035">CriarNivelController</text><polygon fill="#A80036" points="76,212.5313,66,216.5313,76,220.5313,72,216.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="70" x2="544" y1="216.5313" y2="216.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="82" y="211.6748">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="445" x="93" y="211.6748">pede informacao(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)</text><polygon fill="#A80036" points="533,242.8828,543,246.8828,533,250.8828,537,246.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="65" x2="539" y1="246.8828" y2="246.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="72" y="242.0264">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="83" y="242.0264">insere informacao</text><polygon fill="#A80036" points="975,273.2344,985,277.2344,975,281.2344,979,277.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="555" x2="981" y1="277.2344" y2="277.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="562" y="272.3779">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="402" x="573" y="272.3779">criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)</text><polygon fill="#A80036" points="1561.5,303.5859,1571.5,307.5859,1561.5,311.5859,1565.5,307.5859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1567.5" y1="307.5859" y2="307.5859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1004" y="302.7295">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1015" y="302.7295">create</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="77" x="1573.5" y="285.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1581" y="306.7676">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1580.5" y="324.377">nivel:Nivel</text><path d="M1002,354.4531 L1002,380.4531 L1130,380.4531 L1130,364.4531 L1120,354.4531 L1002,354.4531 " fill="#FBFB77" filter="url(#f1mggrw4wk0a4d)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1120,354.4531 L1120,364.4531 L1130,364.4531 L1120,354.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="1008" y="372.9482">set the information</text><polygon fill="#A80036" points="1148,408.1563,1158,412.1563,1148,416.1563,1152,412.1563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="412.1563" y2="412.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1004" y="407.2998">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="1015" y="407.2998">setEtiqueta()</text><polygon fill="#A80036" points="1148,438.5078,1158,442.5078,1148,446.5078,1152,442.5078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="442.5078" y2="442.5078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1004" y="437.6514">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="1015" y="437.6514">setCor()</text><polygon fill="#A80036" points="1148,468.8594,1158,472.8594,1148,476.8594,1152,472.8594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="472.8594" y2="472.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1004" y="468.0029">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="1015" y="468.0029">setValorEscala()</text><polygon fill="#A80036" points="1148,499.2109,1158,503.2109,1148,507.2109,1152,503.2109" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="503.2109" y2="503.2109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="498.3545">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="1022" y="498.3545">setObjetivoDistinto()</text><polygon fill="#A80036" points="1148,529.5625,1158,533.5625,1148,537.5625,1152,533.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="533.5625" y2="533.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="528.7061">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="1022" y="528.7061">setDesignacaoNivel()</text><polygon fill="#A80036" points="1148,559.9141,1158,563.9141,1148,567.9141,1152,563.9141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1154" y1="563.9141" y2="563.9141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="559.0576">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1022" y="559.0576">criarNivel()</text><polygon fill="#A80036" points="1597,590.2656,1607,594.2656,1597,598.2656,1601,594.2656" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1603" y1="594.2656" y2="594.2656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="589.4092">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="402" x="1195" y="589.4092">criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)</text><polygon fill="#A80036" points="1181,620.6172,1171,624.6172,1181,628.6172,1177,624.6172" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1175" x2="1613" y1="624.6172" y2="624.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1187" y="619.7607">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1205" y="619.7607">nivel</text><polygon fill="#A80036" points="1008,650.9688,998,654.9688,1008,658.9688,1004,654.9688" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1002" x2="1164" y1="654.9688" y2="654.9688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1014" y="650.1123">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1032" y="650.1123">nivel</text><polygon fill="#A80036" points="1717.5,681.3203,1727.5,685.3203,1717.5,689.3203,1721.5,685.3203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1723.5" y1="685.3203" y2="685.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="680.4639">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="1022" y="680.4639">repositories()</text><path d="M1744,698.3203 L1744,724.3203 L2008,724.3203 L2008,708.3203 L1998,698.3203 L1744,698.3203 " fill="#FBFB77" filter="url(#f1mggrw4wk0a4d)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1998,698.3203 L1998,708.3203 L2008,708.3203 L1998,698.3203 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="1750" y="716.8154">pode criar repositório em memória ou JPA</text><polygon fill="#A80036" points="1805.5,752.0234,1815.5,756.0234,1805.5,760.0234,1809.5,756.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1739.5" x2="1811.5" y1="756.0234" y2="756.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1746.5" y="751.167">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1764.5" y="751.167">create</text><rect fill="#FEFECE" filter="url(#f1mggrw4wk0a4d)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="1817.5" y="733.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1853" y="755.2051">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1824.5" y="772.8145">RepositoryFactory</text><polygon fill="#A80036" points="1008,816.2422,998,820.2422,1008,824.2422,1004,820.2422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1002" x2="1733.5" y1="820.2422" y2="820.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1014" y="815.3857">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1032" y="815.3857">factory</text><polygon fill="#A80036" points="1867.5,846.5938,1877.5,850.5938,1867.5,854.5938,1871.5,850.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="1873.5" y1="850.5938" y2="850.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="845.7373">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="1022" y="845.7373">niveis()</text><polygon fill="#A80036" points="1996.5,876.9453,2006.5,880.9453,1996.5,884.9453,2000.5,880.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1889.5" x2="2002.5" y1="880.9453" y2="880.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1896.5" y="876.0889">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="1914.5" y="876.0889">criarNivel</text><polygon fill="#A80036" points="1008,937.2969,998,941.2969,1008,945.2969,1004,941.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1002" x2="1883.5" y1="941.2969" y2="941.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1014" y="936.4404">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="1032" y="936.4404">userRepository</text><polygon fill="#A80036" points="1996.5,967.6484,2006.5,971.6484,1996.5,975.6484,2000.5,971.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="997" x2="2002.5" y1="971.6484" y2="971.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1004" y="966.792">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="1022" y="966.792">save(nivel)</text><polygon fill="#A80036" points="566,1028,556,1032,566,1036,562,1032" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="560" x2="991" y1="1032" y2="1032"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="572" y="1027.1436">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="590" y="1027.1436">nivel</text><polygon fill="#A80036" points="76,1058.3516,66,1062.3516,76,1066.3516,72,1062.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="70" x2="549" y1="1062.3516" y2="1062.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="82" y="1057.4951">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="100" y="1057.4951">mostrarNivelInfo</text><!--MD5=[524fe08d5d6b78f252a91d5959f26e5b]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Gestor de Servico" as ator
+participant CriarNivelUI as UI <<presentation>>
+participant CriarNivelController as Controller <<application>>
+participant NivelBuilder as Builder <<builder>>
+participant "nivel:Nivel" as Nivel <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database NivelRepository as Repository <<repository>>
+
+ator - -> UI : criarNivel
+
+activate UI
+
+UI -> Controller**: create
+UI - -> ator: pede informacao(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+ator - -> UI : insere informacao
+UI -> Controller: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+activate Controller
+Controller -> Nivel**: create
+
+note right of Controller: set the information
+
+Controller -> Builder:setEtiqueta()
+activate Builder
+Controller -> Builder:setCor()
+Controller -> Builder:setValorEscala()
+Controller -> Builder:setObjetivoDistinto()
+Controller -> Builder:setDesignacaoNivel()
+
+Controller -> Builder:criarNivel()
+
+            Builder -> Nivel: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+            activate Nivel
+            Nivel->Builder: nivel
+            deactivate Nivel
+            Builder -> Controller: nivel
+        deactivate Builder
+
+Controller -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence -> Factory**: create
+            Persistence -> Controller: factory
+        deactivate Persistence
+
+        Controller -> Factory: niveis()
+        activate Factory
+            Factory -> Repository: criarNivel
+            activate Repository
+                    deactivate Repository
+            Factory -> Controller: userRepository
+        deactivate Factory
+
+        Controller->Repository:save(nivel)
+        activate Repository
+        deactivate Repository
+        Controller->UI: nivel
+    deactivate Controller
+
+        UI- ->ator: mostrarNivelInfo
+
+deactivate UI
+
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Gestor de Servico" as ator
+participant CriarNivelUI as UI <<presentation>>
+participant CriarNivelController as Controller <<application>>
+participant NivelBuilder as Builder <<builder>>
+participant "nivel:Nivel" as Nivel <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database NivelRepository as Repository <<repository>>
+
+ator - -> UI : criarNivel
+
+activate UI
+
+UI -> Controller**: create
+UI - -> ator: pede informacao(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+ator - -> UI : insere informacao
+UI -> Controller: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+
+activate Controller
+Controller -> Nivel**: create
+
+note right of Controller: set the information
+
+Controller -> Builder:setEtiqueta()
+activate Builder
+Controller -> Builder:setCor()
+Controller -> Builder:setValorEscala()
+Controller -> Builder:setObjetivoDistinto()
+Controller -> Builder:setDesignacaoNivel()
+
+Controller -> Builder:criarNivel()
+
+            Builder -> Nivel: criarNivel(etiqueta, cor, valorEscala, objetivoDistinto, designacaoNivel)
+            activate Nivel
+            Nivel->Builder: nivel
+            deactivate Nivel
+            Builder -> Controller: nivel
+        deactivate Builder
+
+Controller -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence -> Factory**: create
+            Persistence -> Controller: factory
+        deactivate Persistence
+
+        Controller -> Factory: niveis()
+        activate Factory
+            Factory -> Repository: criarNivel
+            activate Repository
+                    deactivate Repository
+            Factory -> Controller: userRepository
+        deactivate Factory
+
+        Controller->Repository:save(nivel)
+        activate Repository
+        deactivate Repository
+        Controller->UI: nivel
+    deactivate Controller
+
+        UI- ->ator: mostrarNivelInfo
+
+deactivate UI
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

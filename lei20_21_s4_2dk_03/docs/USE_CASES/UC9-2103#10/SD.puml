@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant BootstrapEstrutura as boot <<participant>>
+participant BootstrapEstruturaController as Controller <<application>>
+participant Equipa as equipa <<domain>>
+participant Colaborador as colab <<domain>>
+database EquipaRepository as equipaRepository <<repository>>
+database ColaboradorRepository as colabRepository <<repository>>
+
+activate boot
+
+create Controller
+boot -> Controller++ : create()
+
+create equipaRepository
+Controller -> equipaRepository : create()
+
+create colabRepository
+Controller -> colabRepository : create()
+
+Controller --> boot
+Controller--
+
+loop Para cada equipa a ser inicializada no sistema
+
+    boot -> boot : registar(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, \ncaminhoFicheiroEquipa)
+
+
+    boot -> Controller++ :
+
+    Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroEquipa)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Equipa.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroEquipa)
+    create equipa
+    Controller -> equipa : FicheiroEquipa = create(conteudoFicheiro, formatoFicheiro)
+
+
+    Controller -> equipa : novaEquipa = create(codigoUnicoEquipa, designacaoEquipa, \nobjetivoDistintoEquipa, acronimo, FicheiroEquipa)
+    activate equipa
+    deactivate equipa
+    Controller -> equipaRepository : save(novaEquipa)
+    activate equipaRepository
+    deactivate equipaRepository
+    Controller--
+end loop
+
+loop Para cada Colaborador a ser inicializado no sistema
+boot -> boot : registar(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico)
+
+
+    boot -> Controller++ :
+
+Controller -> Controller : extrairConteudoFicheiro                  \n(caminhoFicheiroColaborador)
+    note left
+        O Controller extrai o conteúdo do
+        ficheiro indicado, bem como o
+        formato do ficheiro, de modo a
+        criar a entidade Colaborador.
+    end note
+    Controller -> Controller : determinarFormatoFicheiro                  \n(caminhoFicheiroColaborador)
+    create colab
+    Controller -> colab : FicheiroColaborador = create(conteudoFicheiro, formatoFicheiro)
+
+    Controller -> colab : novoColab = create(nomeCurto,nomeCompleto, \ndataNascimento, mecanographicNumber, \ncontactoTelefonico,funcao, \nresponsavelHierarquico, FicheiroColaborador)
+    activate colab
+    deactivate colab
+    Controller -> colabRepository : save(novoColab)
+    activate colabRepository
+    deactivate colabRepository
+    Controller--
+
+
+   end loop
+
+deactivate boot
+
+@enduml

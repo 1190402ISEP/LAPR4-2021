@@ -1,0 +1,131 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "RRH" as ator
+participant CriarEquipaUI as UI <<presentation>>
+participant CriarEquipaController as Controller <<application>>
+participant EquipaBuilder as Builder <<builder>>
+participant "equipa:Equipa" as Equipa <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database EquipaRepository as Repository <<repository>>
+database TipoEquipaRepository as TipoEquipaRepository <<repository>>
+database ColaboradorRepository as ColaboradorRepository <<repository>>
+
+ator --> UI : criarEquipa
+
+activate UI
+
+UI -> Controller**: create
+UI --> ator: pede informacao(tipoEquipa, codigoUnico, \nacronimo, designacao)
+
+'ir buscar ao sistema a lista de tipos equipa existentes e selecionar qual quer'
+
+        UI -> Controller: getTiposEquipa()
+        activate Controller
+            Controller-> Persistence: repositories()
+        activate Persistence
+            Persistence-> Factory: create
+        activate Factory
+        deactivate Persistence
+            Factory-> TipoEquipaRepository: create
+        activate TipoEquipaRepository
+        deactivate TipoEquipaRepository
+        deactivate Factory
+            Controller-> TipoEquipaRepository: listaTiposEquipa()
+        activate TipoEquipaRepository
+        deactivate TipoEquipaRepository
+            Controller -> UI : showTiposEquipa()
+        deactivate Controller
+
+ator --> UI : insere informacao
+UI -> Controller: criarEquipa(tipoEquipa, codigoUnico, \nacronimo, designacao)
+
+activate Controller
+Controller -> Equipa**: create
+
+note right of Controller: set the information
+
+Controller -> Builder:setTipoEquipa()
+activate Builder
+Controller -> Builder:setCodigoUnico()
+Controller -> Builder:setAcronimo()
+Controller -> Builder:setDesignacao()
+
+Controller -> Builder:criarEquipa()
+
+            Builder -> Equipa: criarEquipa(tipoEquipa, codigoUnico, \nacronimo, designacao)
+            activate Equipa
+                Equipa->Builder: equipa
+            deactivate Equipa
+                Builder -> Controller: equipa
+        deactivate Builder
+        deactivate Controller
+
+'ir buscar ao sistema a lista de colaboradores existentes e selecionar quais quer'
+
+        UI -> Controller: getColaboradores()
+        activate Controller
+            Controller-> Persistence: repositories()
+        activate Persistence
+            Persistence-> Factory: create
+        activate Factory
+        deactivate Persistence
+            Factory-> ColaboradorRepository: create
+        activate ColaboradorRepository
+        deactivate ColaboradorRepository
+        deactivate Factory
+            Controller-> ColaboradorRepository: listaColaboradores()
+        activate ColaboradorRepository
+        deactivate ColaboradorRepository
+            Controller -> Controller : showColaboradores()
+        deactivate Controller
+
+'talvez criar lista de colaboradores e selecionar os q se quer para depois adicionar a equipa criada'
+        UI -> Controller: qtdColaboradores
+        activate Controller
+        deactivate Controller
+        loop
+        ator->UI : escolhe colaborador
+        UI -> Controller: addColaboradores()
+        activate Controller
+
+            Controller-> Builder: addColaborador()
+        activate Builder
+            Builder->Equipa: addColaboradores()
+        activate Equipa
+            Equipa->Builder:equipa
+        deactivate Equipa
+            Builder -> Controller: equipa
+        deactivate Builder
+        end loop
+
+        Controller -> Persistence: repositories()
+
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence -> Factory: create
+            activate Factory
+            deactivate Factory
+            Persistence -> Controller: factory
+        deactivate Persistence
+
+        Controller -> Factory: equipas()
+        activate Factory
+            Factory -> Repository**: create
+            Factory -> Controller: equipaRepository
+        deactivate Factory
+
+        Controller->Repository:save(equipa)
+        activate Repository
+            deactivate Repository
+            Controller->UI: equipa
+        deactivate Controller
+
+        UI-->ator: mostrarEquipaInfo
+
+deactivate UI
+
+@enduml

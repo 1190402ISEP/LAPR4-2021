@@ -1,0 +1,99 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+autonumber
+
+'ACTOR'
+actor Gestor_De_Recursos_Humanos as GRH
+
+'PRESENTATION'
+participant EspecificarServicoUI as UI<<presentation>>
+
+'APPLICATION'
+participant EspecificarServicoController as Controller <<application>>
+
+'DOMAIN'
+participant ServicoBuilder as ServicoBuilder <<builder>>
+participant AtributoRequeridoFormulario as AtributoRequeridoFormulario <<domain>>
+participant Formulario as Formulario <<domain>>
+
+
+'PERSISTENCE'
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+
+'Repository'
+participant FormularioRepository as FormularioRepository <<repository>>
+
+
+'criacao do formulario'
+
+GRH -> UI: pede para associar um formulario a atividade manual
+activate UI
+
+UI -> GRH:perguntao nome do formulario
+GRH -> UI: insere os dados (NomeFormulario)
+UI->Controller:form=criarFormulario(NomeFormulario)
+activate Controller
+Controller --> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> RepositoryFactory: create()
+            activate RepositoryFactory
+            Persistence --> Controller: factory()
+        deactivate Persistence
+Controller->RepositoryFactory:formulario()
+
+Controller->Formulario:create
+activate Formulario
+UI->GRH: pede a quantidade de atributos a inserir
+GRH->UI: insere a quantidade de atributos a inserir no formulário
+UI->Controller: mostrarTipoDadosBaseAtributo()
+
+loop for each: AtributoRequeridoFormulario
+UI -> GRH: pede para inserir os dados requeridos
+GRH -> UI: insere os dados (NomeVariavelAtributo,EtiquetaApresentacaoAtributo, \n DescricaoAjudaAtributo,TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+UI -> Controller: createAtributo(NomeVariavelAtributo, \n EtiquetaApresentacaoAtributo,DescricaoAjudaAtributo, \n TipoDadosBaseAtributo,ExpressaoRegularAtributos)
+Controller -> Formulario: adicionarAtributoFormulario(nomeVariavelAtributo, etiquetaApresentacaoAtributo, descricaoAjudaAtributo, tipo, expressaoRegularAtributos)
+Formulario->AtributoRequeridoFormulario:atr=create
+activate AtributoRequeridoFormulario
+Formulario->Formulario:add(atr)
+deactivate AtributoRequeridoFormulario
+end loop
+
+UI -> GRH: pede para inserir um script
+GRH -> UI: insere um script(ScriptValidacaoFormulario)
+UI -> Controller: adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+Controller -> Formulario: adicionarScriptValidacaoFormulario(ScriptValidacaoFormulario)
+
+UI->Controller:createFormulario(nomeFormulario,option) note right: será a opção 0 para associar este a \num serviço e a opção 1 para o associar a uma\natividade manual
+
+Controller->FormularioRepository:Formulario saved=save(form)
+
+note right : a opção 0 indica que se vai associar o formulário ao serviço a \nopção 1 associar à atividade manual
+alt opcao ==0
+Controller->ServicoBuilder:withFormulario(saved)
+note right: assim que for acionado\n o método build(), o formulário será associado
+
+else opcao==1
+
+Controller->AtividadeManual:associarFormulario(saved)
+
+
+end
+
+
+
+
+deactivate Formulario
+deactivate Controller
+
+deactivate UI
+@enduml
+
+
+

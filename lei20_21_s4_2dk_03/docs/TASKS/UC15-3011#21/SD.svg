@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1256px" preserveAspectRatio="none" style="width:1820px;height:1256px;" version="1.1" viewBox="0 0 1820 1256" width="1820px" zoomAndPan="magnify"><defs><filter height="300%" id="fetti4o8a5wjn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="1038.6719" style="stroke:#A80036;stroke-width:1.0;" width="10" x="431.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="998.3203" style="stroke:#A80036;stroke-width:1.0;" width="10" x="673.5" y="162.3125"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="934.1016" style="stroke:#A80036;stroke-width:1.0;" width="10" x="890.5" y="226.5313"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1043.5" y="409.1875"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="54.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1288.5" y="479.8906"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="236.4922" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1435.5" y="544.1094"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="81.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1589" y="638.6797"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="111.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1745" y="790.6016"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="94.0547" style="stroke:#000000;stroke-width:2.0;" width="700" x="568.5" y="917.1719"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="61.7031" style="stroke:#000000;stroke-width:2.0;" width="680" x="578.5" y="942.5234"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="185" x2="185" y1="89.6094" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="436" x2="436" y1="89.6094" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="678.5" x2="678.5" y1="172.0703" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="895" x2="895" y1="236.2891" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1048" x2="1048" y1="300.5078" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1164.5" x2="1164.5" y1="364.7266" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1293.5" x2="1293.5" y1="489.6484" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1440.5" x2="1440.5" y1="553.8672" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1593.5" x2="1593.5" y1="661.9375" y2="1169.6328"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1749.5" x2="1749.5" y1="813.8594" y2="1169.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="154" y="86.5332">Utilizador</text><ellipse cx="185.5" cy="15" fill="#FEFECE" filter="url(#fetti4o8a5wjn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M185.5,23 L185.5,50 M172.5,31 L198.5,31 M185.5,50 L172.5,65 M185.5,50 L198.5,65 " fill="none" filter="url(#fetti4o8a5wjn)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="154" y="1183.166">Utilizador</text><ellipse cx="185.5" cy="1196.2422" fill="#FEFECE" filter="url(#fetti4o8a5wjn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M185.5,1204.2422 L185.5,1231.2422 M172.5,1212.2422 L198.5,1212.2422 M185.5,1231.2422 L172.5,1246.2422 M185.5,1231.2422 L198.5,1246.2422 " fill="none" filter="url(#fetti4o8a5wjn)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="125" x="372" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="387" y="56.9238">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="379" y="74.5332">WebDashboardUI</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="125" x="372" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="387" y="1190.166">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="379" y="1207.7754">WebDashboardUI</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="176" x="588.5" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="634.5" y="1190.166">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="595.5" y="1207.7754">WebDashBoardController</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="143" x="822" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="98" x="844.5" y="1190.166">«authorization»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="829" y="1207.7754">AuthorizationService</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="101" x="996" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="1015" y="1190.166">«registry»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1003" y="1207.7754">AuthzRegistry</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="93" x="1116.5" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="64" x="1131" y="1190.166">«session»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1123.5" y="1207.7754">UserSession</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="1223.5" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="1247" y="1190.166">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1230.5" y="1207.7754">PersistenceContext</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="1373.5" y="1168.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1409" y="1190.166">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1380.5" y="1207.7754">RepositoryFactory</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1551.5" y="1183.166">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="1517.5" y="1200.7754">ColaboradorRepository</text><path d="M1576,1213.8516 C1576,1203.8516 1594,1203.8516 1594,1203.8516 C1594,1203.8516 1612,1203.8516 1612,1213.8516 L1612,1239.8516 C1612,1249.8516 1594,1249.8516 1594,1249.8516 C1594,1249.8516 1576,1249.8516 1576,1239.8516 L1576,1213.8516 " fill="#FEFECE" filter="url(#fetti4o8a5wjn)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1576,1213.8516 C1576,1223.8516 1594,1223.8516 1594,1223.8516 C1594,1223.8516 1612,1223.8516 1612,1213.8516 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1707.5" y="1183.166">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1680.5" y="1200.7754">ActividadeRepository</text><path d="M1732,1213.8516 C1732,1203.8516 1750,1203.8516 1750,1203.8516 C1750,1203.8516 1768,1203.8516 1768,1213.8516 L1768,1239.8516 C1768,1249.8516 1750,1249.8516 1750,1249.8516 C1750,1249.8516 1732,1249.8516 1732,1239.8516 L1732,1213.8516 " fill="#FEFECE" filter="url(#fetti4o8a5wjn)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1732,1213.8516 C1732,1223.8516 1750,1223.8516 1750,1223.8516 C1750,1223.8516 1768,1223.8516 1768,1213.8516 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="1038.6719" style="stroke:#A80036;stroke-width:1.0;" width="10" x="431.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="998.3203" style="stroke:#A80036;stroke-width:1.0;" width="10" x="673.5" y="162.3125"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="934.1016" style="stroke:#A80036;stroke-width:1.0;" width="10" x="890.5" y="226.5313"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1043.5" y="409.1875"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="54.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1288.5" y="479.8906"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="236.4922" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1435.5" y="544.1094"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="81.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1589" y="638.6797"/><rect fill="#FFFFFF" filter="url(#fetti4o8a5wjn)" height="111.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1745" y="790.6016"/><polygon fill="#A80036" points="419.5,117.9609,429.5,121.9609,419.5,125.9609,423.5,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="185.5" x2="425.5" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="192.5" y="117.1045">Consultar informação</text><polygon fill="#A80036" points="576.5,148.3125,586.5,152.3125,576.5,156.3125,580.5,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="441.5" x2="582.5" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="448.5" y="147.4561">create()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="176" x="588.5" y="129.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="634.5" y="151.4941">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="595.5" y="169.1035">WebDashBoardController</text><polygon fill="#A80036" points="810,212.5313,820,216.5313,810,220.5313,814,216.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="816" y1="216.5313" y2="216.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="690.5" y="211.6748">create()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="143" x="822" y="194.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="98" x="844.5" y="215.7129">«authorization»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="829" y="233.3223">AuthorizationService</text><polygon fill="#A80036" points="984,276.75,994,280.75,984,284.75,988,280.75" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="900.5" x2="990" y1="280.75" y2="280.75"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="907.5" y="275.8936">create()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="101" x="996" y="258.3984"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="1015" y="279.9316">«registry»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1003" y="297.541">AuthzRegistry</text><polygon fill="#A80036" points="1104.5,340.9688,1114.5,344.9688,1104.5,348.9688,1108.5,344.9688" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1048.5" x2="1110.5" y1="344.9688" y2="344.9688"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1055.5" y="340.1123">create()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="93" x="1116.5" y="322.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="64" x="1131" y="344.1504">«session»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1123.5" y="361.7598">UserSession</text><polygon fill="#A80036" points="1031.5,405.1875,1041.5,409.1875,1031.5,413.1875,1035.5,409.1875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="900.5" x2="1037.5" y1="409.1875" y2="409.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="907.5" y="404.3311">authorizationService()</text><polygon fill="#A80036" points="694.5,435.5391,684.5,439.5391,694.5,443.5391,690.5,439.5391" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.5" x2="1047.5" y1="439.5391" y2="439.5391"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="700.5" y="434.6826">authz</text><polygon fill="#A80036" points="1211.5,465.8906,1221.5,469.8906,1211.5,473.8906,1215.5,469.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="1217.5" y1="469.8906" y2="469.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="690.5" y="465.0342">repositories()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="136" x="1223.5" y="447.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="1247" y="469.0723">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="1230.5" y="486.6816">PersistenceContext</text><polygon fill="#A80036" points="1361.5,530.1094,1371.5,534.1094,1361.5,538.1094,1365.5,534.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1293.5" x2="1367.5" y1="534.1094" y2="534.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1300.5" y="529.2529">create()</text><rect fill="#FEFECE" filter="url(#fetti4o8a5wjn)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="130" x="1373.5" y="511.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1409" y="533.291">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1380.5" y="550.9004">RepositoryFactory</text><polygon fill="#A80036" points="1423.5,594.3281,1433.5,598.3281,1423.5,602.3281,1427.5,598.3281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="1429.5" y1="598.3281" y2="598.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="690.5" y="593.4717">colaboradores()</text><polygon fill="#A80036" points="1505.5,624.6797,1515.5,628.6797,1505.5,632.6797,1509.5,628.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1445.5" x2="1511.5" y1="628.6797" y2="628.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1452.5" y="623.8232">create()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1551.5" y="666.8613">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="1517.5" y="684.4707">ColaboradorRepository</text><path d="M1576,616.3281 C1576,606.3281 1594,606.3281 1594,606.3281 C1594,606.3281 1612,606.3281 1612,616.3281 L1612,642.3281 C1612,652.3281 1594,652.3281 1594,652.3281 C1594,652.3281 1576,652.3281 1576,642.3281 L1576,616.3281 " fill="#FEFECE" filter="url(#fetti4o8a5wjn)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1576,616.3281 C1576,626.3281 1594,626.3281 1594,626.3281 C1594,626.3281 1612,626.3281 1612,616.3281 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><polygon fill="#A80036" points="694.5,715.8984,684.5,719.8984,694.5,723.8984,690.5,719.8984" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.5" x2="1593" y1="719.8984" y2="719.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="700.5" y="715.042">colaboradorRepository</text><polygon fill="#A80036" points="1423.5,746.25,1433.5,750.25,1423.5,754.25,1427.5,750.25" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="1429.5" y1="750.25" y2="750.25"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="690.5" y="745.3936">actividadeServico()</text><polygon fill="#A80036" points="1668.5,776.6016,1678.5,780.6016,1668.5,784.6016,1672.5,780.6016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1440.5" x2="1674.5" y1="780.6016" y2="780.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1447.5" y="775.7451">create()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1707.5" y="818.7832">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1680.5" y="836.3926">ActividadeRepository</text><path d="M1732,768.25 C1732,758.25 1750,758.25 1750,758.25 C1750,758.25 1768,758.25 1768,768.25 L1768,794.25 C1768,804.25 1750,804.25 1750,804.25 C1750,804.25 1732,804.25 1732,794.25 L1732,768.25 " fill="#FEFECE" filter="url(#fetti4o8a5wjn)" style="stroke:#000000;stroke-width:1.5;"/><path d="M1732,768.25 C1732,778.25 1750,778.25 1750,778.25 C1750,778.25 1768,778.25 1768,768.25 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><polygon fill="#A80036" points="694.5,867.8203,684.5,871.8203,694.5,875.8203,690.5,871.8203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="688.5" x2="1744" y1="871.8203" y2="871.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="700.5" y="866.9639">actividadeRepository</text><polygon fill="#A80036" points="1738,898.1719,1748,902.1719,1738,906.1719,1742,902.1719" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="1744" y1="902.1719" y2="902.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="690.5" y="897.3154">getAll()</text><path d="M568.5,917.1719 L641.5,917.1719 L641.5,925.1719 L631.5,935.1719 L568.5,935.1719 L568.5,917.1719 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="94.0547" style="stroke:#000000;stroke-width:2.0;" width="700" x="568.5" y="917.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="583.5" y="931.667">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="257" x="656.5" y="930.5908">[foreach Actividade actividade : listaActividade]</text><path d="M578.5,942.5234 L639.5,942.5234 L639.5,950.5234 L629.5,960.5234 L578.5,960.5234 L578.5,942.5234 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="61.7031" style="stroke:#000000;stroke-width:2.0;" width="680" x="578.5" y="942.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="593.5" y="957.0186">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="540" x="654.5" y="955.9424">[if actividade.buscarEstado() != "Pendente" &amp;&amp; actividade.buscarTipo.class() != "ActividadeManual"]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="683.5" x2="725.5" y1="983.2266" y2="983.2266"/><line style="stroke:#A80036;stroke-width:1.0;" x1="725.5" x2="725.5" y1="983.2266" y2="996.2266"/><line style="stroke:#A80036;stroke-width:1.0;" x1="684.5" x2="725.5" y1="996.2266" y2="996.2266"/><polygon fill="#A80036" points="694.5,992.2266,684.5,996.2266,694.5,1000.2266,690.5,996.2266" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="690.5" y="978.3701">listaActividade.remove(actividade)</text><path d="M895,967.375 L895,993.375 L1234,993.375 L1234,977.375 L1224,967.375 L895,967.375 " fill="#FBFB77" filter="url(#fetti4o8a5wjn)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1224,967.375 L1224,977.375 L1234,977.375 L1224,967.375 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="318" x="901" y="985.8701">obter a lista de todas as actividade pendentes manuais</text><polygon fill="#A80036" points="452.5,1036.5781,442.5,1040.5781,452.5,1044.5781,448.5,1040.5781" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="446.5" x2="672.5" y1="1040.5781" y2="1040.5781"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="458.5" y="1035.7217">mostrarListaActividadesPendentes()</text><polygon fill="#A80036" points="196.5,1066.9297,186.5,1070.9297,196.5,1074.9297,192.5,1070.9297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="190.5" x2="430.5" y1="1070.9297" y2="1070.9297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="202.5" y="1066.0732">mostrar lista de actividades pendentes</text><path d="M5,1083.9297 L5,1109.9297 L362,1109.9297 L362,1093.9297 L352,1083.9297 L5,1083.9297 " fill="#FBFB77" filter="url(#fetti4o8a5wjn)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M352,1083.9297 L352,1093.9297 L362,1093.9297 L352,1083.9297 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="336" x="11" y="1102.4248">Comunicao entre o servidor informacao e o servidor cliente</text><path d="M17,1124.2813 L17,1150.2813 L350,1150.2813 L350,1134.2813 L340,1124.2813 L17,1124.2813 " fill="#FBFB77" filter="url(#fetti4o8a5wjn)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M340,1124.2813 L340,1134.2813 L350,1134.2813 L340,1124.2813 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="23" y="1142.7764">Comunicao entre o servidor cliente e a web dashboard</text><!--MD5=[4222babd19fcbf302b3db1129f606a44]
+@startuml
+
+ 'Exibir dashboard com tarefas pendentes. Do dashboard deve constar, entre outras dados, o
+ 'número de tarefas pendentes do utilizador, quantas dessas tarefas já terminou o prazo limite de
+ 'resolução indicado no pedido e quantas terminam esse prazo em breve (e.g. em menos de 1 hora),
+ 'a distribuição dessas tarefas pelos patamares de urgência e de criticidade. Este deve ser exibido
+ 'imediatamente após autenticação do utilizador e manter-se sempre atualizado (e.g., ao ser-lhe
+ 'atribuída a realização de uma nova tarefa, o dashboard deve atualizar, sem intervenção do
+ 'utilizador, a quantidade de tarefas pendentes)
+ '
+ 'DataLimite de resolução atividade tem de ser comparada com a do pedido
+ 'Ver padrão observer -> watchDog
+ '
+ '1) O utilizador acede à dashboard
+ '2) A dashboard vai buscar as tarefas pendentes
+ '3) A dashboard vê quantas dessas já terminaram o prazo de resolucao do pedido (<1hora)
+ '4) Coloca as tarefas por patamares de urgencia e, em caso de empate, por nivel de criticidade
+ '
+ ' Iteraction Use
+ '5) **watchdog que vai estar sempre a ver as tarefas dos utilizadores, e caso uma tarefa seja criada aumenta o nr
+ 'de tarefas pendentes
+ '   ->5.1) o sistema vigia o repositorio de tarefas
+ '     ->5.1.1) caso uma tarefa seja criada
+ '       ->5.1.2) sistema incrementa o nr de tarefas pendentes, (atualiza o estado da tarefa para pendente)
+ '
+
+actor "Utilizador" as UTIL
+
+participant WebDashboardUI as WDUI <<presentation>>
+participant WebDashBoardController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant UserSession as USER <<session>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database ColaboradorRepository as CB <<repository>>
+database ActividadeRepository as AR <<repository>>
+
+UTIL -> WDUI: Consultar informação
+activate WDUI
+
+    WDUI -> CTRL**: create()
+
+
+
+
+activate CTRL
+    CTRL -> AUTH**: create()
+activate AUTH
+    AUTH -> AUTHR**: create()
+
+    AUTHR -> USER**: create()
+
+
+    AUTH -> AUTHR: authorizationService()
+activate AUTHR
+    AUTHR - -> CTRL: authz
+deactivate AUTHR
+
+
+
+
+    CTRL -> PC**:repositories()
+
+activate PC
+    PC -> REP**: create()
+deactivate PC
+activate REP
+    CTRL -> REP: colaboradores()
+    REP -> CB**: create()
+activate CB
+    CB - -> CTRL: colaboradorRepository
+deactivate CB
+
+    CTRL -> REP: actividadeServico()
+    REP -> AR**: create()
+deactivate REP
+activate AR
+    AR - -> CTRL: actividadeRepository
+    CTRL -> AR: getAll()
+deactivate AR
+
+loop foreach Actividade actividade : listaActividade
+alt if actividade.buscarEstado() != "Pendente" && actividade.buscarTipo.class() != "ActividadeManual"
+    CTRL -> CTRL: listaActividade.remove(actividade)
+    note right : obter a lista de todas as actividade pendentes manuais
+end
+end
+
+CTRL -> WDUI : mostrarListaActividadesPendentes()
+WDUI -> UTIL : mostrar lista de actividades pendentes
+
+note over UTIL : Comunicao entre o servidor informacao e o servidor cliente
+note over UTIL : Comunicao entre o servidor cliente e a web dashboard
+
+
+@enduml
+
+@startuml
+
+
+actor "Utilizador" as UTIL
+
+participant WebDashboardUI as WDUI <<presentation>>
+participant WebDashBoardController as CTRL <<application>>
+
+participant AuthorizationService as AUTH <<authorization>>
+participant AuthzRegistry as AUTHR <<registry>>
+participant UserSession as USER <<session>>
+participant PersistenceContext as PC <<persistence>>
+participant RepositoryFactory as REP <<factory>>
+
+database ColaboradorRepository as CB <<repository>>
+database ActividadeRepository as AR <<repository>>
+
+UTIL -> WDUI: Consultar informação
+activate WDUI
+
+    WDUI -> CTRL**: create()
+
+
+
+
+activate CTRL
+    CTRL -> AUTH**: create()
+activate AUTH
+    AUTH -> AUTHR**: create()
+
+    AUTHR -> USER**: create()
+
+
+    AUTH -> AUTHR: authorizationService()
+activate AUTHR
+    AUTHR - -> CTRL: authz
+deactivate AUTHR
+
+
+
+
+    CTRL -> PC**:repositories()
+
+activate PC
+    PC -> REP**: create()
+deactivate PC
+activate REP
+    CTRL -> REP: colaboradores()
+    REP -> CB**: create()
+activate CB
+    CB - -> CTRL: colaboradorRepository
+deactivate CB
+
+    CTRL -> REP: actividadeServico()
+    REP -> AR**: create()
+deactivate REP
+activate AR
+    AR - -> CTRL: actividadeRepository
+    CTRL -> AR: getAll()
+deactivate AR
+
+loop foreach Actividade actividade : listaActividade
+alt if actividade.buscarEstado() != "Pendente" && actividade.buscarTipo.class() != "ActividadeManual"
+    CTRL -> CTRL: listaActividade.remove(actividade)
+    note right : obter a lista de todas as actividade pendentes manuais
+end
+end
+
+CTRL -> WDUI : mostrarListaActividadesPendentes()
+WDUI -> UTIL : mostrar lista de actividades pendentes
+
+note over UTIL : Comunicao entre o servidor informacao e o servidor cliente
+note over UTIL : Comunicao entre o servidor cliente e a web dashboard
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

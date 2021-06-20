@@ -1,0 +1,88 @@
+@startuml
+autonumber
+
+actor "CatalogoServicoBootstrapper" as BOOT
+participant "servicoBuilder:ServicoBuilder" as SBUILD <<builder>>
+participant "colaboradorBuilder:ColaboradorBuilder" as CBUILD <<builder>>
+participant "catController:CriarCatalogoController" as CCONTR <<controller>>
+participant "newUser:SystemUser" as SYSUSER <<domain>>
+participant "colaborador:Colaborador" as COL <<domain>>
+participant "catDTO:CatalogoServicoDTO" as CDTO <<dto>>
+participant "catalogo:CatalogoServico" as CAT <<domain>>
+participant "serv:Servico" as SER <<domain>>
+
+database ServicoRepository as SREPO <<repository>>
+database UserRepository as UREPO <<repository>>
+database ColaboradorRepository as CREPO <<repository>>
+database CatalogoServicoRepository as CSREPO <<repository>>
+
+    BOOT -> SREPO** : create()
+activate SREPO
+    BOOT -> UREPO** : create()
+activate UREPO
+    BOOT -> CREPO** : create()
+activate CREPO
+    BOOT -> CSREPO** : create()
+activate CSREPO
+
+    BOOT -> SYSUSER** : create("username", POWERUSER_A1, "First Name", "Last Name", "Email", roles)
+activate SYSUSER
+    SYSUSER --> BOOT : newUser
+deactivate SYSUSER
+
+    BOOT -> UREPO : save(newUser)
+deactivate UREPO
+
+    BOOT -> CBUILD** : create()
+activate CBUILD
+
+    BOOT -> CBUILD : withSystemUser(newUser)
+    BOOT -> CBUILD : withMecanographicNumber("1234759")
+    BOOT -> CBUILD : withNomeCurto("Nome Curto")
+    BOOT -> CBUILD : withNomeCompleto("Nome Completo")
+    BOOT -> CBUILD : withContactoColaborador(122456789)
+    BOOT -> CBUILD : withDataNascimento(ano, mes, dia)
+    BOOT -> CBUILD : withEmailColaborador("Email")
+    BOOT -> CBUILD : withLocalResidenciaColaborador("Distrito", "Concelho")
+    BOOT -> CBUILD : build()
+
+    CBUILD --> BOOT : colaborador
+deactivate CBUILD
+
+    BOOT -> CREPO : save(colaborador)
+deactivate CREPO
+
+    BOOT -> CDTO** : create("ID", "DescBreve", "DescComp", "Titulo", criterioAcessoCatalogo, "1234759")
+activate CDTO
+    CDTO --> BOOT : catDTO
+deactivate CDTO
+
+    BOOT -> CCONTR** : create()
+activate CCONTR
+    BOOT -> CCONTR : adicionarCatalogoServico(catDTO)
+deactivate CCONTR
+
+    BOOT -> CSREPO : ofIdentity(Identificador)
+    CSREPO --> BOOT : catalogo
+
+    BOOT -> CSREPO : save(catalogo)
+deactivate CSREPO
+
+    BOOT -> SBUILD** : create()
+activate SBUILD
+
+    BOOT -> SBUILD : withCodigoUnicoServico("Code")
+    BOOT -> SBUILD : withTituloServico("Titulo")
+    BOOT -> SBUILD : withKeyWords(keyWords)
+    BOOT -> SBUILD : withDescricaoBreveServico("DescBreve")
+    BOOT -> SBUILD : withDescricaoCompletaServico("DescComp")
+    BOOT -> SBUILD : withObjetivoServico("Objetivo")
+    BOOT -> SBUILD : withCatalogoServico(catalogo)
+    BOOT -> SBUILD : build()
+
+    SBUILD --> BOOT : novoServico
+deactivate SBUILD
+
+    BOOT -> SREPO : save(novoServico)
+
+@enduml
